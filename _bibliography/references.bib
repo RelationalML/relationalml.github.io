@@ -1,0 +1,58 @@
+---
+---
+
+@inproceedings{
+mustafa2023are,
+title={Are {GAT}s Out of Balance?},
+author={Nimrah Mustafa and Aleksandar Bojchevski and Rebekka Burkholz},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=qY7UqLoora}
+}
+
+@InProceedings{pmlr-v202-gadhikar23a,
+  title = 	 {Why Random Pruning Is All We Need to Start Sparse},
+  author =       {Gadhikar, Advait Harshal and Mukherjee, Sohom and Burkholz, Rebekka},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {10542--10570},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/gadhikar23a/gadhikar23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/gadhikar23a.html},
+  abstract = 	 {Random masks define surprisingly effective sparse neural network models, as has been shown empirically. The resulting sparse networks can often compete with dense architectures and state-of-the-art lottery ticket pruning algorithms, even though they do not rely on computationally expensive prune-train iterations and can be drawn initially without significant computational overhead. We offer a theoretical explanation of how random masks can approximate arbitrary target networks if they are wider by a logarithmic factor in the inverse sparsity $1 / \log(1/\text{sparsity})$. This overparameterization factor is necessary at least for 3-layer random networks, which elucidates the observed degrading performance of random networks at higher sparsity. At moderate to high sparsity levels, however, our results imply that sparser networks are contained within random source networks so that any dense-to-sparse training scheme can be turned into a computationally more efficient sparse-to-sparse one by constraining the search to a fixed random mask. We demonstrate the feasibility of this approach in experiments for different pruning methods and propose particularly effective choices of initial layer-wise sparsity ratios of the random source network. As a special case, we show theoretically and experimentally that random source networks also contain strong lottery tickets.},
+  code = 	 {https://github.com/RelationalML/sparse_to_sparse},
+  selected={true}
+}
+@inproceedings{NEURIPS2022_76bf7786,
+ author = {Burkholz, Rebekka},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {18707--18720},
+ publisher = {Curran Associates, Inc.},
+ title = {Most Activation Functions Can Win the Lottery Without Excessive Depth},
+ abstract = {The strong lottery ticket hypothesis has highlighted the potential for training deep neural networks by pruning, which has inspired interesting practical and theoretical insights into how neural networks can represent functions. For networks with ReLU activation functions, it has been proven that a target network with depth L can be approximated by the subnetwork of a randomly initialized neural network that has double the target's depth 2L and is wider by a logarithmic factor. We show that a depth L+1 is sufficient. This result indicates that we can expect to find lottery tickets at realistic, commonly used depths while only requiring logarithmic overparametrization. Our novel construction approach applies to a large class of activation functions and is not limited to ReLUs. Code is available on Github (RelationalML/LT-existence).},
+ url = {https://papers.nips.cc/paper_files/paper/2022/hash/76bf7786d311217077bc8bb021946cd9-Abstract-Conference.html},
+ pdf = {https://proceedings.neurips.cc/paper_files/paper/2022/file/76bf7786d311217077bc8bb021946cd9-Paper-Conference.pdf},
+ volume = {35},
+ year = {2022}
+}
+
+@InProceedings{pmlr-v162-burkholz22a,
+  title = 	 {Convolutional and Residual Networks Provably Contain Lottery Tickets},
+  author =       {Burkholz, Rebekka},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {2414--2433},
+  year = 	 {2022},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/burkholz22a/burkholz22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/burkholz22a.html},
+  abstract = 	 {The Lottery Ticket Hypothesis continues to have a profound practical impact on the quest for small scale deep neural networks that solve modern deep learning tasks at competitive performance. These lottery tickets are identified by pruning large randomly initialized neural networks with architectures that are as diverse as their applications. Yet, theoretical insights that attest their existence have been mostly focused on deed fully-connected feed forward networks with ReLU activation functions. We prove that also modern architectures consisting of convolutional and residual layers that can be equipped with almost arbitrary activation functions can contain lottery tickets with high probability.}
+}
