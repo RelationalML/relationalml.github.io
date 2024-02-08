@@ -62,6 +62,6 @@ Add a picture to [`images/teampic/`](images/teampic/), and its name to a field `
 
 ## About this website
 
-This website is powered by Jekyll and some Bootstrap, Bootwatch, and it is mainly based on this [website](https://allanlab.org), plus this [one](https://alshedivat.github.io/al-folio/) with this [plugin](https://github.com/inukshuk/jekyll-scholar) for the bibliography. Go to `aboutwebsite.md` to learn how to copy and modidy this page for your purpose.
+This website is powered by Jekyll and some Bootstrap, Bootwatch, and it is mainly based on this [website](https://allanlab.org), plus this [one](https://alshedivat.github.io/al-folio/) with this [plugin](https://github.com/inukshuk/jekyll-scholar) for the bibliography. Go to `aboutwebsite.md` to learn how to copy and modify this page for your purpose.
 
 Copyright Relational ML Lab. Code released under the MIT License.

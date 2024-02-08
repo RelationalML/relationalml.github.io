@@ -24,7 +24,7 @@ plugins: ['jekyll/scholar']
 scholar:
   style: apa
   bibliography_template: bib
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric, spotlight, oral]
 
 # Conversion
 markdown: kramdown

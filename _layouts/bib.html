@@ -150,6 +150,12 @@
           {%- elsif entrytype contains "International Conference on Learning Representations" -%}
           <a class="conf btn btn-sm z-depth-0">ICLR</a>
           {%- endif -%}
+          
+          {%- if entry.spotlight -%}
+          <a class="yellow btn btn-sm z-depth-0">Spotlight</a>
+          {%- elsif entry.oral -%}
+          <a class="yellow btn btn-sm z-depth-0">Oral</a>
+          {%- endif -%}
 
 
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>

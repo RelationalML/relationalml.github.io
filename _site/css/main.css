@@ -7675,6 +7675,15 @@ ol.bibliography a.conf.btn {
   cursor: text;
   text-transform: none;
 }
+ol.bibliography a.yellow.btn {
+  background-color: #B8860B;
+  border: 1px solid #B8860B;
+  color: #fff;
+  pointer-events: none;
+  user-select: text;
+  cursor: text;
+  text-transform: none;
+}
 ol.bibliography .row {
   display: flex;
   align-items: start;

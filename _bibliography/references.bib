@@ -2,12 +2,27 @@
 ---
 
 @inproceedings{
+gadhikar2024masks,
+title={Masks, Signs, And Learning Rate Rewinding},
+author={Gadhikar, Advait Harshal and Burkholz, Rebekka},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=qODvxQ8TXW},
+pdf={https://openreview.net/pdf?id=qODvxQ8TXW},
+abstract={Learning Rate Rewinding (LRR) has been established as a strong variant of Iterative Magnitude Pruning (IMP) to find lottery tickets in deep overparameterized neural networks. While both iterative pruning schemes couple structure and parameter learning, understanding how LRR excels in both aspects can bring us closer to the design of more flexible deep learning algorithms that can optimize diverse sets of sparse architectures. To this end, we conduct experiments that disentangle the effect of mask learning and parameter optimization and how both benefit from overparameterization. The ability of LRR to flip parameter signs early and stay robust to sign perturbations seems to make it not only more effective in mask identification but also in optimizing diverse sets of masks, including random ones. In support of this hypothesis, we prove in a simplified single hidden neuron setting that LRR succeeds in more cases than IMP, as it can escape initially problematic sign configurations.},
+spotlight={true}
+}
+
+@inproceedings{
 mustafa2023are,
 title={Are {GAT}s Out of Balance?},
 author={Nimrah Mustafa and Aleksandar Bojchevski and Rebekka Burkholz},
 booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
 year={2023},
-url={https://openreview.net/forum?id=qY7UqLoora}
+url={https://openreview.net/forum?id=qY7UqLoora},
+pdf={https://openreview.net/pdf?id=qY7UqLoora},
+code={https://github.com/RelationalML/GAT_Balanced_Initialization},
+abstract={While the expressive power and computational capabilities of graph neural networks (GNNs) have been theoretically studied, their optimization and learning dynamics, in general, remain largely unexplored. Our study undertakes the Graph Attention Network (GAT), a popular GNN architecture in which a node's neighborhood aggregation is weighted by parameterized attention coefficients. We derive a conservation law of GAT gradient flow dynamics, which explains why a high portion of parameters in GATs with standard initialization struggle to change during training. This effect is amplified in deeper GATs, which perform significantly worse than their shallow counterparts. To alleviate this problem, we devise an initialization scheme that balances the GAT network. Our approach i) allows more effective propagation of gradients and in turn enables trainability of deeper networks, and ii) attains a considerable speedup in training and convergence time in comparison to the standard initialization. Our main theorem serves as a stepping stone to studying the learning dynamics of positive homogeneous models with attention mechanisms.}
 }
 
 @InProceedings{pmlr-v202-gadhikar23a,
@@ -55,5 +70,6 @@ url={https://openreview.net/forum?id=qY7UqLoora}
   publisher =    {PMLR},
   pdf = 	 {https://proceedings.mlr.press/v162/burkholz22a/burkholz22a.pdf},
   url = 	 {https://proceedings.mlr.press/v162/burkholz22a.html},
-  abstract = 	 {The Lottery Ticket Hypothesis continues to have a profound practical impact on the quest for small scale deep neural networks that solve modern deep learning tasks at competitive performance. These lottery tickets are identified by pruning large randomly initialized neural networks with architectures that are as diverse as their applications. Yet, theoretical insights that attest their existence have been mostly focused on deed fully-connected feed forward networks with ReLU activation functions. We prove that also modern architectures consisting of convolutional and residual layers that can be equipped with almost arbitrary activation functions can contain lottery tickets with high probability.}
+  abstract = 	 {The Lottery Ticket Hypothesis continues to have a profound practical impact on the quest for small scale deep neural networks that solve modern deep learning tasks at competitive performance. These lottery tickets are identified by pruning large randomly initialized neural networks with architectures that are as diverse as their applications. Yet, theoretical insights that attest their existence have been mostly focused on deed fully-connected feed forward networks with ReLU activation functions. We prove that also modern architectures consisting of convolutional and residual layers that can be equipped with almost arbitrary activation functions can contain lottery tickets with high probability.},
+  spotlight={true}
 }

@@ -7,7 +7,3 @@ permalink: /research/
 ---
 
 # Research
-
-[#TODO]
-
-

@@ -129,9 +129,22 @@ ol.bibliography {
 	}
 
 	a.conf.btn {
-		// invert colors
+		// background to violet marron
 		background-color: #428bca;
+		// #428bca; #800080;
 		border: 1px solid #428bca;
+		color: #fff;
+		// remove button action
+		pointer-events: none;
+		user-select: text;
+		cursor: text;
+		text-transform: none;
+	}
+
+	a.yellow.btn {
+		// dark golden background color
+		background-color: #B8860B;
+		border: 1px solid #B8860B;
 		color: #fff;
 		// remove button action
 		pointer-events: none;

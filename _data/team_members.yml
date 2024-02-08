@@ -6,30 +6,36 @@
 
 - name: Advait Gadhikar
   photo: advait.gadhikar.jpg
-  info: PhD Student, started April 2022
+  info: PhD student, started Apr 2022
   email: advait.gadhikar@cispa.de
   url: https://advaitgadhikar.github.io/
 
 - name: Nimrah Mustafa
   photo: nimrah.mustafa.jpg
-  info: PhD Student, started 2022
+  info: PhD student, started 2022
   email: nimrah.mustafa@cispa.de
   url: https://cispa.de/en/people/c01nimu
 
 - name: Adarsh Jamadandi
   photo: adarsh.jamadandi.jpg
-  info: Research Assistant, started 2022
+  info: Research assistant, started 2022
   email: adarsh.jamadandi@cispa.de
   url: https://cispa.de/en/people/c01adja
 
 - name: Harsha Nelaturu
   photo: harsha.nelaturu.jpg
-  info: Research Assistant, started 2023
+  info: Research assistant, started 2023
   email: harsha.nelaturu@cispa.de
   url: https://cispa.de/en/people/c02hane
 
 - name: Celia Rubio-Madrigal
   photo: celia.rubio-madrigal.jpg
-  info: PhD Student, started October 2023
+  info: PhD student, started Oct 2023
   email: celia.rubio-madrigal@cispa.de
   url: https://celrm.github.io/
+
+- name: Tom Jacobs
+  photo: tom.jacobs.jpg
+  info: PhD student, started Feb 2024
+  email: tom.jacobs@cispa.de
+  url: https://cispa.de/en/people/c01toja
