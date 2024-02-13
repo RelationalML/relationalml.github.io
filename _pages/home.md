@@ -19,10 +19,10 @@ We are part of the CISPA Helmholtz Center for Information Security.
 
 <br>  
 <figure class="fourth" style="text-align: center">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_CISPA.png" style="height: 90px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logo/Logo_CISPA.png" style="height: 90px">
 <br>  
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Saarland.png" style="height: 90px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logo/Logo_Saarland.png" style="height: 90px">
 &emsp;&emsp;
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="height: 90px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logo/Logo_ERC.jpg" style="height: 90px">
 </figure>
 <br>

@@ -14,6 +14,17 @@ spotlight={true}
 }
 
 @inproceedings{
+burkholz2024batch,
+title={Batch normalization is sufficient for universal function approximation in {CNN}s},
+author={Rebekka Burkholz},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=wOSYMHfENq},
+pdf={https://openreview.net/pdf?id=wOSYMHfENq},
+abstract={Layer normalization, for which Batch Normalization (BN) is a popular choice, is an integral part of many deep learning architectures and contributes significantly to the learning success. We provide a partial explanation for this phenomenon by proving that training normalization layers alone is already sufficient for universal function approximation if the number of available, potentially random features matches or exceeds the weight parameters of the target networks that can be expressed. Our bound on the number of required features does not only improve on a recent result for fully-connected feed-forward architectures but also applies to CNNs with and without residual connections and almost arbitrary activation functions (which include ReLUs). Our explicit construction of a given target network solves a depth-width trade-off that is driven by architectural constraints and can explain why switching off entire neurons can have representational benefits, as has been observed empirically. To validate our theory, we explicitly match target networks that outperform experimentally obtained networks with trained BN parameters by utilizing a sufficient number of random features.},
+}
+
+@inproceedings{
 mustafa2023are,
 title={Are {GAT}s Out of Balance?},
 author={Nimrah Mustafa and Aleksandar Bojchevski and Rebekka Burkholz},
@@ -40,7 +51,6 @@ abstract={While the expressive power and computational capabilities of graph neu
   url = 	 {https://proceedings.mlr.press/v202/gadhikar23a.html},
   abstract = 	 {Random masks define surprisingly effective sparse neural network models, as has been shown empirically. The resulting sparse networks can often compete with dense architectures and state-of-the-art lottery ticket pruning algorithms, even though they do not rely on computationally expensive prune-train iterations and can be drawn initially without significant computational overhead. We offer a theoretical explanation of how random masks can approximate arbitrary target networks if they are wider by a logarithmic factor in the inverse sparsity $1 / \log(1/\text{sparsity})$. This overparameterization factor is necessary at least for 3-layer random networks, which elucidates the observed degrading performance of random networks at higher sparsity. At moderate to high sparsity levels, however, our results imply that sparser networks are contained within random source networks so that any dense-to-sparse training scheme can be turned into a computationally more efficient sparse-to-sparse one by constraining the search to a fixed random mask. We demonstrate the feasibility of this approach in experiments for different pruning methods and propose particularly effective choices of initial layer-wise sparsity ratios of the random source network. As a special case, we show theoretically and experimentally that random source networks also contain strong lottery tickets.},
   code = 	 {https://github.com/RelationalML/sparse_to_sparse},
-  selected={true}
 }
 @inproceedings{NEURIPS2022_76bf7786,
  author = {Burkholz, Rebekka},

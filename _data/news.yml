@@ -2,10 +2,13 @@
   headline: Welcome Tom!
 
 - date: 16. January 2024
-  headline: Our paper was accepted with spotlight at ICLR 2024! ([link](https://openreview.net/forum?id=qODvxQ8TXW))
+  headline: "Our two papers [(1)](https://openreview.net/forum?id=qODvxQ8TXW) [(2)](https://openreview.net/forum?id=wOSYMHfENq) were accepted at ICLR 2024!"
 
 - date: 1. October 2023
   headline: Welcome Celia!
 
 - date: 21. September 2023
-  headline: Our paper was accepted at NeurIPS 2023! ([link](https://openreview.net/forum?id=qY7UqLoora))
+  headline: "[Our paper](https://openreview.net/forum?id=qY7UqLoora) was accepted at NeurIPS 2023!"
+
+- date: 5. September 2023
+  headline: "We have received an ERC starting grant! [SPARSE-ML](https://cispa.de/en/erc-burkholz)"

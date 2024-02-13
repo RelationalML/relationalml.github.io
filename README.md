@@ -42,7 +42,7 @@ For modifications to publications, news, or team members, see the following sect
 
 Modify the file [`_bibliography/references.bib`](_bibliography/references.bib) by adding the **BibTeX** entry of the publication at the front.
 
-Add a preview image to [`images/pubpic/`](images/pubpic/), and its name to a field `preview` in the BibTeX entry.
+Add a preview image to [`images/publications/`](images/publications/), and its name to a field `preview` in the BibTeX entry.
 
 Add extra information to extra fields, such as the code url in `code`, if necessary.
 
@@ -58,7 +58,7 @@ If the person is a student doing their thesis, modify the file [`_data/students.
 
 If the person is a past member, modify the corresponding .yml file in folder [`_data/`](_data/).
 
-Add a picture to [`images/teampic/`](images/teampic/), and its name to a field `photo` in the corresponding .yml file.
+Add a picture to [`images/team/`](images/team/), and its name to a field `photo` in the corresponding .yml file.
 
 ## About this website
 

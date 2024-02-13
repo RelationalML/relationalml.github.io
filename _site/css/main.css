@@ -7700,4 +7700,12 @@ ol.bibliography li .preview img {
   margin-bottom: 24px;
 }
 
+#memberselect {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 215px;
+}
+
 /*# sourceMappingURL=main.css.map */

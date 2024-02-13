@@ -1,40 +1,47 @@
 - name: Dr. Rebekka Burkholz
+  last_name: Burkholz
   photo: rebekka.burkholz.jpg
   info: Tenure-track faculty, started 2021
   email: burkholz@cispa.de
   url: https://sites.google.com/view/rebekkaburkholz/
 
 - name: Advait Gadhikar
+  last_name: Gadhikar
   photo: advait.gadhikar.jpg
   info: PhD student, started Apr 2022
   email: advait.gadhikar@cispa.de
   url: https://advaitgadhikar.github.io/
 
 - name: Nimrah Mustafa
+  last_name: Mustafa
   photo: nimrah.mustafa.jpg
   info: PhD student, started 2022
   email: nimrah.mustafa@cispa.de
   url: https://cispa.de/en/people/c01nimu
 
 - name: Adarsh Jamadandi
+  last_name: Jamadandi
   photo: adarsh.jamadandi.jpg
   info: Research assistant, started 2022
   email: adarsh.jamadandi@cispa.de
   url: https://cispa.de/en/people/c01adja
 
 - name: Harsha Nelaturu
+  last_name: Nelaturu
   photo: harsha.nelaturu.jpg
   info: Research assistant, started 2023
   email: harsha.nelaturu@cispa.de
   url: https://cispa.de/en/people/c02hane
 
 - name: Celia Rubio-Madrigal
+  last_name: Rubio-Madrigal
   photo: celia.rubio-madrigal.jpg
   info: PhD student, started Oct 2023
   email: celia.rubio-madrigal@cispa.de
   url: https://celrm.github.io/
 
 - name: Tom Jacobs
+  last_name: Jacobs
   photo: tom.jacobs.jpg
   info: PhD student, started Feb 2024
   email: tom.jacobs@cispa.de
