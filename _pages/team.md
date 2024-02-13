@@ -8,7 +8,6 @@ permalink: /team/
 
 # Group Members
 
-## Staff
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -40,8 +39,7 @@ permalink: /team/
 {% endif %}
 
 
-
-
+{% if site.data.students.size > 0 %}
 ## Master and Bachelor Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
@@ -93,6 +91,7 @@ permalink: /team/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
+{% endif %}
 {% endif %}
 
 {% if site.data.alumni_members.size > 0 %}

@@ -3,7 +3,7 @@
 <!-- _layouts/bib.html -->
 {% assign surnames = "" %}
 {% for author in entry.author_array %}
-  {% assign surnames = surnames | append: author.last | append: "," %}
+  {% assign surnames = surnames | append: author.last %}
 {% endfor %}
   <div class="row" style="margin-top: 30px;" id="bib-{{entry.key}}-{{surnames}}">
         <div class="preview">

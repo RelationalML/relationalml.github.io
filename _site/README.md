@@ -6,8 +6,7 @@ This is the [website](https://relationalml.github.io) of our academic research g
 
 * [Requirements](#requirements)
 * [How to run the website locally](#how-to-run-the-website-locally)
-* [How to add or modify information](#how-to-add-or-modify-information)
-    * [Publish changes](#publish-changes)
+* [How to add or modify information](#how-to-add-or-modify-information)\
     * [Modify the website's text content](#modify-the-websites-text-content)
     * [Add a publication](#add-a-publication)
     * [Add news](#add-news)
@@ -19,16 +18,6 @@ This is the [website](https://relationalml.github.io) of our academic research g
 ```gem install jekyll-scholar```
 
 ## How to add or modify information
-
-### Publish changes
-
-It is **very important** to commit any change to the branch `source`, and not to `master`. The `master` branch is only used to host the built site, while `source` is used to host the source code. 
-
-The website is not updated automatically unless you run the script [`commit.sh`](commit.sh) to publish your changes. This script automates the process of building the site, committing changes to `source`, moving the built site to `master`, and pushing all. It takes two arguments: the files to be added and the commit message.
-
-For example, if you want to add all files with the commit message `the message`, you need to run: `bash commit.sh "*" "the message"`. If you want to add only the file `file.md` with the commit message `the message`, you need to run: `bash commit.sh "file.md" "the message"`.
-
-You might want to commit to `source` and let someone else update the changes for you, too.
 
 ### Modify the website's text content
 
@@ -59,6 +48,10 @@ If the person is a student doing their thesis, modify the file [`_data/students.
 If the person is a past member, modify the corresponding .yml file in folder [`_data/`](_data/).
 
 Add a picture to [`images/team/`](images/team/), and its name to a field `photo` in the corresponding .yml file.
+
+## Deployment
+
+The website is automatically deployed by GitHub Pages when pushed. The website is built from the `source` branch, folder `_site_`, by a custom Github Action workflow (see [`.github/workflows/static.yml`](.github/workflows/static.yml)).
 
 ## About this website
 

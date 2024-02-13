@@ -11,11 +11,9 @@ style="width: 100%; border-radius: 40px; margin-left: auto;">
 
 <h1>Relational ML Lab</h1>
 
-We are a rapidly expanding research group led by [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/). 
+We are a rapidly expanding research group led by [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/). Read more about our [research](research) and [publications](publications).
 
-We are part of the CISPA Helmholtz Center for Information Security.
-
- <!-- **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team!** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) -->
+We are part of the CISPA Helmholtz Center for Information Security, which is based in Saarland, Germany.
 
 <br>  
 <figure class="fourth" style="text-align: center">
