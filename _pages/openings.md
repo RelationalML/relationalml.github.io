@@ -1,14 +1,14 @@
 ---
-title: "Relational ML - Vacancies"
+title: "Relational ML - Openings"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
-permalink: /vacancies
+permalink: /openings
 ---
 
 # Open positions
 
-If you are interested in our [research](research), please contact [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/).
+If you are interested in our [research](research), please contact [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/). For further information about pursuing a PhD position at the CISPA Helmholtz Center for Information Security, see the [CISPA Career portal](https://career.cispa.de/phd.html).
 
 ### Past open positions
 

@@ -4825,7 +4825,7 @@ tbody.collapse.in {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: #f5f5f5;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -7667,8 +7667,8 @@ ol.bibliography a.btn {
   box-shadow: 1px 1px 2px #888;
 }
 ol.bibliography a.conf.btn {
-  background-color: #428bca;
-  border: 1px solid #428bca;
+  background-color: #158CBA;
+  border: 1px solid #158CBA;
   color: #fff;
   pointer-events: none;
   user-select: text;

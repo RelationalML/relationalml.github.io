@@ -6,21 +6,8 @@ sitemap: false
 permalink: /
 ---
 
-  <img src="{{ site.url }}{{ site.baseurl }}/images/group-cropped.jpg" 
-style="width: 100%; border-radius: 40px; margin-left: auto;">
-
 <h1>Relational ML Lab</h1>
 
-We are a rapidly expanding research group led by [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/). Read more about our [research](research) and [publications](publications).
+We are a dynamic and fast-growing Machine Learning research group led by [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/). We invite you to explore our [research interests](research) and delve into our latest [publications](publications) in top-tier conferences (NeurIPS, ICML, ICLR).
 
-We are part of the CISPA Helmholtz Center for Information Security, which is based in Saarland, Germany.
-
-<br>  
-<figure class="fourth" style="text-align: center">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logo/Logo_CISPA.png" style="height: 90px">
-<br>  
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logo/Logo_Saarland.png" style="height: 90px">
-&emsp;&emsp;
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logo/Logo_ERC.jpg" style="height: 90px">
-</figure>
-<br>
+We are part of the <a href="https://cispa.de//">CISPA Helmholtz Center for Information Security</a>, at the <a href="https://www.uni-saarland.de/">Saarland University</a> campus in Saarbrücken, Germany.

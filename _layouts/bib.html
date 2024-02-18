@@ -5,7 +5,7 @@
 {% for author in entry.author_array %}
   {% assign surnames = surnames | append: author.last %}
 {% endfor %}
-  <div class="row" style="margin-top: 30px;" id="bib-{{entry.key}}-{{surnames}}">
+  <div class="row" style="margin-top: 30px;" id="bib-{{entry.key}}" authors="{{surnames}}">
         <div class="preview">
         {%- if entry.img -%}
           {% if entry.img contains '://' -%}

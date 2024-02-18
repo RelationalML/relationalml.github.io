@@ -130,9 +130,9 @@ ol.bibliography {
 
 	a.conf.btn {
 		// background to violet marron
-		background-color: #428bca;
+		background-color: $brand-primary;
 		// #428bca; #800080;
-		border: 1px solid #428bca;
+		border: 1px solid $brand-primary;
 		color: #fff;
 		// remove button action
 		pointer-events: none;
