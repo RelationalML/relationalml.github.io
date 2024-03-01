@@ -15,7 +15,7 @@ This is the [website](https://relationalml.github.io) of our academic research g
 
 ## Requirements
 
-This website is built with (Jekyll)[https://jekyllrb.com/], a static site generator. To build the website locally you need to have (Ruby)[https://www.ruby-lang.org/en/] installed. Then, install Jekyll and the Jekyll Scholar plugin:
+This website is built with [Jekyll](https://jekyllrb.com/), a static site generator. To build the website locally you need to have [Ruby](https://www.ruby-lang.org/en/) installed. Then, install Jekyll and the Jekyll Scholar plugin:
 
 ```gem install jekyll bundler```
 
