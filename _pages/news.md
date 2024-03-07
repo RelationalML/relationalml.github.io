@@ -7,6 +7,7 @@ permalink: /news.html
 ---
 
 # News
+
 <hr/>
 {% for post in site.data.news %}
 <h4>{{ post.date | date_to_long_string }}</h4>

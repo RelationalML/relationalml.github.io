@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div id="publications" class="col-sm-12">
+  {{ content }}  
+  <br>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var memberSelect = document.getElementById('memberselect');
+    if (memberSelect) {
+        memberSelect.addEventListener('change', function() {
+            var member = this.value;
+            var entries = document.querySelectorAll('.row');
+            entries.forEach(function(entry) {
+                if (entry.id.includes('bib-')) {
+                    var authors = entry.getAttribute('authors');
+                    if (authors.includes(member)) {
+                        entry.style.display = 'flex';
+                    } else {
+                        entry.style.display = 'none';
+                    }
+                }
+            });
+        });
+    }
+});
+</script>
+
+{{ content }}

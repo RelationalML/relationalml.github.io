@@ -32,6 +32,6 @@ We are particularly interested in candidates with affinity towards theory. We re
 - Discrete probabilistic models
 - Robust learning algorithms
 - Meaningful applications:
-    - Molecular biology and genetics (in collaboration with domain experts at Harvard)
-    - International food trade
-    - etc.
+  - Molecular biology and genetics (in collaboration with domain experts at Harvard)
+  - International food trade
+  - etc.
