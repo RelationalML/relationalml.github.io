@@ -1,12 +1,12 @@
 ---
 title: "Relational ML - Team"
 layout: gridlay
-excerpt: "Relational ML -- Team members"
+excerpt: "Relational ML -- Team"
 sitemap: false
 permalink: /team/
 ---
 
-# Group Members
+# Team Members
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}

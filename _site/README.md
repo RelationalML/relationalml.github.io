@@ -15,7 +15,7 @@ This is the [website](https://relationalml.github.io) of our academic research g
 
 ## Requirements
 
-This website is built with [Jekyll](https://jekyllrb.com/), a static site generator. To build the website locally you need to have [Ruby](https://www.ruby-lang.org/en/) installed. Then, install Jekyll and the Jekyll Scholar plugin:
+To build the website locally, you need to have [Ruby](https://www.ruby-lang.org/en/) installed. Then, install Jekyll and the Jekyll Scholar plugin:
 
 ```gem install jekyll bundler```
 
@@ -23,7 +23,13 @@ This website is built with [Jekyll](https://jekyllrb.com/), a static site genera
 
 ### Deployment
 
-The website is built from the `source` branch, folder `_site`, by a custom Github Action workflow (see [`.github/workflows/static.yml`](.github/workflows/static.yml)). In order to update recent changes, you need to build the website locally first (`jekyll build`).
+In order to update recent changes, you need to build the website locally first:
+
+```jekyll build```
+
+Then push the changes of folder `_site` to the `source` branch of the repository.
+
+The website will be automatically deployed from that folder by a custom Github Action workflow (see [`.github/workflows/static.yml`](.github/workflows/static.yml)). However, it cannot be built automatically because it uses a custom plugin.
 
 ## How to add or modify information
 
@@ -31,30 +37,26 @@ The website is built from the `source` branch, folder `_site`, by a custom Githu
 
 Modify the markdown files in the folder [`_pages`](_pages).
 
-For example, you can modify the homepage at [`_pages/home.md`](_pages/home.md), the openings page at [`_pages/openings.md`](_pages/openings.md), and the research page at [`_pages/research.md`](_pages/research.md).
-
-For modifications to data-driven pages (publications, news, team members), see the following sections.
+* You can modify the homepage at [`_pages/home.md`](_pages/home.md), the openings page at [`_pages/openings.md`](_pages/openings.md), and the research page at [`_pages/research.md`](_pages/research.md).
+* For modifications to data-driven pages (publications, news, team), see the following sections.
 
 ### Add a publication
 
-Modify the file [`_bibliography/references.bib`](_bibliography/references.bib) by adding the **BibTeX** entry of the publication at the front.
+Add a new **BibTeX** entry to the front of [`_bibliography/references.bib`](_bibliography/references.bib).
 
-Add a preview image to [`images/publications/`](images/publications/), and its name to a field `img` in the BibTeX entry.
-
-Add extra information to extra fields, such as the code url in `code`, if necessary.
+* Add a preview image to [`images/publications/`](images/publications/), and its name to a field `img` in the BibTeX entry.
+* Add extra information to extra fields in the entry, such as the code url in `code`, if necessary.
 
 ### Add news
 
-Modify the file [`_data/news.yml`](_data/news.yml) by adding a new entry.
+Add a new entry to the front of [`_data/news.yml`](_data/news.yml).
 
 ### Add a person
 
-If the person is a member of the staff, modify the file [`_data/team_members.yml`](_data/team_members.yml). Add a picture to [`images/team/`](images/team/), and its filename to a field `photo` in the .yml entry.
-
-If the person is from another category, create a corresponding .yml file in folder [`_data/`](_data/) and modify (`_pages/team.md`)[_pages/team.md] to display the information.
+Add a new entry to the front of [`_data/team_members.yml`](_data/team_members.yml).
 
 ## About this website
 
-This website is powered by Jekyll and uses some Bootstrap and Bootwatch, and it is mainly based on this [website](https://allanlab.org), plus this [one](https://alshedivat.github.io/al-folio/) for this bibliography [plugin](https://github.com/inukshuk/jekyll-scholar). Go to (https://www.allanlab.org/aboutwebsite.html) to learn how to copy and modify this page for your purpose.
+This website is powered by [Jekyll](https://jekyllrb.com/) and uses some Bootstrap and Bootwatch, and it is mainly based on this [website](https://allanlab.org), plus this [one](https://alshedivat.github.io/al-folio/) for this bibliography [plugin](https://github.com/inukshuk/jekyll-scholar). Go to [this page](https://www.allanlab.org/aboutwebsite.html) to learn how to copy and modify this page for your purpose.
 
 Copyright Relational ML Lab. Code released under the MIT License.

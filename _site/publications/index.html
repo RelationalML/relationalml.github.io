@@ -65,30 +65,8 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div id="gridid" class="col-sm-12">
-  <script>
-document.addEventListener('DOMContentLoaded', function() {
-    var memberSelect = document.getElementById('memberselect');
-    if (memberSelect) {
-        memberSelect.addEventListener('change', function() {
-            var member = this.value;
-            var entries = document.querySelectorAll('.row');
-            entries.forEach(function(entry) {
-                if (entry.id.includes('bib-')) {
-                    var authors = entry.getAttribute('authors');
-                    if (authors.includes(member)) {
-                        entry.style.display = 'flex';
-                    } else {
-                        entry.style.display = 'none';
-                    }
-                }
-            });
-        });
-    }
-});
-</script>
-
-<h1 id="publications">Publications</h1>
+        <div id="publications" class="col-sm-12">
+  <h1 id="publications">Publications</h1>
 
 <p><select id="memberselect">
     <option value="">All members</option>
@@ -414,10 +392,31 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         </div>
       </div></li></ol>
-
-
+  
+  <br>
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var memberSelect = document.getElementById('memberselect');
+    if (memberSelect) {
+        memberSelect.addEventListener('change', function() {
+            var member = this.value;
+            var entries = document.querySelectorAll('.row');
+            entries.forEach(function(entry) {
+                if (entry.id.includes('bib-')) {
+                    var authors = entry.getAttribute('authors');
+                    if (authors.includes(member)) {
+                        entry.style.display = 'flex';
+                    } else {
+                        entry.style.display = 'none';
+                    }
+                }
+            });
+        });
+    }
+});
+</script>
       </div>
     </div>
 
