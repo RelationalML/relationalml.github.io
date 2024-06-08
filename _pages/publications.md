@@ -10,7 +10,8 @@ permalink: /publications/
   
 <select id="memberselect">
     <option value="">All members</option>
-    {% for member in site.data.team_members %}<option value="{{ member.last_name }}">{{ member.name }}</option>
-    {% endfor %}</select>
+    {% for group in site.data.team_members %}{% for member in group.members 
+    %}<option value="{{ member.last_name }}">{{ member.name }}</option>
+    {% endfor %}{% endfor %}</select>
 
 {% bibliography %}

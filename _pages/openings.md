@@ -12,14 +12,11 @@ If you are interested in our [research](research), please contact [Dr. Rebekka B
 
 ### Past open positions
 
-We received an ERC Starting Grant in 2023 ([SPARSE-ML](https://cispa.de/en/erc-burkholz)) and had several open positions for PhD students and Postdocs:
+* We received an ERC Starting Grant in 2023 ([SPARSE-ML](https://cispa.de/en/erc-burkholz)) and had several open positions for PhD students and Postdocs:
+  - [PhD position in sparse machine learning](https://euraxess.ec.europa.eu/jobs/144401) (2023).
+  - [Postdoctoral position in sparse machine learning](https://euraxess.ec.europa.eu/jobs/144392) (2023).
 
-- [PhD position in sparse machine learning](https://euraxess.ec.europa.eu/jobs/144401) (2023).
-- [Postdoctoral position in sparse machine learning](https://euraxess.ec.europa.eu/jobs/144392) (2023).
-
-Other previously open positions:
-
-- [PhD position in machine learning](https://euraxess.ec.europa.eu/jobs/871979) (2022).
+* [PhD position in machine learning](https://euraxess.ec.europa.eu/jobs/871979) (2022).
 
 ### Possible research topics
 

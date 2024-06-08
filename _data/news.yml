@@ -1,14 +1,23 @@
+- date: 1. June 2024
+  headline: "Welcome to Chao, Rahul, and Dong!"
+
+- date: 1. May 2024
+  headline: "[Our paper](https://openreview.net/forum?id=Sjv5RcqfuH) was accepted at ICML 2024."
+
 - date: 1. February 2024
   headline: Welcome Tom!
 
 - date: 16. January 2024
-  headline: "Our two papers [(1)](https://openreview.net/forum?id=qODvxQ8TXW) [(2)](https://openreview.net/forum?id=wOSYMHfENq) were accepted at ICLR 2024!"
+  headline: "Our two papers [(1-Spotlight)](https://openreview.net/forum?id=qODvxQ8TXW) [(2)](https://openreview.net/forum?id=wOSYMHfENq) were accepted at ICLR 2024."
 
 - date: 1. October 2023
   headline: Welcome Celia!
 
 - date: 21. September 2023
-  headline: "[Our paper](https://openreview.net/forum?id=qY7UqLoora) was accepted at NeurIPS 2023!"
+  headline: "Our paper on [balancing GATs](https://openreview.net/forum?id=qY7UqLoora) was accepted at NeurIPS 2023."
 
 - date: 5. September 2023
   headline: "We have received an ERC starting grant! [SPARSE-ML](https://cispa.de/en/erc-burkholz)"
+
+- date: 24. April 2023
+  headline: "Our paper on [random pruning](https://openreview.net/forum?id=cKYIyT9wvo) was accepted at ICML 2023."

@@ -8,8 +8,10 @@ permalink: /team/
 
 # Team Members
 
+{% for group in site.data.team_members %}
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+### {{group.role}}
+{% for member in group.members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -18,10 +20,15 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+{% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}" 
+  class="img-responsive" width="20%" style="float: left; margin: 6px 22px 24px 0;" />
+{% else %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/team/blank.jpg"
+  class="img-responsive" width="20%" style="float: left; margin: 6px 22px 24px 0;" />
+{% endif %}
   <h4>{{ member.name }}</h4>
-  {{ member.info }} 
-  <br>[Homepage]({{ member.url }})
+  [Homepage]({{ member.url }})
   | [Email](mailto:{{ member.email }})
 </div>
 
@@ -37,6 +44,7 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+{% endfor %}
 
 
 {% if site.data.students.size > 0 %}
