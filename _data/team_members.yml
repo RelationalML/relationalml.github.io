@@ -11,7 +11,7 @@
   members:
     - name: Dr. Chao Zhou
       last_name: Zhou
-      photo: 
+      photo: chao.zhou.jpg
       start_date: May 2024
       email: chao.zhou@cispa.de
       url: https://chaoedisonzhouucl.github.io/
@@ -58,6 +58,14 @@
       email: rahul.nittala@cispa.de
       url: https://cispa.de/en/people/c01rani
 
+    - name: Dong Sun
+      last_name: Sun
+      photo: dong.sun.jpg
+      role: PhD student
+      start_date: Jul 2024
+      email: dong.sun@cispa.de
+      url: https://cispa.de/en/people/c01dosu
+
 - role: Research assistants (HiWis)
   members:
     - name: Adarsh Jamadandi
@@ -74,4 +82,4 @@
       role: Research assistant
       start_date: Aug 2023
       email: harsha.nelaturu@cispa.de
-      url: https://cispa.de/en/people/c02hane
+      url: https://nelaturuharsha.github.io/

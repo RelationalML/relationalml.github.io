@@ -8,99 +8,53 @@ permalink: /team/
 
 # Team Members
 
+{% assign first = 0 %}
 {% for group in site.data.team_members %}
 {% assign number_printed = 0 %}
-### {{group.role}}
 {% for member in group.members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
+{% if even_odd == 0 and first != 1 %}
 <div class="row">
 {% endif %}
 
+{% if forloop.first and first > 1 %}
+<h3 style="margin-left:16px;" >{{group.role}}</h3>
+{% endif %}
+
 <div class="col-sm-6 clearfix">
+
+{% if first < 2 %}
+<h3>{{group.role}}</h3>
+{% endif %}
+
 {% if member.photo %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}" 
-  class="img-responsive" width="20%" style="float: left; margin: 6px 22px 24px 0;" />
+  class="img-responsive" width="20%" style="float: left; margin: 0px 22px 24px 0;" />
 {% else %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/team/blank.jpg"
-  class="img-responsive" width="20%" style="float: left; margin: 6px 22px 24px 0;" />
+  class="img-responsive" width="20%" style="float: left; margin: 0px 22px 24px 0;" />
 {% endif %}
+{% if first < 2 %}
+  <h4 style="margin-top:22px;">{{ member.name }}</h4>
+{% else %}
   <h4>{{ member.name }}</h4>
+{% endif %}
   [Homepage]({{ member.url }})
   | [Email](mailto:{{ member.email }})
+  <br>
+  <i>since {{ member.start_date }}</i>
 </div>
+
+{% if even_odd == 1 or forloop.last and first != 0 %}
+</div>
+{% endif %}
 
 {% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+{% assign first = first | plus: 1 %}
 
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
 {% endfor %}
-
-
-{% if site.data.students.size > 0 %}
-## Master and Bachelor Students
-{% assign number_printed = 0 %}
-{% for member in site.data.students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-{% endif %}
 
 {% if site.data.alumni_members.size > 0 %}
 
