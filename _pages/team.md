@@ -35,8 +35,8 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/team/blank.jpg"
   class="img-responsive" width="20%" style="float: left; margin: 0px 22px 24px 0;" />
 {% endif %}
-{% if first < 2 %}
-  <h4 style="margin-top:22px;">{{ member.name }}</h4>
+{% if first > 1 %}
+  <h4 style="margin-top:-11px;">{{ member.name }}</h4>
 {% else %}
   <h4>{{ member.name }}</h4>
 {% endif %}
