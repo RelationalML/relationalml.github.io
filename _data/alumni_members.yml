@@ -1,0 +1,15 @@
+- role: Research assistants (HiWis)
+  members:
+    - name: Harsha Nelaturu
+      last_name: Nelaturu
+      photo: harsha.nelaturu.jpg
+      start_date: Aug 2023
+      end_date: Jul 2024
+      url: https://nelaturuharsha.github.io/
+
+- role: Visiting students
+  members:
+    - name: Otto Piramuthu
+      last_name: Piramuthu
+      start_date: June 2024
+      end_date: August 2024

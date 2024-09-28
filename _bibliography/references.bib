@@ -1,5 +1,26 @@
 ---
 ---
+
+@inproceedings{
+jamadandi2024spectral,
+title={Spectral Graph Pruning Against Over-Squashing and Over-Smoothing},
+author={Adarsh Jamadandi and Celia Rubio-Madrigal and Rebekka Burkholz},
+booktitle={Thirty-eigth Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=EMkrwJY2de},
+pdf={https://openreview.net/pdf?id=EMkrwJY2de},
+abstract={Message Passing Graph Neural Networks are known to suffer from two problems that are sometimes believed to be diametrically opposed: over-squashing and over-smoothing. The former results from topological bottlenecks that hamper the information flow from distant nodes and are mitigated by spectral gap maximization, primarily, by means of edge additions. However, such additions often promote over-smoothing that renders nodes of different classes less distinguishable. Inspired by the Braess phenomenon, we argue that deleting edges can address over-squashing and over-smoothing simultaneously. This insight explains how edge deletions can improve generalization, thus connecting spectral gap optimization to a seemingly disconnected objective of reducing computational resources by pruning graphs for lottery tickets. To this end, we propose a computationally effective spectral gap optimization framework to add or delete edges and demonstrate its effectiveness on the long range graph benchmark and on larger heterophilous datasets.},
+}
+
+@inproceedings{
+mustafa2024training,
+title={Training GNNs in Balance by Dynamic Rescaling},
+author={Nimrah Mustafa and Rebekka Burkholz},
+booktitle={Thirty-eigth Conference on Neural Information Processing Systems},
+year={2024},
+abstract={Graph neural networks exhibiting a rescale invariance, like GATs, obey a conservation law of its parameters, which has been exploited to derive a balanced state that induces good initial trainability. Yet, finite learning rates as used in practice topple the network out of balance during training. This effect is even more pronounced with larger learning rates that tend to induce improved generalization but make the training dynamics less robust. To support even larger learning rates, we propose to dynamically balance the network according to a different criterion, based on relative gradients, that promotes faster and better. In combination with large learning rates and gradient clipping, dynamic rebalancing significantly improves generalization on real-world data. We observe that rescaling provides us with the flexibility to control the order in which network layers are trained. This leads to novel insights into similar phenomena as grokking, which can further boost generalization performance.},
+}
+
 @inproceedings{
 mustafa2024gate,
 title={{GATE}: How to Keep Out Intrusive Neighbors},
