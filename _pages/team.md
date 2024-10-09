@@ -8,50 +8,41 @@ permalink: /team/
 
 # Team Members
 
-{% assign first = 0 %}
 {% for group in site.data.team_members %}
 {% assign number_printed = 0 %}
 {% for member in group.members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 0 and first != 1 %}
+{% if even_odd == 0 %}
 <div class="row">
 {% endif %}
 
-{% if forloop.first and first > 1 %}
+{% if forloop.first %}
 <h3 style="margin-left:16px;" >{{group.role}}</h3>
 {% endif %}
 
 <div class="col-sm-6 clearfix">
 
-{% if first < 2 %}
-<h3>{{group.role}}</h3>
-{% endif %}
 
 {% if member.photo %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}" 
+  <img src="{{ site.url }}{{ site.baseurl }}/images/team members/{{ member.photo }}" 
   class="img-responsive" width="20%" style="float: left; margin: 0px 22px 24px 0;" />
 {% else %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/team/blank.jpg"
+  <img src="{{ site.url }}{{ site.baseurl }}/images/team members/blank.jpg"
   class="img-responsive" width="20%" style="float: left; margin: 0px 22px 24px 0;" />
 {% endif %}
-{% if first > 1 %}
-  <h4 style="margin-top:-11px;">{{ member.name }}</h4>
-{% else %}
   <h4>{{ member.name }}</h4>
-{% endif %}
   [Homepage]({{ member.url }})
   | [Email](mailto:{{ member.email }})
   <br>
   <i>since {{ member.start_date }}</i>
 </div>
 
-{% if even_odd == 1 or forloop.last and first != 0 %}
+{% if even_odd == 1 or forloop.last %}
 </div>
 {% endif %}
 
 {% assign number_printed = number_printed | plus: 1 %}
-{% assign first = first | plus: 1 %}
 
 {% endfor %}
 {% endfor %}
