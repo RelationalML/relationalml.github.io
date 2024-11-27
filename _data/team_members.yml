@@ -18,7 +18,7 @@
 
     - name: Dr. Gowtham Abbavaram
       last_name: Abbavaram
-      photo: 
+      photo: gowtham.abbavaram.jpg
       start_date: Oct 2024
       email: gowtham.abbavaram@cispa.de
       url: https://gautam0707.github.io/
@@ -66,12 +66,3 @@
       start_date: Jul 2024
       email: dong.sun@cispa.de
       url: https://cispa.de/en/people/c01dosu
-
-- role: Research assistants (HiWis)
-  members:
-    - name: Adarsh Jamadandi
-      last_name: Jamadandi
-      photo: adarsh.jamadandi.jpg
-      start_date: Nov 2022
-      email: adarsh.jamadandi@cispa.de
-      url: https://adarshmj.github.io

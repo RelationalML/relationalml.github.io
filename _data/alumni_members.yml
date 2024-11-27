@@ -1,5 +1,13 @@
 - role: Research assistants (HiWis)
   members:
+    - name: Adarsh Jamadandi
+      last_name: Jamadandi
+      photo: adarsh.jamadandi.jpg
+      start_date: Nov 2022
+      end_date: Oct 2024
+      email: adarsh.jamadandi@cispa.de
+      url: https://adarshmj.github.io
+
     - name: Harsha Nelaturu
       last_name: Nelaturu
       photo: harsha.nelaturu.jpg
