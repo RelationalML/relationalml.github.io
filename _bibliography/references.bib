@@ -2,6 +2,28 @@
 ---
 
 @inproceedings{
+jacobs2025mask,
+title={Mask in the Mirror: Implicit Sparsification},
+author={Tom Jacobs and Rebekka Burkholz},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=U47ymTS3ut},
+pdf={https://openreview.net/pdf?id=U47ymTS3ut},
+abstract={Continuous sparsification strategies are among the most effective methods for reducing the inference costs and memory demands of large-scale neural networks. A key factor in their success is the implicit L1 regularization induced by jointly learning both mask and weight variables, which has been shown experimentally to outperform explicit L1 regularization. We provide a theoretical explanation for this observation by analyzing the learning dynamics, revealing that early continuous sparsification is governed by an implicit L2 regularization that gradually transitions to an L1 penalty over time. Leveraging this insight, we propose a method to dynamically control the strength of this implicit bias. Through an extension of the mirror flow framework, we establish convergence and optimality guarantees in the context of underdetermined linear regression. Our theoretical findings may be of independent interest, as we demonstrate how to enter the rich regime and show that the implicit bias can be controlled via a time-dependent Bregman potential. To validate these insights, we introduce PILoT, a continuous sparsification approach with novel initialization and dynamic regularization, which consistently outperforms baselines in standard experiments.},
+}
+
+@inproceedings{
+rubio-madrigal2025gnns,
+title={{GNN}s Getting ComFy: Community and Feature Similarity Guided Rewiring},
+author={Celia Rubio-Madrigal and Adarsh Jamadandi and Rebekka Burkholz},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=g6v09VxgFw},
+pdf={https://openreview.net/pdf?id=g6v09VxgFw},
+abstract={Maximizing the spectral gap through graph rewiring has been proposed to enhance the performance of message-passing graph neural networks (GNNs) by addressing over-squashing. However, as we show, minimizing the spectral gap can also improve generalization. To explain this, we analyze how rewiring can benefit GNNs within the context of stochastic block models. Since spectral gap optimization primarily influences community strength, it improves performance when the community structure aligns with node labels. Building on this insight, we propose three distinct rewiring strategies that explicitly target community structure, node labels, and their alignment: (a) community structure-based rewiring (ComMa), a more computationally efficient alternative to spectral gap optimization that achieves similar goals; (b) feature similarity-based rewiring (FeaSt), which focuses on maximizing global homophily; and (c) a hybrid approach (ComFy), which enhances local feature similarity while preserving community structure to optimize label-community alignment. Extensive experiments confirm the effectiveness of these strategies and support our theoretical insights.},
+}
+
+@inproceedings{
 jamadandi2024spectral,
 title={Spectral Graph Pruning Against Over-Squashing and Over-Smoothing},
 author={Adarsh Jamadandi and Celia Rubio-Madrigal and Rebekka Burkholz},

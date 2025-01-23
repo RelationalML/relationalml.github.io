@@ -2,7 +2,7 @@
   members:
     - name: Dr. Rebekka Burkholz
       last_name: Burkholz
-      photo: rebekka.burkholz.jpg
+      photo: c01rebu.jpg
       start_date: 2021
       email: burkholz@cispa.de
       url: https://sites.google.com/view/rebekkaburkholz/
@@ -11,14 +11,14 @@
   members:
     - name: Dr. Chao Zhou
       last_name: Zhou
-      photo: chao.zhou.jpg
+      photo: c01chzh.jpg
       start_date: May 2024
       email: chao.zhou@cispa.de
       url: https://chaoedisonzhouucl.github.io/
 
     - name: Dr. Gowtham Abbavaram
       last_name: Abbavaram
-      photo: gowtham.abbavaram.jpg
+      photo: c01goab.jpg
       start_date: Oct 2024
       email: gowtham.abbavaram@cispa.de
       url: https://gautam0707.github.io/
@@ -27,28 +27,28 @@
   members:
     - name: Advait Gadhikar
       last_name: Gadhikar
-      photo: advait.gadhikar.jpg
+      photo: c01adga.jpg
       start_date: Apr 2022
       email: advait.gadhikar@cispa.de
       url: https://advaitgadhikar.github.io/
 
     - name: Nimrah Mustafa
       last_name: Mustafa
-      photo: nimrah.mustafa.jpg
+      photo: c01nimu.jpg
       start_date: Jun 2022
       email: nimrah.mustafa@cispa.de
       url: https://cispa.de/en/people/c01nimu
 
     - name: Celia Rubio-Madrigal
       last_name: Rubio-Madrigal
-      photo: celia.rubio-madrigal.jpg
+      photo: c01cema.jpg
       start_date: Oct 2023
       email: celia.rubio-madrigal@cispa.de
       url: https://celrm.github.io/
 
     - name: Tom Jacobs
       last_name: Jacobs
-      photo: tom.jacobs.jpg
+      photo: c01toja.jpg
       start_date: Feb 2024
       email: tom.jacobs@cispa.de
       url: https://cispa.de/en/people/c01toja
@@ -62,7 +62,16 @@
 
     - name: Dong Sun
       last_name: Sun
-      photo: dong.sun.jpg
+      photo: c01dosu.jpg
       start_date: Jul 2024
       email: dong.sun@cispa.de
       url: https://cispa.de/en/people/c01dosu
+
+- role: Research engineer
+  members:
+    - name: Nikita (Nik) Vedeneev
+      last_name: Vedeneev
+      photo: c01mive.jpg
+      start_date: Dec 2024
+      email: mikita.vedzeneyeu@cispa.de
+      url: https://cispa.de/en/people/c01mive
