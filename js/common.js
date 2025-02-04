@@ -8,4 +8,7 @@ $(document).ready(function() {
     $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass('open');
   });
+  $('a.membercv').click(function() {
+    $(this).parent().parent().find(".membercv.hidden").toggleClass('open');
+  });
 });

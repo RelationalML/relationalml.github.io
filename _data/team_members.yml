@@ -15,6 +15,7 @@
       start_date: May 2024
       email: chao.zhou@cispa.de
       url: https://chaoedisonzhouucl.github.io/
+      description: "My recent research interests include Science4AI, representation learning and generative machine learning."
 
     - name: Dr. Gowtham Abbavaram
       last_name: Abbavaram
@@ -22,6 +23,7 @@
       start_date: Oct 2024
       email: gowtham.abbavaram@cispa.de
       url: https://gautam0707.github.io/
+      description: "My research focuses on causality inspired machine learning and statistical causal inference."
 
 - role: PhD students
   members:
@@ -31,6 +33,7 @@
       start_date: Apr 2022
       email: advait.gadhikar@cispa.de
       url: https://advaitgadhikar.github.io/
+      description: "I work on building provable algorithms for deep learning and am currently interested in algorithms related to sparsity in neural nets. Specifically I am interested in the Lottery Ticket Hypothesis and how it can help identify the underlying structure of a learnt network."
 
     - name: Nimrah Mustafa
       last_name: Mustafa
@@ -45,6 +48,7 @@
       start_date: Oct 2023
       email: celia.rubio-madrigal@cispa.de
       url: https://celrm.github.io/
+      description: "My research focuses on generalization challenges in graph learning, particularly how input graphs serve as both data and computational models, and the implications of modifying them under different criteria."
 
     - name: Tom Jacobs
       last_name: Jacobs
@@ -67,7 +71,7 @@
       email: dong.sun@cispa.de
       url: https://cispa.de/en/people/c01dosu
 
-- role: Research engineer
+- role: Research engineers
   members:
     - name: Nikita (Nik) Vedeneev
       last_name: Vedeneev

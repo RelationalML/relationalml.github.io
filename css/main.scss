@@ -110,8 +110,15 @@ margin-bottom: 24px;
 .abstract.hidden.open {
 	border : 1px solid #ccc;
 	background-color: #f5f5f5;
-	border-radius: 1%;
+	border-radius: 4px;
 	color: #000;
+}
+
+.membercv.hidden.open {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
 }
 
 
@@ -161,7 +168,8 @@ ol.bibliography {
 
     li {
       .preview {
-        width: 80px;
+        // width: 80px;
+		width: 55px;
 		margin-top: -10px;
 		img {
 			

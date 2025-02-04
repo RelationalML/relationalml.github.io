@@ -34,8 +34,13 @@ permalink: /team/
   <h4>{{ member.name }}</h4>
   [Homepage]({{ member.url }})
   | [Email](mailto:{{ member.email }})
-  <br>
+  {% if member.description %} |  <a class="membercv" role="button">Description</a> {% endif %} <br>
   <i>since {{ member.start_date }}</i>
+  {% if member.description %}
+<div class="membercv hidden">
+{{ member.description }}
+</div>
+  {% endif %}
 </div>
 
 {% if even_odd == 1 or forloop.last %}
@@ -66,7 +71,9 @@ permalink: /team/
 {% for member in group.members %}
 <li style="margin-left:-16px;" 
 >{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}:
-<i>{{ member.start_date }} - {{ member.end_date }}</i>.</li>
+<i>{{ member.start_date }}-{{ member.end_date }}</i
+>{% for next in member.next %} ⇢ {{ next }}{% endfor %}.
+</li>
 {% endfor %}
 </ul>
 </div>
