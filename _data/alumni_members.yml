@@ -1,23 +1,23 @@
-- role: Research assistants (HiWis)
+- role: Research assistants
   members:
     - name: Adarsh Jamadandi
       last_name: Jamadandi
       photo: c01adja.jpg
-      start_date: Nov 2022
-      end_date: Oct 2024
+      start_date: Nov 22
+      end_date: Oct 24
       email: adarsh.jamadandi@cispa.de
       url: https://adarshmj.github.io
 
     - name: Harsha Nelaturu
       last_name: Nelaturu
       photo: c02hane.jpg
-      start_date: Aug 2023
-      end_date: Jul 2024
+      start_date: Aug 23
+      end_date: Jul 24
       url: https://nelaturuharsha.github.io/
 
 - role: Visiting students
   members:
     - name: Otto Piramuthu
       last_name: Piramuthu
-      start_date: June 2024
-      end_date: August 2024
+      start_date: Jun 24
+      end_date: Aug 24

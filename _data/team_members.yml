@@ -15,7 +15,7 @@
       start_date: May 2024
       email: chao.zhou@cispa.de
       url: https://chaoedisonzhouucl.github.io/
-      description: "My recent research interests include Science4AI, representation learning and generative machine learning."
+      description: "I focus on understanding the intricate dynamics of training and fine-tuning in machine learning models, with the goal of developing more efficient and effective learning algorithms. My research explores how optimization processes evolve and how we can refine these methods to improve performance. Currently, I am particularly interested in gradient compression techniques."
 
     - name: Dr. Gowtham Abbavaram
       last_name: Abbavaram
@@ -23,7 +23,7 @@
       start_date: Oct 2024
       email: gowtham.abbavaram@cispa.de
       url: https://gautam0707.github.io/
-      description: "My research focuses on causality inspired machine learning and statistical causal inference."
+      description: "I work on research problems at the intersection of machine learning and causality, focusing on modeling, inference, and interpreting machine learning models from a causal perspective to enhance their robustness and trustworthiness."
 
 - role: PhD students
   members:
@@ -48,14 +48,15 @@
       start_date: Oct 2023
       email: celia.rubio-madrigal@cispa.de
       url: https://celrm.github.io/
-      description: "My research focuses on generalization challenges in graph learning, particularly how input graphs serve as both data and computational models, and the implications of modifying them under different criteria."
+      description: "My research addresses generalization challenges in graph learning, focusing on the dual role of input graphs as both data and computation structures, and the effects of modifying them under different criteria."
 
     - name: Tom Jacobs
       last_name: Jacobs
       photo: c01toja.jpg
       start_date: Feb 2024
       email: tom.jacobs@cispa.de
-      url: https://cispa.de/en/people/c01toja
+      url: https://tomjacobs05.github.io/
+      description: "My research interests lie at the intersection of understanding neural network training dynamics and designing efficient deep learning methods. Concretely, I work with theoretical tools such as mirror flow, regularization techniques, and mean field descriptions to study the effect of overparameterization and improve model efficiency."
 
     - name: Rahul Nittala
       last_name: Nittala
@@ -79,3 +80,4 @@
       start_date: Dec 2024
       email: mikita.vedzeneyeu@cispa.de
       url: https://cispa.de/en/people/c01mive
+      description: "I am interesting in making modern AI models efficient. In particular, I work on discovering and exploiting structure in Neural Networks (sparsity, low-dimensional representations and similar) for efficient training, fine-tuning and inference. I am a former full-time core developer for [PyTorch](https://github.com/pytorch/pytorch) and [Lightning Thunder](https://github.com/Lightning-AI/lightning-thunder). Check my [GitHub](https://github.com/nikitaved) to see what I work on now."

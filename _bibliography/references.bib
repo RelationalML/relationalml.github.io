@@ -20,6 +20,7 @@ booktitle={The Thirteenth International Conference on Learning Representations},
 year={2025},
 url={https://openreview.net/forum?id=g6v09VxgFw},
 pdf={https://openreview.net/pdf?id=g6v09VxgFw},
+img={gnns-getting-comfy.png},
 abstract={Maximizing the spectral gap through graph rewiring has been proposed to enhance the performance of message-passing graph neural networks (GNNs) by addressing over-squashing. However, as we show, minimizing the spectral gap can also improve generalization. To explain this, we analyze how rewiring can benefit GNNs within the context of stochastic block models. Since spectral gap optimization primarily influences community strength, it improves performance when the community structure aligns with node labels. Building on this insight, we propose three distinct rewiring strategies that explicitly target community structure, node labels, and their alignment: (a) community structure-based rewiring (ComMa), a more computationally efficient alternative to spectral gap optimization that achieves similar goals; (b) feature similarity-based rewiring (FeaSt), which focuses on maximizing global homophily; and (c) a hybrid approach (ComFy), which enhances local feature similarity while preserving community structure to optimize label-community alignment. Extensive experiments confirm the effectiveness of these strategies and support our theoretical insights.},
 }
 
@@ -31,19 +32,22 @@ booktitle={Thirty-eighth Conference on Neural Information Processing Systems},
 year={2024},
 url={https://openreview.net/forum?id=EMkrwJY2de},
 pdf={https://openreview.net/pdf?id=EMkrwJY2de},
+img={spectral-graph-pruning.png},
 abstract={Message Passing Graph Neural Networks are known to suffer from two problems that are sometimes believed to be diametrically opposed: over-squashing and over-smoothing. The former results from topological bottlenecks that hamper the information flow from distant nodes and are mitigated by spectral gap maximization, primarily, by means of edge additions. However, such additions often promote over-smoothing that renders nodes of different classes less distinguishable. Inspired by the Braess phenomenon, we argue that deleting edges can address over-squashing and over-smoothing simultaneously. This insight explains how edge deletions can improve generalization, thus connecting spectral gap optimization to a seemingly disconnected objective of reducing computational resources by pruning graphs for lottery tickets. To this end, we propose a computationally effective spectral gap optimization framework to add or delete edges and demonstrate its effectiveness on the long range graph benchmark and on larger heterophilous datasets.},
 code={https://github.com/RelationalML/SpectralPruningBraess}
 }
 
 @inproceedings{
-mustafa2024training,
-title={Training GNNs in Balance by Dynamic Rescaling},
+mustafa2024dynamic,
+title={Dynamic Rescaling for Training {GNN}s},
 author={Nimrah Mustafa and Rebekka Burkholz},
-booktitle={Thirty-eighth Conference on Neural Information Processing Systems},
+booktitle={Thirty-eighth Annual Conference on Neural Information Processing Systems},
 year={2024},
 url={https://openreview.net/forum?id=IfZwSRpqHl},
 pdf={https://openreview.net/pdf?id=IfZwSRpqHl},
-abstract={Graph neural networks exhibiting a rescale invariance, like GATs, obey a conservation law of its parameters, which has been exploited to derive a balanced state that induces good initial trainability. Yet, finite learning rates as used in practice topple the network out of balance during training. This effect is even more pronounced with larger learning rates that tend to induce improved generalization but make the training dynamics less robust. To support even larger learning rates, we propose to dynamically balance the network according to a different criterion, based on relative gradients, that promotes faster and better. In combination with large learning rates and gradient clipping, dynamic rebalancing significantly improves generalization on real-world data. We observe that rescaling provides us with the flexibility to control the order in which network layers are trained. This leads to novel insights into similar phenomena as grokking, which can further boost generalization performance.}
+abstract={Graph neural networks (GNNs) with a rescale invariance, such as GATs, can be re-parameterized during optimization through dynamic rescaling of network parameters and gradients while keeping the loss invariant. In this work, we explore dynamic rescaling as a tool to influence GNN training dynamics in two key ways: i) balancing the network with respect to various criteria, and ii) controlling the relative learning speeds of different layers. We gain novel insights, unique to GNNs, that reveal distinct training modes for different tasks. For heterophilic graphs, achieving balance based on relative gradients leads to faster training and better generalization. In contrast, homophilic graphs benefit from delaying the learning of later layers. Additionally, we show that training in balance supports larger learning rates, which can improve generalization. Moreover, controlling layer-wise training speeds is linked to grokking-like phenomena, which may be of independent interest.},
+code={https://github.com/RelationalML/Dynamic_Rescaling_GAT},
+img={dynamic-rescaling-training-gnns.png}
 }
 
 @inproceedings{
@@ -77,7 +81,8 @@ year={2024},
 url={https://openreview.net/forum?id=Sjv5RcqfuH},
 pdf={https://openreview.net/pdf?id=Sjv5RcqfuH},
 abstract={Graph Attention Networks (GATs) are designed to provide flexible neighborhood aggregation that assigns weights to neighbors according to their importance. In practice, however, GATs are often unable to switch off task-irrelevant neighborhood aggregation, as we show experimentally and analytically. To address this challenge, we propose GATE, a GAT extension that holds three major advantages: i) It alleviates over-smoothing by addressing its root cause of unnecessary neighborhood aggregation. ii) Similarly to perceptrons, it benefits from higher depth as it can still utilize additional layers for (non-)linear feature transformations in case of (nearly) switched-off neighborhood aggregation. iii) By down-weighting connections to unrelated neighbors, it often outperforms GATs on real-world heterophilic datasets. To further validate our claims, we construct a synthetic test bed to analyze a model's ability to utilize the appropriate amount of neighborhood aggregation, which could be of independent interest.},
-code={https://github.com/RelationalML/GATE}
+code={https://github.com/RelationalML/GATE},
+img={gate-how-to.png}
 }
 
 @inproceedings{
@@ -89,7 +94,8 @@ year={2024},
 url={https://openreview.net/forum?id=qODvxQ8TXW},
 pdf={https://openreview.net/pdf?id=qODvxQ8TXW},
 abstract={Learning Rate Rewinding (LRR) has been established as a strong variant of Iterative Magnitude Pruning (IMP) to find lottery tickets in deep overparameterized neural networks. While both iterative pruning schemes couple structure and parameter learning, understanding how LRR excels in both aspects can bring us closer to the design of more flexible deep learning algorithms that can optimize diverse sets of sparse architectures. To this end, we conduct experiments that disentangle the effect of mask learning and parameter optimization and how both benefit from overparameterization. The ability of LRR to flip parameter signs early and stay robust to sign perturbations seems to make it not only more effective in mask identification but also in optimizing diverse sets of masks, including random ones. In support of this hypothesis, we prove in a simplified single hidden neuron setting that LRR succeeds in more cases than IMP, as it can escape initially problematic sign configurations.},
-spotlight={true}
+spotlight={true},
+img={masks-signs-lrr.png}
 }
 
 @inproceedings{
@@ -112,7 +118,8 @@ year={2023},
 url={https://openreview.net/forum?id=qY7UqLoora},
 pdf={https://openreview.net/pdf?id=qY7UqLoora},
 code={https://github.com/RelationalML/GAT_Balanced_Initialization},
-abstract={While the expressive power and computational capabilities of graph neural networks (GNNs) have been theoretically studied, their optimization and learning dynamics, in general, remain largely unexplored. Our study undertakes the Graph Attention Network (GAT), a popular GNN architecture in which a node's neighborhood aggregation is weighted by parameterized attention coefficients. We derive a conservation law of GAT gradient flow dynamics, which explains why a high portion of parameters in GATs with standard initialization struggle to change during training. This effect is amplified in deeper GATs, which perform significantly worse than their shallow counterparts. To alleviate this problem, we devise an initialization scheme that balances the GAT network. Our approach i) allows more effective propagation of gradients and in turn enables trainability of deeper networks, and ii) attains a considerable speedup in training and convergence time in comparison to the standard initialization. Our main theorem serves as a stepping stone to studying the learning dynamics of positive homogeneous models with attention mechanisms.}
+abstract={While the expressive power and computational capabilities of graph neural networks (GNNs) have been theoretically studied, their optimization and learning dynamics, in general, remain largely unexplored. Our study undertakes the Graph Attention Network (GAT), a popular GNN architecture in which a node's neighborhood aggregation is weighted by parameterized attention coefficients. We derive a conservation law of GAT gradient flow dynamics, which explains why a high portion of parameters in GATs with standard initialization struggle to change during training. This effect is amplified in deeper GATs, which perform significantly worse than their shallow counterparts. To alleviate this problem, we devise an initialization scheme that balances the GAT network. Our approach i) allows more effective propagation of gradients and in turn enables trainability of deeper networks, and ii) attains a considerable speedup in training and convergence time in comparison to the standard initialization. Our main theorem serves as a stepping stone to studying the learning dynamics of positive homogeneous models with attention mechanisms.},
+img={are-gats-out-of-balance.png}
 }
 
 @InProceedings{pmlr-v202-gadhikar23a,
