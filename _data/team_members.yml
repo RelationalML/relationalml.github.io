@@ -64,6 +64,7 @@
       start_date: Jun 2024
       email: rahul.nittala@cispa.de
       url: https://cispa.de/en/people/c01rani
+      description: "I am developing algorithms to reduce the size of neural networks by increasing parameter sparsity and decreasing the storage required for each parameter. My current focus is on sparse topologies that enhance the performance of sparse networks. Additionally, I am working on efficient quantization techniques to minimize the effective size of large language models (LLMs)."
 
     - name: Dong Sun
       last_name: Sun
@@ -71,6 +72,7 @@
       start_date: Jul 2024
       email: dong.sun@cispa.de
       url: https://cispa.de/en/people/c01dosu
+      description: "My current research focuses on theoretically elucidating the superior performance of Mixture of Experts models, with an emphasis on their generalization performance, sample complexity, training dynamics, and robustness to adversarial noises."
 
 - role: Research engineers
   members:

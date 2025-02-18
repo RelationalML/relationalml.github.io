@@ -7697,8 +7697,8 @@ ol.bibliography .row {
   gap: 10px;
 }
 ol.bibliography li .preview {
-  width: 55px;
-  margin-top: -10px;
+  width: 80px;
+  margin-top: -11px;
 }
 ol.bibliography li .preview img {
   margin: 16px 22px 6px 0;
