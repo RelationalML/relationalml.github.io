@@ -74,12 +74,9 @@
       url: https://cispa.de/en/people/c01dosu
       description: "My current research focuses on theoretically elucidating the superior performance of Mixture of Experts models, with an emphasis on their generalization performance, sample complexity, training dynamics, and robustness to adversarial noises."
 
-- role: Research engineers
-  members:
-    - name: Nikita (Nik) Vedeneev
-      last_name: Vedeneev
-      photo: c01mive.jpg
-      start_date: Dec 2024
-      email: mikita.vedzeneyeu@cispa.de
-      url: https://cispa.de/en/people/c01mive
-      description: "I am interesting in making modern AI models efficient. In particular, I work on discovering and exploiting structure in Neural Networks (sparsity, low-dimensional representations and similar) for efficient training, fine-tuning and inference. I am a former full-time core developer for [PyTorch](https://github.com/pytorch/pytorch) and [Lightning Thunder](https://github.com/Lightning-AI/lightning-thunder). Check my [GitHub](https://github.com/nikitaved) to see what I work on now."
+    - name: Baraah Sidahmed
+      last_name: Sidahmed
+      photo: 
+      start_date: Jun 2025
+      email: baraah.adil@cispa.de
+      url: https://cispa.de/en/people/c01baad
