@@ -306,7 +306,7 @@
 	<div class="container-fluid">
 	  <div class="row">
 		<div class="col-sm-6">
-			<p>&copy 2024 Relational ML Lab.</p>
+			<p>&copy; <span id="year"></span> Relational ML Lab.</p>
 			<p>We are part of the <a href="https://cispa.de">CISPA Helmholtz Center for Information Security</a>, at the <a href="https://www.uni-saarland.de">Saarland University</a> campus.</p>
 		</div>
 		<div class="col-sm-6">
@@ -318,6 +318,9 @@
 	</div>
   </div>
 </div>
+<script>
+	document.getElementById('year').textContent = new Date().getFullYear();
+</script>
   </div>
 
   </body>
