@@ -1,4 +1,4 @@
-talks:
+videos:
 - title: "Rewiring Graph Neural Networks: When Less is More and Structure Matters"
   date: 2025-02-13
   speaker: "Celia Rubio-Madrigal"
@@ -13,6 +13,17 @@ talks:
       authors: "Celia Rubio-Madrigal*, Adarsh Jamadandi*, and Rebekka Burkholz"
       conference: ICLR 2025
       link: https://openreview.net/forum?id=g6v09VxgFw
+
+- title: "Modelling the Accumulation of Mutations During Cancer Progression without Explicit Time"
+  date: 2024-07-16
+  speaker: "Rebekka Burkholz"
+  venue: "Labroots"
+  video: https://www.youtube.com/embed/i32brDifAR4?si=CLyYy7EvAtnb6r4I
+  papers: 
+    - title: "Scaling up Continuous-Time Markov Chains Helps Resolve Underspecification"
+      authors: "Alkis Gotovos, Rebekka Burkholz, John Quackenbush, and Stefanie Jegelka"
+      conference: NeurIPS 2024
+      link: https://openreview.net/forum?id=PnY8rTJGOuU
 
 - title: "Can Graph Attention Networks Learn the Degree to Which Node Properties Are Determined by Their Neighborhood?"
   date: 2024-06-14
@@ -29,6 +40,14 @@ talks:
       conference: ICML 2024
       link: https://openreview.net/forum?id=Sjv5RcqfuH
 
+- title: "Can Deep Learning Succeed at Small Scales?"
+  date: 2024-04-25
+  speaker: "Rebekka Burkholz" 
+  venue: "CRC 1461 Neurotronics Colloquium"
+  video: https://www.crc1461-neurotronics.de/files/sfb-crc/videos/crc1461_colloquium_rebecca_burkholz.mp4#t=1
+  papers: TBD
+  abstract: "Deep learning continues to achieve impressive breakthroughs across disciplines but relies on increasingly large neural network models that are trained on massive data sets. Their development inflicts costs that are only affordable by a few labs and prevent global participation in the creation of related technologies. In this talk, we will ask the question if it really has to be like this and discuss some of the major challenges that limit the success of deep learning on smaller scales. We will give three examples of complimentary approaches that could help us address the underlying issues: (i) early neural network sparsification, (ii) the integration of useful inductive bias in the design of problem specific neural network architectures (with biomedical applications), and (iii) the improvement of training from scratch in the context of graph neural networks."
+
 - title: "Pruning Deep Neural Networks for Lottery Tickets"
   date: 2023-02-08
   speaker: "Rebekka Burkholz"
@@ -39,7 +58,7 @@ talks:
       authors: "Rebekka Burkholz, Nilanjana Laha, Rajarshi Mukherjee, and Alkis Gotovos"
       conference: ICLR 2022
       link: https://openreview.net/pdf?id=SYB4WrJql1n
-    - title: "Plant ’n’ Seek: Can You Find the Winning Ticket?"
+    - title: "Plant 'n' Seek: Can You Find the Winning Ticket?"
       authors: "Jonas Fischer, and Rebekka Burkholz"
       conference: ICLR 2022
       link: https://openreview.net/pdf?id=9n9c8sf0xm
@@ -51,6 +70,14 @@ talks:
       authors: "Rebekka Burkholz"
       conference: NeurIPS 2022
       link: https://papers.nips.cc/paper_files/paper/2022/file/76bf7786d311217077bc8bb021946cd9-Paper-Conference.pdf
+
+- title: "Non-invasive Diagnosis of a Rare Heart Disease" 
+  date: 2019-12-21
+  speaker: "Rebekka Burkholz"
+  venue: "FutureofHealthTech (FHTI at MIT)"
+  video: https://www.youtube.com/embed/6ZD9TZlngj0?si=d3jUAuRuPfH_ETE9
+  papers:
+    - title: 
 
 podcasts:
 - title: "Demokratie statt Datenmonopol"

@@ -87,6 +87,15 @@ img={GNR_Phoenix.png}
 }
 
 @inproceedings{
+liu2024edgellms,
+title={Edge-{LLM}s: Edge-Device Large Language Model Competition},
+author={Shiwei Liu and Kai Han and Adriana Fernandez-Lopez and Ajay Kumar Jaiswal and Zahra Atashgahi and Boqian Wu and Edoardo Ponti and Callie Hao and Rebekka Burkholz and Olga Saukh and Lu Yin and Andreas Zinonos and Tianjin Huang and Jared Tanner and Yunhe Wang},
+booktitle={NeurIPS 2024 Competition Track},
+year={2024},
+url={https://openreview.net/forum?id=jeCMRoIn15}
+}
+
+@inproceedings{
 mustafa2024gate,
 title={{GATE}: How to Keep Out Intrusive Neighbors},
 author={Nimrah Mustafa and Rebekka Burkholz},
@@ -137,6 +146,7 @@ abstract={While the expressive power and computational capabilities of graph neu
 img={are-gats-out-of-balance.png}
 }
 
+
 @InProceedings{pmlr-v202-gadhikar23a,
   title = 	 {Why Random Pruning Is All We Need to Start Sparse},
   author =       {Gadhikar, Advait Harshal and Mukherjee, Sohom and Burkholz, Rebekka},
@@ -152,6 +162,61 @@ img={are-gats-out-of-balance.png}
   abstract = 	 {Random masks define surprisingly effective sparse neural network models, as has been shown empirically. The resulting sparse networks can often compete with dense architectures and state-of-the-art lottery ticket pruning algorithms, even though they do not rely on computationally expensive prune-train iterations and can be drawn initially without significant computational overhead. We offer a theoretical explanation of how random masks can approximate arbitrary target networks if they are wider by a logarithmic factor in the inverse sparsity $1 / \log(1/\text{sparsity})$. This overparameterization factor is necessary at least for 3-layer random networks, which elucidates the observed degrading performance of random networks at higher sparsity. At moderate to high sparsity levels, however, our results imply that sparser networks are contained within random source networks so that any dense-to-sparse training scheme can be turned into a computationally more efficient sparse-to-sparse one by constraining the search to a fixed random mask. We demonstrate the feasibility of this approach in experiments for different pruning methods and propose particularly effective choices of initial layer-wise sparsity ratios of the random source network. As a special case, we show theoretically and experimentally that random source networks also contain strong lottery tickets.},
   code = 	 {https://github.com/RelationalML/sparse_to_sparse},
   img={why-random-pruning.png},
+}
+﻿@Article{BenGuebila2023,
+author={Ben Guebila, Marouen
+and Wang, Tian
+and Lopes-Ramos, Camila M.
+and Fanfani, Viola
+and Weighill, Des
+and Burkholz, Rebekka
+and Schlauch, Daniel
+and Paulson, Joseph N.
+and Altenbuchinger, Michael
+and Shutta, Katherine H.
+and Sonawane, Abhijeet R.
+and Lim, James
+and Calderer, Genis
+and van IJzendoorn, David G.P.
+and Morgan, Daniel
+and Marin, Alessandro
+and Chen, Cho-Yi
+and Song, Qi
+and Saha, Enakshi
+and DeMeo, Dawn L.
+and Padi, Megha
+and Platig, John
+and Kuijjer, Marieke L.
+and Glass, Kimberly
+and Quackenbush, John},
+title={The Network Zoo: a multilingual package for the inference and analysis of gene regulatory networks},
+journal={Genome Biology},
+year={2023},
+day={09},
+volume={24},
+number={1},
+pages={45},
+abstract={Inference and analysis of gene regulatory networks (GRNs) require software that integrates multi-omic data from various sources. The Network Zoo (netZoo; netzoo.github.io) is a collection of open-source methods to infer GRNs, conduct differential network analyses, estimate community structure, and explore the transitions between biological states. The netZoo builds on our ongoing development of network methods, harmonizing the implementations in various computing languages and between methods to allow better integration of these tools into analytical pipelines. We demonstrate the utility using multi-omic data from the Cancer Cell Line Encyclopedia. We will continue to expand the netZoo to incorporate additional methods.},
+issn={1474-760X},
+doi={10.1186/s13059-023-02877-1},
+url={https://doi.org/10.1186/s13059-023-02877-1},
+img={netzoo2.png}
+}
+
+@article{10.1093/nar/gkac1157,
+    author = {Shutta, Katherine H and Weighill, Deborah and Burkholz, Rebekka and Guebila, Marouen Ben and DeMeo, Dawn L and Zacharias, Helena U and Quackenbush, John and Altenbuchinger, Michael},
+    title = {DRAGON: Determining Regulatory Associations using Graphical models on multi-Omic Networks},
+    journal = {Nucleic Acids Research},
+    volume = {51},
+    number = {3},
+    pages = {e15-e15},
+    year = {2022},
+    abstract = {The increasing quantity of multi-omic data, such as methylomic and transcriptomic profiles collected on the same specimen or even on the same cell, provides a unique opportunity to explore the complex interactions that define cell phenotype and govern cellular responses to perturbations. We propose a network approach based on Gaussian Graphical Models (GGMs) that facilitates the joint analysis of paired omics data. This method, called DRAGON (Determining Regulatory Associations using Graphical models on multi-Omic Networks), calibrates its parameters to achieve an optimal trade-off between the network’s complexity and estimation accuracy, while explicitly accounting for the characteristics of each of the assessed omics ‘layers.’ In simulation studies, we show that DRAGON adapts to edge density and feature size differences between omics layers, improving model inference and edge recovery compared to state-of-the-art methods. We further demonstrate in an analysis of joint transcriptome - methylome data from TCGA breast cancer specimens that DRAGON can identify key molecular mechanisms such as gene regulation via promoter methylation. In particular, we identify Transcription Factor AP-2 Beta (TFAP2B) as a potential multi-omic biomarker for basal-type breast cancer. DRAGON is available as open-source code in Python through the Network Zoo package (netZooPy v0.8; netzoo.github.io).},
+    issn = {0305-1048},
+    doi = {10.1093/nar/gkac1157},
+    url = {https://doi.org/10.1093/nar/gkac1157},
+    eprint = {https://academic.oup.com/nar/article-pdf/51/3/e15/49192710/gkac1157.pdf},
+    img={dragon.jpg}
 }
 @inproceedings{NEURIPS2022_76bf7786,
  author = {Burkholz, Rebekka},
@@ -185,6 +250,46 @@ img={are-gats-out-of-balance.png}
   spotlight={true},
   img={proof_network_overview.png},
 }
+
+@Article{BenGuebila2022,
+author={Ben Guebila, Marouen
+and Weighill, Deborah
+and Lopes-Ramos, Camila M.
+and Burkholz, Rebekka
+and Pop, Romana T.
+and Palepu, Kalyan
+and Shapoval, Mia
+and Fagny, Maud
+and Schlauch, Daniel
+and Glass, Kimberly
+and Altenbuchinger, Michael
+and Kuijjer, Marieke L.
+and Platig, John
+and Quackenbush, John},
+title={An online notebook resource for reproducible inference, analysis and publication of gene regulatory networks},
+journal={Nature Methods},
+year={2022},
+day={01},
+volume={19},
+number={5},
+pages={511-513},
+issn={1548-7105},
+doi={10.1038/s41592-022-01479-2},
+url={https://doi.org/10.1038/s41592-022-01479-2},
+abstract={Open access to software in computational and systems biology, including data, code and models, is widely acknowledged as essential for ensuring reproducibility of research results and reuse of methods1. Although there are software tools that allow sharing of computational pipelines, these systems generally do not allow the integration of software annotation and documentation at each step in the process — elements that are required to understand and run complex and rapidly evolving software, including methods developed in systems biology for inferring biological pathways. Our research team has been developing network inference and analysis methods, collected into the Network Zoo (http://netzoo.github.io), with implementations in R, C, MATLAB and Python. The growing community of users of these network resources, the increasing interest in learning how to apply network inference methods, and the need to ensure that published analyses are fully reproducible led us to develop Netbooks (http://netbooks.networkmedicine.org), a hosted collection of Jupyter notebooks that provide detailed and annotated step-by-step case studies of GRN analysis.},
+img={nature-methods.jpg}
+}
+
+@misc{fischer2022lotteryticketsnonzerobiases,
+      title={Lottery Tickets with Nonzero Biases}, 
+      author={Jonas Fischer and Advait Gadhikar and Rebekka Burkholz},
+      year={2022},
+      eprint={2110.11150},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2110.11150}, 
+}
+
 @inproceedings{
 fischer2022plant,
 title={Plant 'n' Seek: Can You Find the Winning Ticket?},
@@ -195,6 +300,7 @@ url={https://openreview.net/forum?id=9n9c8sf0xm},
 pdf={https://openreview.net/pdf?id=9n9c8sf0xm},
 abstract={The lottery ticket hypothesis has sparked the rapid development of pruning algorithms that aim to reduce the computational costs associated with deep learning during training and model deployment. Currently, such algorithms are primarily evaluated on imaging data, for which we lack ground truth information and thus the understanding of how sparse lottery tickets could be. To fill this gap, we develop a framework that allows us to plant and hide winning tickets with desirable properties in randomly initialized neural networks. To analyze the ability of state-of-the-art pruning to identify tickets of extreme sparsity, we design and hide such tickets solving four challenging tasks. In extensive experiments, we observe similar trends as in imaging studies, indicating that our framework can provide transferable insights into realistic problems. Additionally, we can now see beyond such relative trends and highlight limitations of current pruning methods. Based on our results, we conclude that the current limitations in ticket sparsity are likely of algorithmic rather than fundamental nature. We anticipate that comparisons to planted tickets will facilitate future developments of efficient pruning algorithms.},
 code={https://github.com/RelationalML/PlantNSeek},
+img={PlantnSeek.png},
 }
 @inproceedings{
   burkholz2022on,
@@ -206,4 +312,5 @@ code={https://github.com/RelationalML/PlantNSeek},
   pdf={https://openreview.net/pdf?id=SYB4WrJql1n},
   abstract={The lottery ticket hypothesis conjectures the existence of sparse subnetworks of large randomly initialized deep neural networks that can be successfully trained in isolation. Recent work has experimentally observed that some of these tickets can be practically reused across a variety of tasks, hinting at some form of universality. We formalize this concept and theoretically prove that not only do such universal tickets exist but they also do not require further training. Our proofs introduce a couple of technical innovations related to pruning for strong lottery tickets, including extensions of subset sum results and a strategy to leverage higher amounts of depth. Our explicit sparse constructions of universal function families might be of independent interest, as they highlight representational benefits induced by univariate convolutional architectures.},
   code={https://github.com/RelationalML/UniversalLT},
+  img={UniversalLTExist.png},
 }
