@@ -34,7 +34,7 @@ permalink: /team/
   <h4>{{ member.name }}</h4>
   [Homepage]({{ member.url }})
   | [Email](mailto:{{ member.email }})
-  {% if member.description %} |  <a class="membercv" role="button">Description</a> {% endif %} <br>
+  {% if member.description %} |  <a class="membercv" role="button">See bio↓</a> {% endif %} <br>
   <i>since {{ member.start_date }}</i>
   {% if member.description %}
 <div class="membercv hidden">

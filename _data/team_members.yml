@@ -1,4 +1,4 @@
-- role: Faculty
+- role: Tenured faculty
   members:
     - name: Dr. Rebekka Burkholz
       last_name: Burkholz
@@ -6,6 +6,7 @@
       start_date: 2021
       email: burkholz@cispa.de
       url: https://sites.google.com/view/rebekkaburkholz/
+      description: "My main goal is to develop efficient deep learning algorithms that are robust to noise, require small sample sizes, and are generally applicable in the sciences. My work is founded in theory with implications for real world applications and is often characterized by a complex network science perspective. My favourite applications and sources of inspiration are currently the biomedical domain, pharmacy, and physics. My group is supported by the ERC starting grant [SPARSE-ML](https://cispa.de/en/erc-burkholz)."
 
 - role: PostDocs
   members:

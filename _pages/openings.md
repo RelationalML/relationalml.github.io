@@ -8,6 +8,10 @@ permalink: /openings
 
 # Open positions
 
+> **New positions available!**  
+> We are currently hiring for PhD and Postdoc positions. Check the details below and apply now!  
+> <span style="color:#d9534f"><strong>Application deadline: Ongoing</strong></span>
+
 If you are interested in joining our group or learning more about our research, please reach out to [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/).
 
 For further information on pursuing a PhD or postdoc at the CISPA Helmholtz Center for Information Security, see the [CISPA Career Portal](https://career.cispa.de/).

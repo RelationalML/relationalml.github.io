@@ -1,0 +1,93 @@
+talks:
+- title: "Rewiring Graph Neural Networks: When Less is More and Structure Matters"
+  date: 2025-02-13
+  speaker: "Celia Rubio-Madrigal"
+  venue: "Cohere Labs"
+  video: https://www.youtube.com/embed/fw8VBEBdWQY?si=2RbZpVRtoSPDMSxe
+  papers:
+    - title: "Spectral Graph Pruning Against Over-Squashing and Over-Smoothing"
+      authors: "Adarsh Jamadandi*, Celia Rubio-Madrigal*, and Rebekka Burkholz"
+      conference: NeurIPS 2024
+      link: https://openreview.net/forum?id=EMkrwJY2de
+    - title: "GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring"
+      authors: "Celia Rubio-Madrigal*, Adarsh Jamadandi*, and Rebekka Burkholz"
+      conference: ICLR 2025
+      link: https://openreview.net/forum?id=g6v09VxgFw
+
+- title: "Can Graph Attention Networks Learn the Degree to Which Node Properties Are Determined by Their Neighborhood?"
+  date: 2024-06-14
+  speaker: "Celia Rubio-Madrigal"
+  venue: "HAICON"
+  video: https://player.vimeo.com/video/984759166?h=400024ae5b
+  papers:
+    - title: "Are GATs Out of Balance?"
+      authors: "Nimrah Mustafa, Aleksandar Bojchevski, and Rebekka Burkholz"
+      conference: NeurIPS 2023
+      link: https://openreview.net/forum?id=qY7UqLoora
+    - title: "GATE: How to Keep Out Intrusive Neighbors"
+      authors: "Nimrah Mustafa, and Rebekka Burkholz"
+      conference: ICML 2024
+      link: https://openreview.net/forum?id=Sjv5RcqfuH
+
+- title: "Pruning Deep Neural Networks for Lottery Tickets"
+  date: 2023-02-08
+  speaker: "Rebekka Burkholz"
+  venue: "One World ML"
+  video: https://www.youtube.com/embed/Q_xqXyFnp8I?si=2RbZpVRtoSPDMSxe
+  papers:
+    - title: "On the Existence of Universal Lottery Tickets"
+      authors: "Rebekka Burkholz, Nilanjana Laha, Rajarshi Mukherjee, and Alkis Gotovos"
+      conference: ICLR 2022
+      link: https://openreview.net/pdf?id=SYB4WrJql1n
+    - title: "Plant ’n’ Seek: Can You Find the Winning Ticket?"
+      authors: "Jonas Fischer, and Rebekka Burkholz"
+      conference: ICLR 2022
+      link: https://openreview.net/pdf?id=9n9c8sf0xm
+    - title: "Convolutional and Residual Networks Provably Contain Lottery Tickets"
+      authors: "Rebekka Burkholz"
+      conference: ICML 2022
+      link: https://proceedings.mlr.press/v162/burkholz22a/burkholz22a.pdf
+    - title: "Most Activation Functions Can Win the Lottery Without Excessive Depth"
+      authors: "Rebekka Burkholz"
+      conference: NeurIPS 2022
+      link: https://papers.nips.cc/paper_files/paper/2022/file/76bf7786d311217077bc8bb021946cd9-Paper-Conference.pdf
+
+podcasts:
+- title: "Demokratie statt Datenmonopol"
+  date: 2025-06-19
+  speaker: "Rebekka Burkholz"
+  venue: "detektor.fm"
+  description: "Große KI-Modelle wie ChatGPT brauchen riesige Rechenzentren und jede Menge Energie und werden fast ausschließlich von Tech-Giganten entwickelt. Welche Vorteile hätte es, Deep Learning zu demokratisieren? Und wie können kleinere KI-Modelle dazu beitragen, die Abhängigkeit von großen Tech-Konzernen zu reduzieren? Wie man Deep Learning demokratisieren kann, das erforscht Dr. Rebekka Burkholz am CISPA Helmholtz-Zentrum für Informationssicherheit. Im „Forschungsquartett“-Gespräch mit detektor.fm-Redakteurin Esther Stephan erklärt sie, warum das notwendig ist, und wieso kleinere KI-Modelle vielleicht sogar besser sind."
+  audio: https://detektor.fm/wissen/forschungsquartett-deep-learning/embed
+  height: 230
+
+- title: "Maschinelles Lernen und Künstliche Intelligenz"
+  date: 2024-08-29
+  speaker: "Rebekka Burkholz"
+  venue: "CISPA TL;DR"
+  description: "Runde 2 unserer Sommer-Konferenz-Reihe: auf der ICML in Wien haben wir uns mit Rebekka Burkholz hingesetzt um über ihre Forschung und das Neueste im Bereich des maschinellen Lernens zu sprechen. Rebekka kam 2021 zum CISPA kam und ist seitdem mit einem ERC-Starting Grant ausgezeichnet worden, um mit ihrer Forschung neuronale Netzwerke effizienter zu machen. Im Podcast sprechen wir darüber, wie sie ihren wissenschaftlichen Hintergrund aus der Physik im Bereich KI anwendet und wie KI in Zukunft die Gesellschaft beeinflussen kann."
+  audio: https://cispatldr.podigee.io/35-new-episode/embed?context=external
+  height: 364
+
+- title: "My Leadership Style is 'We-Learn-Together'"
+  date: 2024-03-08
+  speaker: "Rebekka Burkholz"
+  venue: "Scholarly Communication"
+  description: "Listen to this interview of Rebekka Burkholz, faculty at the CISPA Helmholtz Center for Information Security. We talk about the composition of research groups and of research papers. Rebekka Burkholz: \"I have the feeling that this meta-reading becomes more important as a person's career progresses. Because early on, a researcher is typically very focused on the details of each paper and they try to understand what this method does and so on — and of course, researchers need to begin that way, really spending the time to attain to expertise in a particular focus. But with time, as a researcher has seen more ideas (and of course, in one particular focus, methods and questions all share some similarity), then the person acquires more and more overview as they continue reading. They are reading, essentially, for the links between findings, for implications of the findings and those links — and in this way, a more experienced reader of the research actually becomes engaged in a sort of literature discussion.\""
+  audio: https://playlist.megaphone.fm/?e=NBNK6644120304
+
+- title: "Two ERC Starting Grants for Dr. Rebekka Burkholz & Dr. Julian Loss"
+  date: "2023-11-02"
+  speaker: "Rebekka Burkholz & Julian Loss"
+  venue: "CISPA TL;DR"
+  description: "Dr. Rebekka Burkholz and Dr. Julian Loss seem to have liked it on our podcast – they both are returning for their second episode of TL;DR! The two CISPA Faculty are working on completely different things, but they both have been awarded with a prestigious research grant by the European Research Council (ERC) this fall: the ERC Starting Grant. We talk about what it means for them to receive this grant, what their research has in common and how to facilitate interdisciplinary research. Now available at all your favorite podcast platforms!"
+  audio: https://cispatldr.podigee.io/25-new-episode/embed?context=external
+  height: 364
+  
+- title: "Maschinelles Lernen mit Dr. Rebekka Burkholz"
+  date: "2022-12-07"
+  speaker: "Rebekka Burkholz"
+  venue: "CISPA TL;DR"
+  description: "CISPA-Faculty Dr. Rebekka Burkholz spricht in dieser Folge mit uns darüber, was relationales maschinelles Lernen ist und welche Chancen Methoden des maschinellen Lernens in der Diagnostik und Behandlung von Krankheiten eröffnen. Die Mathematikerin gibt zudem Einblicke, was Informatiker:innen und Mathematiker:innen unterscheidet und was aus ihrer Sicht helfen würde, mehr Frauen für eine Karriere in der Forschung zu begeistern."
+  audio: https://cispatldr.podigee.io/15-new-episode/embed?context=external
+  height: 364

@@ -185,3 +185,25 @@ img={are-gats-out-of-balance.png}
   spotlight={true},
   img={proof_network_overview.png},
 }
+@inproceedings{
+fischer2022plant,
+title={Plant 'n' Seek: Can You Find the Winning Ticket?},
+author={Jonas Fischer and Rebekka Burkholz},
+booktitle={The Tenth International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=9n9c8sf0xm},
+pdf={https://openreview.net/pdf?id=9n9c8sf0xm},
+abstract={The lottery ticket hypothesis has sparked the rapid development of pruning algorithms that aim to reduce the computational costs associated with deep learning during training and model deployment. Currently, such algorithms are primarily evaluated on imaging data, for which we lack ground truth information and thus the understanding of how sparse lottery tickets could be. To fill this gap, we develop a framework that allows us to plant and hide winning tickets with desirable properties in randomly initialized neural networks. To analyze the ability of state-of-the-art pruning to identify tickets of extreme sparsity, we design and hide such tickets solving four challenging tasks. In extensive experiments, we observe similar trends as in imaging studies, indicating that our framework can provide transferable insights into realistic problems. Additionally, we can now see beyond such relative trends and highlight limitations of current pruning methods. Based on our results, we conclude that the current limitations in ticket sparsity are likely of algorithmic rather than fundamental nature. We anticipate that comparisons to planted tickets will facilitate future developments of efficient pruning algorithms.},
+code={https://github.com/RelationalML/PlantNSeek},
+}
+@inproceedings{
+  burkholz2022on,
+  title={On the Existence of Universal Lottery Tickets},
+  author={Rebekka Burkholz and Nilanjana Laha and Rajarshi Mukherjee and Alkis Gotovos},
+  booktitle={The Tenth International Conference on Learning Representations},
+  year={2022},
+  url={https://openreview.net/forum?id=SYB4WrJql1n},
+  pdf={https://openreview.net/pdf?id=SYB4WrJql1n},
+  abstract={The lottery ticket hypothesis conjectures the existence of sparse subnetworks of large randomly initialized deep neural networks that can be successfully trained in isolation. Recent work has experimentally observed that some of these tickets can be practically reused across a variety of tasks, hinting at some form of universality. We formalize this concept and theoretically prove that not only do such universal tickets exist but they also do not require further training. Our proofs introduce a couple of technical innovations related to pruning for strong lottery tickets, including extensions of subset sum results and a strategy to leverage higher amounts of depth. Our explicit sparse constructions of universal function families might be of independent interest, as they highlight representational benefits induced by univariate convolutional architectures.},
+  code={https://github.com/RelationalML/UniversalLT},
+}
