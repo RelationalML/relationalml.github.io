@@ -13,7 +13,7 @@ permalink: /
 > <span style="color:#d9534f"><strong>Application deadline: Ongoing</strong></span>
 
 Welcome! We are the Relational ML research group. 
-We are part of the [CISPA Helmholtz Center for Information Security](https://cispa.de) in Saarbrücken and St. Ingbert, Germany and are grateful to [Saarland University (UdS)](https://www.uni-saarland.de) for granting us supervision rights.
+We are part of the [CISPA Helmholtz Center for Information Security](https://cispa.de) in Saarbrücken and St. Ingbert, Germany, and are grateful to [Saarland University (UdS)](https://www.uni-saarland.de) for granting us supervision rights.
 
 Our research is supported by an [ERC starting grant](https://cispa.de/en/research/grants/sparse-ml) and Apple Research to improve the **efficiency of deep learning**. The aim is to design smaller-scale neural networks, which excel in noisy and potentially changing environments and require minimal sample sizes for learning. This is of particular interest in the sciences and application domains where data is scarce. 
 We care deeply about solving real world problems in collaboration with domain experts. Of special interest to us are problems related to gene regulation and its alterations during cancer progression, drug design, and international food trade.

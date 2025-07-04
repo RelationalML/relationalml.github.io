@@ -12,12 +12,12 @@ permalink: /openings
 > We are currently hiring for PhD and Postdoc positions. Check the details below and apply now!  
 > <span style="color:#d9534f"><strong>Application deadline: Ongoing</strong></span>
 
-If you are interested in joining our group or learning more about our research, please reach out to [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/).
+If you are interested in joining our group or learning more about our research, please reach out to [Dr. Rebekka Burkholz](mailto:burkholz@cispa.de).
 
 For more general information on pursuing a PhD or postdoc at the CISPA Helmholtz Center for Information Security, see the [CISPA Career Portal](https://career.cispa.de/).
 
 ### Student positions at UdS
-We are always looking for talented Master and Bachelor students at University of Saarland to join our group for a thesis or internship (HiWi). Topics around machine learning theory and applications are available - see the [team](/team)'s interests and recent [publications](/publications) and reach out to our emails.
+We welcome Master and Bachelor students from Saarland University interested in completing their thesis with our group. We also offer paid internship (HiWi) positions at CISPA. Topics around machine learning theory and applications are available—see the [team](/team)'s interests and recent [publications](/publications) and contact us by email for more details.
 
 ### What we look for
 

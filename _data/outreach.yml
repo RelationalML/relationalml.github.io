@@ -22,7 +22,7 @@ videos:
   papers: 
     - title: "Scaling up Continuous-Time Markov Chains Helps Resolve Underspecification"
       authors: "Alkis Gotovos, Rebekka Burkholz, John Quackenbush, and Stefanie Jegelka"
-      conference: NeurIPS 2024
+      conference: NeurIPS 2021
       link: https://openreview.net/forum?id=PnY8rTJGOuU
 
 - title: "Can Graph Attention Networks Learn the Degree to Which Node Properties Are Determined by Their Neighborhood?"
@@ -45,7 +45,6 @@ videos:
   speaker: "Rebekka Burkholz" 
   venue: "CRC 1461 Neurotronics Colloquium"
   video: https://www.crc1461-neurotronics.de/files/sfb-crc/videos/crc1461_colloquium_rebecca_burkholz.mp4#t=1
-  papers: TBD
   abstract: "Deep learning continues to achieve impressive breakthroughs across disciplines but relies on increasingly large neural network models that are trained on massive data sets. Their development inflicts costs that are only affordable by a few labs and prevent global participation in the creation of related technologies. In this talk, we will ask the question if it really has to be like this and discuss some of the major challenges that limit the success of deep learning on smaller scales. We will give three examples of complimentary approaches that could help us address the underlying issues: (i) early neural network sparsification, (ii) the integration of useful inductive bias in the design of problem specific neural network architectures (with biomedical applications), and (iii) the improvement of training from scratch in the context of graph neural networks."
 
 - title: "Pruning Deep Neural Networks for Lottery Tickets"
@@ -75,9 +74,13 @@ videos:
   date: 2019-12-21
   speaker: "Rebekka Burkholz"
   venue: "FutureofHealthTech (FHTI at MIT)"
-  video: https://www.youtube.com/embed/6ZD9TZlngj0?si=d3jUAuRuPfH_ETE9
+  video: https://youtu.be/6ZD9TZlngj0
   papers:
-    - title: 
+    - title: "Artificial Intelligence in Echocardiography Diagnostics – Detection of Takotsubo Syndrome"
+      authors: "D Di Vece, F Laumer, M Schwyzer, R Burkholz, L Corinzia, V.L Cammann, R Citro, J Bax, J.R Ghadri, J.M Buhmann, C Templin"
+      conference: European Heart Journal, Volume 41, 2020
+      link: https://doi.org/10.1093/ehjci/ehaa946.1221
+  noiframe: true
 
 podcasts:
 - title: "Demokratie statt Datenmonopol"
@@ -118,3 +121,14 @@ podcasts:
   description: "CISPA-Faculty Dr. Rebekka Burkholz spricht in dieser Folge mit uns darüber, was relationales maschinelles Lernen ist und welche Chancen Methoden des maschinellen Lernens in der Diagnostik und Behandlung von Krankheiten eröffnen. Die Mathematikerin gibt zudem Einblicke, was Informatiker:innen und Mathematiker:innen unterscheidet und was aus ihrer Sicht helfen würde, mehr Frauen für eine Karriere in der Forschung zu begeistern."
   audio: https://cispatldr.podigee.io/15-new-episode/embed?context=external
   height: 364
+
+other_links:
+- title: "NetBioMed 2025 Keynote"
+  url: "https://bsky.app/profile/netbiomed2025.bsky.social/post/3lqmzjkcks22l"
+  description: "After coffee break we had Rebekka Burkholz discussing current challenges when modelling gene regulation and how to fix them. Her approach is innovative and allows us to infer biological processes with both scalability and interpretability."
+  date: "2025-06-02"
+
+- title: "Die Abenteuer der KI in der Genomik"
+  url: "https://www.mdc-berlin.de/de/news/news/die-abenteuer-der-ki-der-genomik"
+  description: "Beim Berlin Summer Meeting am MDC-BIMSB trafen sich Molekularbiolog\\*innen und Bioinformatiker\\*innen, um die neuesten Erfolge und Herausforderungen zu diskutieren. Sie loteten aus, wie sie Künstliche Intelligenz am besten für die Biomedizin nutzen können."
+  date: "2024-06-19"

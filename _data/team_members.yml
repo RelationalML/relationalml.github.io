@@ -6,6 +6,7 @@
       start_date: 2021
       email: burkholz@cispa.de
       url: https://sites.google.com/view/rebekkaburkholz/
+      scholar: https://scholar.google.com/citations?user=vkWBb2wAAAAJ
       description: "I lead the Relational Machine Learning Group at the Helmholtz Center CISPA since 2021. Our research on sparse deep learning is funded by an [ERC starting grant](https://cispa.de/en/research/grants/sparse-ml) since December 2023 and by Apple Research since August 2025. From 2019-2021, I was a PostDoc at the Biostatistics Department of the Harvard T.H. Chan School of Public Health working with John Quackenbush, from 2017-2018 at the Institute for Machine Learning at ETH Zurichwith Joachim Buhmann, and from 2016-2017 at the Chair of Systems Design at ETH Zurich with Frank Schweitzer. My PhD research at the ETH Risk Center was supervised by Frank Schweitzer and co-supervised by Hans J. Herrmann from 2013-2016. My thesis on systemic risk won the Zurich Dissertation Prize and our work on international maize trade received the CSF Best Contribution Award. I studied Mathematics and Physics at TU Darmstadt."
 
 - role: PostDocs
@@ -16,6 +17,7 @@
       start_date: May 2024
       email: chao.zhou@cispa.de
       url: https://chaoedisonzhouucl.github.io/
+      scholar: https://scholar.google.com/citations?user=ttO5HpQAAAAJ
       description: "I focus on understanding the intricate dynamics of training and fine-tuning in machine learning models, with the goal of developing more efficient and effective learning algorithms. My research explores how optimization processes evolve and how we can refine these methods to improve performance. Currently, I am particularly interested in gradient compression techniques."
 
     - name: Dr. Gowtham Abbavaram
@@ -24,6 +26,7 @@
       start_date: Oct 2024
       email: gowtham.abbavaram@cispa.de
       url: https://gautam0707.github.io/
+      scholar: https://scholar.google.com/citations?user=Iewg-GAAAAAJ
       description: "I work on research problems at the intersection of machine learning and causality, focusing on modeling, inference, and interpreting machine learning models from a causal perspective to enhance their robustness and trustworthiness."
 
 - role: PhD students
@@ -34,6 +37,7 @@
       start_date: Apr 2022
       email: advait.gadhikar@cispa.de
       url: https://advaitgadhikar.github.io/
+      scholar: https://scholar.google.com/citations?user=parDMogAAAAJ
       description: "I work on building provable algorithms for deep learning and am currently interested in algorithms related to sparsity in neural nets. Specifically I am interested in the Lottery Ticket Hypothesis and how it can help identify the underlying structure of a learnt network."
 
     - name: Nimrah Mustafa
@@ -49,6 +53,7 @@
       start_date: Oct 2023
       email: celia.rubio-madrigal@cispa.de
       url: https://celrm.github.io/
+      scholar: https://scholar.google.com/citations?user=AsvScCAAAAAJ
       description: "My research addresses generalization challenges in graph learning, focusing on the dual role of input graphs as both data and computation structures, and the effects of modifying them under different criteria. I hold two degrees in Mathematics and Computer Science from Universidad Complutense de Madrid, and I received the prestigious postgraduate fellowship from la Caixa Foundation in 2022. This allowed me to study a master's at Strathclyde in the UK, where I was awarded the Best Overall Performance Prize."
 
     - name: Tom Jacobs
@@ -57,6 +62,7 @@
       start_date: Feb 2024
       email: tom.jacobs@cispa.de
       url: https://tomjacobs05.github.io/
+      scholar: https://scholar.google.com/citations?user=Yi62zDEAAAAJ
       description: "My research interests lie at the intersection of understanding neural network training dynamics and designing efficient deep learning methods. Concretely, I work with theoretical tools such as mirror flow, regularization techniques, and mean field descriptions to study the effect of overparameterization and improve model efficiency."
 
     - name: Rahul Nittala
@@ -81,3 +87,4 @@
       start_date: Jun 2025
       email: baraah.adil@cispa.de
       url: https://cispa.de/en/people/c01baad
+      scholar: https://scholar.google.com/citations?user=LGI13OsAAAAJ

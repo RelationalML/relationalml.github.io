@@ -7,6 +7,7 @@
       end_date: Oct 24
       email: adarsh.jamadandi@cispa.de
       url: https://adarshmj.github.io
+      next: PhD at IRISA, Université de Rennes
 
     - name: Harsha Nelaturu
       last_name: Nelaturu
@@ -14,6 +15,7 @@
       start_date: Aug 23
       end_date: Jul 24
       url: https://nelaturuharsha.github.io/
+      next: [Applied Scientist Intern Amazon, PhD at Calgary University]
 
 - role: Research engineers
   members:
@@ -25,6 +27,7 @@
       email: mikita.vedzeneyeu@cispa.de
       url: https://github.com/nikitaved
       description: "I am interesting in making modern AI models efficient. In particular, I work on discovering and exploiting structure in Neural Networks (sparsity, low-dimensional representations and similar) for efficient training, fine-tuning and inference. I am a former full-time core developer for [PyTorch](https://github.com/pytorch/pytorch) and [Lightning Thunder](https://github.com/Lightning-AI/lightning-thunder). Check my [GitHub](https://github.com/nikitaved) to see what I work on now."
+      next: Senior Engineer at NVIDIA
 
 - role: Visiting students
   members:

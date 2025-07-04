@@ -9,16 +9,30 @@ permalink: /outreach/
 # Outreach
 
 
-Watch below some of our recent **[videos](#videos)** at conferences and seminars, where members of our [group](/team) present highlights from our list of [publications](/publications).
+Watch below some of our **[videos](#videos)** at conferences and seminars, where members of our [group](/team) present highlights from our list of [publications](/publications).
 
-You can also listen to insightful **[podcasts](#podcasts)** featuring Dr. Rebekka Burkholz (some are in German and some in English).
+You can also listen to **[podcasts](#podcasts)** featuring Dr. Rebekka Burkholz (some are in German and some in English).
+
+We also share **[other links](#other-links)** to interesting articles, interviews, and more.
+
+<hr>
   
 <h2 id="videos" class="anchor">Videos</h2>
 
 {% for talk in site.data.outreach.videos %}
+
 ### {{ talk.speaker }} @ {{ talk.venue }} ({{ talk.date | date: "%b %-d, %Y" }})
 #### {{ talk.title }}
-<table style="width: 100%; border-spacing: 24px;"><tbody><tr><td style="vertical-align: top; padding-right: 24px;">
+
+<div class="row">
+
+{% if talk.noiframe %}
+<div class="col-sm-12 clearfix">
+{% else %}
+<div class="col-sm-6 clearfix">
+{% endif %}
+
+{% if talk.papers %}
 Based on papers:
 <ul>
 {% for paper in talk.papers %}
@@ -29,10 +43,25 @@ Based on papers:
 </li>
 {% endfor %}
 </ul>
-</td><td>
-<iframe width="374" height="210" src="{{ talk.video }}" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</td></tr></tbody></table>
+{% else %}
+{{ talk.abstract }}
+{% endif %}
+
+{% if talk.noiframe %}
+Link: <a href="{{ talk.video }}" target="_blank" rel="noopener">{{ talk.video }}</a>
+</div>
+{% else %}
+</div>
+
+<div class="col-sm-6 clearfix">
+<iframe width="374" height="210" src="{{ talk.video }}" title="video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+{% endif %}
+</div>
+
 {% endfor %}
+
+<hr>
 
 <h2 id="podcasts" class="anchor">Podcasts</h2>
 
@@ -46,4 +75,15 @@ Based on papers:
 {%- else -%}
 <iframe frameBorder="0" scrolling="no" src="{{ podcast.audio }}" style="border: 0" border="0" width="100%"></iframe>
 {%- endif -%}
+{% endfor %}
+
+<hr>
+
+<h2 id="other-links" class="anchor">Other links</h2>
+
+{% for link in site.data.outreach.other_links %}
+### {{ link.title }} ({{ link.date | date: "%b %-d, %Y" }})
+{{ link.description }}
+
+Link: <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.url }}</a>
 {% endfor %}
