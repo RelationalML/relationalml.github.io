@@ -8,10 +8,8 @@ permalink: /openings
 
 # Open positions
 
-
-> **New positions available!**  
+> **<span style="color:#d9534f">New positions available!</span>**<br>
 > We are currently hiring for PhD and Postdoc positions. Check the details below and apply now!  
-> <span style="color:#d9534f"><strong>Application deadline: Ongoing</strong></span>
 
 Are you curious about some of our research and have further questions? Feel free to drop us an e-mail ([burkholz@cispa.de](mailto:burkholz@cispa.de)) to get in touch.
 
@@ -62,4 +60,4 @@ The starting dates of the positions are flexible. We are committed to providing 
 
 ### Student positions at UdS
 
-We welcome Master and Bachelor students from Saarland University interested in completing their thesis with our group. We also offer paid internship (HiWi) positions at CISPA. Topics around machine learning theory and applications are available—see the [team](/team)'s interests and recent [publications](/publications) and contact us by email for more details.
+We welcome Master and Bachelor students from Saarland University interested in completing their thesis with our group. We also offer paid internship (HiWi) positions at CISPA. Topics around machine learning theory and applications are available—see the [team](/team)'s interests, past theses, and recent [publications](/publications), and contact us by email for more details.

@@ -7,7 +7,7 @@
       email: burkholz@cispa.de
       url: https://sites.google.com/view/rebekkaburkholz/
       scholar: https://scholar.google.com/citations?user=vkWBb2wAAAAJ
-      description: "I lead the Relational Machine Learning Group at the Helmholtz Center CISPA since 2021. Our research on sparse deep learning is funded by an [ERC starting grant](https://cispa.de/en/research/grants/sparse-ml) since December 2023 and by Apple Research since August 2025. From 2019-2021, I was a PostDoc at the Biostatistics Department of the Harvard T.H. Chan School of Public Health working with John Quackenbush, from 2017-2018 at the Institute for Machine Learning at ETH Zurichwith Joachim Buhmann, and from 2016-2017 at the Chair of Systems Design at ETH Zurich with Frank Schweitzer. My PhD research at the ETH Risk Center was supervised by Frank Schweitzer and co-supervised by Hans J. Herrmann from 2013-2016. My thesis on systemic risk won the Zurich Dissertation Prize and our work on international maize trade received the CSF Best Contribution Award. I studied Mathematics and Physics at TU Darmstadt."
+      description: "I lead the Relational Machine Learning Group at the Helmholtz Center CISPA since 2021. Our research on sparse deep learning is funded by an [ERC starting grant](https://cispa.de/en/research/grants/sparse-ml) since December 2023 and by Apple Research since August 2025. From 2019-2021, I was a PostDoc at the Biostatistics Department of the Harvard T.H. Chan School of Public Health working with John Quackenbush, from 2017-2018 at the Institute for Machine Learning at ETH Zurich with Joachim Buhmann, and from 2016-2017 at the Chair of Systems Design at ETH Zurich with Frank Schweitzer. My PhD research at the ETH Risk Center was supervised by Frank Schweitzer and co-supervised by Hans J. Herrmann from 2013-2016. My thesis on systemic risk won the Zurich Dissertation Prize and our work on international maize trade received the CSF Best Contribution Award. I studied Mathematics and Physics at TU Darmstadt."
 
 - role: PostDocs
   members:
@@ -54,8 +54,8 @@
       email: celia.rubio-madrigal@cispa.de
       url: https://celrm.github.io/
       scholar: https://scholar.google.com/citations?user=AsvScCAAAAAJ
-      description: "My research addresses generalization challenges in graph learning, focusing on the dual role of input graphs as both data and computation structures, and the effects of modifying them under different criteria. I hold two degrees in Mathematics and Computer Science from Universidad Complutense de Madrid, and I received the prestigious postgraduate fellowship from la Caixa Foundation in 2022. This allowed me to study a master's at Strathclyde in the UK, where I was awarded the Best Overall Performance Prize."
-
+      description: "I study generalization challenges in graph learning, focusing on the dual role of input graphs as both data and computation structures, and the effects of modifying them under different criteria. In 2022 I received a ”la Caixa” Foundation Postgraduate Fellowship which funded my master's at the University of Strathclyde, where I was awarded the Best Overall Prize. I previously completed degrees in Mathematics and Computer Science from Universidad Complutense de Madrid."
+      
     - name: Tom Jacobs
       last_name: Jacobs
       photo: c01toja.jpg
@@ -84,7 +84,8 @@
     - name: Baraah Sidahmed
       last_name: Sidahmed
       photo: 
-      start_date: Jun 2025
+      start_date: May 2025
       email: baraah.adil@cispa.de
       url: https://cispa.de/en/people/c01baad
       scholar: https://scholar.google.com/citations?user=LGI13OsAAAAJ
+      description: "I study how multiple agents interact, learn, and how these processes can be optimized. Currently, I'm developing a general framework that enables a wide range of agents—from simple nodes to complex models—to interact efficiently. My past work focused on optimizing multi-agent reinforcement learning using ideas from game theory. I recently completed a Data Science and AI master at Saarland University. Previously, I did a bachelor in Electrical and Electronics Engineering at University of Khartoum."

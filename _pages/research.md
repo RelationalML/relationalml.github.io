@@ -6,7 +6,7 @@ sitemap: false
 permalink: /research/
 ---
 
-# Research Areas
+# Research Poster
 
 <!-- picture img with width 100% -->
 <div class="img-container">

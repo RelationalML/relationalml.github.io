@@ -61,27 +61,51 @@ permalink: /team/
 
 {% assign number_printed = 0 %}
 {% for group in site.data.alumni_members %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 0 %}
-<div class="row">
+
+{% assign full_width = true %}
+<!-- {% if group.role contains "Research assistants" or group.role contains "Master's thesis" %}
+{% assign full_width = true %}  
+{% endif %} -->
+
+{% assign mod_two = number_printed | modulo: 2 %}
+{% if full_width and mod_two != 0 %}
+</div>
+{% assign number_printed = 0 %}
+{% assign mod_two = 0 %}
 {% endif %}
 
+{% if full_width %}
+<div class="row">
+<div class="col-sm-12 clearfix">
 
+{% else %}
+{% if mod_two == 0 %}
+<div class="row">
+{% endif %}
 <div class="col-sm-6 clearfix">
+{% endif %}
+
 <h3>{{group.role}}</h3>
 {% for member in group.members %}
-{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %},
-<i>{{ member.start_date }}-{{ member.end_date }}</i>{%- if member.next -%}.<br> Next {%- endif -%}
-{% for next in member.next %} ⇢ {{ next }}{% endfor %}.
+{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif -%}
+{%- if member.date_thesis -%}: <i>{% if member.url_thesis -%}<a href="{{ member.url_thesis }}">{{ member.thesis }}</a>{% else %}{{ member.thesis }}{% endif %}</i>, {{ member.date_thesis }}.{%- else -%}: 
+{{ member.start_date }}-{{ member.end_date }}{%- if member.next -%}. Next {%- endif -%}
+{% for next in member.next %} ⇢ {{ next }}{% endfor %}.{%- endif %}
 {% endfor %}
 </div>
 
-{% if even_odd == 1 or forloop.last %}
-</div>
+{% if full_width %}
+{% assign number_printed = 1 %}
 {% endif %}
 
 {% assign number_printed = number_printed | plus: 1 %}
+{% assign mod_two = number_printed | modulo: 2 %}
+
+{% if mod_two == 0 or forloop.last %}
+</div>
+{% endif %}
 
 {% endfor %}
+
 
 <br>

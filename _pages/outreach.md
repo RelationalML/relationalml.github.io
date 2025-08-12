@@ -52,9 +52,16 @@ Link: <a href="{{ talk.video }}" target="_blank" rel="noopener">{{ talk.video }}
 </div>
 {% else %}
 </div>
-
+{% assign video_url = talk.video %}
+{% if video_url contains "?" %}
+  {% assign video_url = video_url | append: "&autoplay=0" %}
+{% else %}
+  {% assign video_url = video_url | append: "?autoplay=0" %}
+{% endif %}
 <div class="col-sm-6 clearfix">
-<iframe width="374" height="210" src="{{ talk.video }}" title="video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="374" height="210" 
+src="{{ video_url }}" 
+title="video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 {% endif %}
 </div>
