@@ -1,4 +1,18 @@
 videos:
+- title: "Weight Decay Controls Implicit Regularization: Insights on Generalization and Sparsity"
+  date: 2025-08-14
+  speaker: "Tom Jacobs"
+  venue: "Cohere Labs"
+  video: https://www.youtube.com/embed/KwxqXbgu78c?si=U-5CdYYuHwoP6r5o
+  papers:
+    - title: "Mask in the Mirror: Implicit Sparsification"
+      authors: "Tom Jacobs, and Rebekka Burkholz"
+      conference: ICLR 2025
+      link: https://openreview.net/forum?id=U47ymTS3ut
+    - title: "Mirror, Mirror of the Flow: How Does Regularization Shape Implicit Bias?"
+      authors: "Tom Jacobs, Chao Zhou, and Rebekka Burkholz"
+      conference: ICML 2025
+      link: https://openreview.net/forum?id=MLiR9LS5PW
 - title: "Rewiring Graph Neural Networks: When Less is More and Structure Matters"
   date: 2025-02-13
   speaker: "Celia Rubio-Madrigal"
