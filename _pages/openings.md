@@ -51,6 +51,9 @@ The starting dates of the positions are flexible. We are committed to providing 
 
 ### Past open positions
 
+* We have some PhD and postdoc positions available for 2026.
+  * [PhD and Postdocs in Efficient Deep Learning](https://career.cispa.de/jobs/group-relationalml-53)
+  * [Postdoctoral Researcher in Efficient Deep Learning](https://de.linkedin.com/jobs/view/postdoctoral-researcher-in-efficient-deep-learning-at-relational-machine-learning-lab-4300176253).
 * We received an ERC Starting Grant in 2023 ([SPARSE-ML](https://cispa.de/en/research/grants/sparse-ml)) and had several open positions for PhD students and Postdocs:
   * [PhD position in sparse machine learning](https://euraxess.ec.europa.eu/jobs/144401).
   * [Postdoctoral position in sparse machine learning](https://euraxess.ec.europa.eu/jobs/144392).

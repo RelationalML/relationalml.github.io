@@ -43,8 +43,21 @@
 
 - role: Visiting students
   members:
+    - name: Mohammed Adnan
+      last_name: Adnan
+      from: University of Calgary
+      start_date: Oct 25
+      end_date: Nov 25
+      url: https://adnan1306.github.io
+    - name: Levy Chaves
+      last_name: Chaves
+      from: University of Campinas
+      start_date: Sep 25
+      end_date: ongoing
+      url: https://scholar.google.com/citations?user=dDfbSWUAAAAJ
     - name: Otto Piramuthu
       last_name: Piramuthu
+      from: University of Illinois, Urbana-Champaign
       start_date: Jun 24
       end_date: Aug 24
 
@@ -52,7 +65,7 @@
   members:
     - name: Adarsh Jamadandi
       thesis: On the Importance of Graph-Task Alignment for Graph Neural Networks
-      url_thesis:
+      url_thesis: https://adarshmj.github.io/assets/Graph-TaskAlignment.pdf
       date_thesis: 2024
     - name: Rahul Nittala
       thesis: Scale-free Masks for Random Pruning
