@@ -14,7 +14,7 @@
       end_date: Oct 24
       email: adarsh.jamadandi@cispa.de
       url: https://adarshmj.github.io
-      next: PhD at IRISA, Université de Rennes
+      next: PhD candidate at IRISA Rennes
 
     - name: Harsha Nelaturu
       last_name: Nelaturu
@@ -22,7 +22,7 @@
       start_date: Aug 23
       end_date: Jul 24
       url: https://nelaturuharsha.github.io/
-      next: Applied Scientist Intern at Amazon
+      next: PhD candidate at Zuse Institute Berlin
 
     - name: Advait Athreya
       last_name: Athreya
@@ -45,7 +45,7 @@
   members:
     - name: Mohammed Adnan
       last_name: Adnan
-      from: University of Calgary
+      from: University of Calgary and Vector Institute
       start_date: Oct 25
       end_date: Nov 25
       url: https://adnan1306.github.io

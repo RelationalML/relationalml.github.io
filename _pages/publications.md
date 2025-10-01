@@ -16,12 +16,12 @@ Explore our latest research by browsing **[pre-prints](#pre-prints)** and **[acc
     {% endfor %}{% endfor %}</select>
 
 
-## Pre-prints
-
-{% bibliography --file preprints %}
-
-<hr>
-
 ## Accepted papers
 
 {% bibliography %}
+
+<hr>
+
+## Pre-prints
+
+{% bibliography --file preprints %}
