@@ -137,10 +137,17 @@ podcasts:
   height: 364
 
 other_links:
+
+- title: "Dialogforum beim Tag der Deutschen Einheit 2025"
+  url: ["https://www.tag-der-deutschen-einheit.de/programm/paneldiskussion-mit-rebekka-burkholz", "https://www.linkedin.com/posts/cispa_tde25-apollonfestival-cybersicherheit-activity-7379617165827534848-hfja"]
+  description: "„KI-Kompass für Krisenzeiten“ – Echte Hilfe oder Black-Box-Gefahr? Dr. Rebekka Burkholz, CISPA Helmholtz-Zentrum für Informationssicherheit im Gespräch mit Christian Seel, Landesbeauftragter für zivil-militärische Zusammenarbeit und Bevölkerungsschutz."
+  date: "2025-10-02"
+
 - title: "NetBioMed 2025 Keynote"
-  url: "https://bsky.app/profile/netbiomed2025.bsky.social/post/3lqmzjkcks22l"
-  description: "After coffee break we had Rebekka Burkholz discussing current challenges when modelling gene regulation and how to fix them. Her approach is innovative and allows us to infer biological processes with both scalability and interpretability."
+  # url: "https://bsky.app/profile/netbiomed2025.bsky.social/post/3lqmzjkcks22l"
+  # description: "After coffee break we had Rebekka Burkholz discussing current challenges when modelling gene regulation and how to fix them. Her approach is innovative and allows us to infer biological processes with both scalability and interpretability."
   date: "2025-06-02"
+  embeds: '<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:6azaynaddykjpnn6a2gj7rms/app.bsky.feed.post/3lqmzjkcks22l" data-bluesky-cid="bafyreid4sijbp7ftpkc4bam7e4mvxem4nyi7idji3vvuh2zc5mnexkzhpi" data-bluesky-embed-color-mode="system"><p lang="en">After coffee break we had Rebekka Burkholz discussing current challenges when modelling gene regulation and how to fix them. Her approach is innovative and allows us to infer biological processes with both scalability and interpretability. #NetBioMed2025 #NetSci2025<br><br><a href="https://bsky.app/profile/did:plc:6azaynaddykjpnn6a2gj7rms/post/3lqmzjkcks22l?ref_src=embed">[image or embed]</a></p>&mdash; NetBioMed 2025 (<a href="https://bsky.app/profile/did:plc:6azaynaddykjpnn6a2gj7rms?ref_src=embed">@netbiomed2025.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:6azaynaddykjpnn6a2gj7rms/post/3lqmzjkcks22l?ref_src=embed">June 2, 2025 at 4:49 PM</a></blockquote>'
 
 - title: "Die Abenteuer der KI in der Genomik"
   url: "https://www.mdc-berlin.de/de/news/news/die-abenteuer-der-ki-der-genomik"

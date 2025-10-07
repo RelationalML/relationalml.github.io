@@ -89,7 +89,7 @@ permalink: /team/
 {% for member in group.members %}
 {% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif -%}
 {%- if member.from %} ({{ member.from }}){%- endif -%}
-{%- if member.date_thesis -%}: <i>{% if member.url_thesis -%}<a href="{{ member.url_thesis }}">{{ member.thesis }}</a>{% else %}{{ member.thesis }}{% endif %}</i>, {{ member.date_thesis }}.{%- else -%}: 
+{%- if member.thesis -%}: <i>{% if member.url_thesis -%}<a href="{{ member.url_thesis }}">{{ member.thesis }}</a>{% else %}{{ member.thesis }}{% endif %}</i>{%- if member.date_thesis -%}, {{ member.date_thesis }}{%- endif -%}.{%- else -%}: 
 {{ member.start_date }}-{{ member.end_date }}{%- if member.next -%}. Next {%- endif -%}
 {% for next in member.next %} ⇢ {{ next }}{% endfor %}.{%- endif %}
 {% endfor %}

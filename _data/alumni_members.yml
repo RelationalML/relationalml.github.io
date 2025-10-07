@@ -22,7 +22,7 @@
       start_date: Aug 23
       end_date: Jul 24
       url: https://nelaturuharsha.github.io/
-      next: PhD candidate at Zuse Institute Berlin
+      next: Applied Scientist Intern at Amazon
 
     - name: Advait Athreya
       last_name: Athreya
@@ -61,8 +61,14 @@
       start_date: Jun 24
       end_date: Aug 24
 
-- role: Master's thesis
+- role: Past Master's theses
   members:
+    - name: Sree Harsha Nelaturu
+      thesis: "Bridging the Gap: Improving Random Sparse Masks with Distillation-Guided Optimization"
+      date_thesis: 2025
+    - name: Nirav Shenoy
+      thesis: "Efficient Sparse Training: Combining Continuous Sparsification with LRR and Rewiring"
+      date_thesis: 2025
     - name: Adarsh Jamadandi
       thesis: On the Importance of Graph-Task Alignment for Graph Neural Networks
       url_thesis: https://adarshmj.github.io/assets/Graph-TaskAlignment.pdf

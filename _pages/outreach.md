@@ -92,5 +92,22 @@ title="video player" frameborder="0" allow="accelerometer; clipboard-write; encr
 ### {{ link.title }} ({{ link.date | date: "%b %-d, %Y" }})
 {{ link.description }}
 
-Link: <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.url }}</a>
+{% if link.url %}
+Link: {% for url in link.url %}
+<a href="{{ url }}" target="_blank" rel="noopener">{{ url }}</a>
+{% if forloop.last == false %}<br>{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if link.images %}
+{% for image in link.images %}
+<img src="{{ image }}" alt="{{ link.title }}" referrerpolicy="no-referrer" style="max-width: 100%; height: 200px; margin-top: 10px;">
+{%- endfor %}
+{% endif %}
+
+{% if link.embeds %}
+{% for embed in link.embeds %}
+{{ embed | markdownify }}
+{%- endfor %}
+{% endif %}
 {% endfor %}
