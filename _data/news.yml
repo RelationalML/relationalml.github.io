@@ -1,6 +1,12 @@
 - date: 10. November 2025
   headline: "Celia and Tom are presenting at the Workshop on Geometry, Topology, and Machine Learning ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025)) in Leipzig."
 
+- date: 29. October 2025
+  headline: "Celia is presenting her work on graph rewiring at the [GLOW](https://sites.google.com/view/graph-learning-on-weds/events) online seminar."
+
+- date: 23. October 2025
+  headline: "Tom is presenting his work on implicit regularization at [AIM](https://aimath.nl/index.php/2025/08/27/phd-event/)'s event in Utrecht."
+  
 - date: 8. October 2025
   headline: "Baraah is presenting her work on game-aware optimization at the [Shocklab](https://shocklab.net/seminars/) online seminar."
 
@@ -11,7 +17,7 @@
   headline: "Three papers 
   [(1)](https://openreview.net/forum?id=XKnOA7MhCz)
   [(2)](https://openreview.net/forum?id=iwKT7MEZZw)
-  [(3)](https://openreview.net/forum?id=EEZLBhyer1)
+  [(3-Spotlight)](https://openreview.net/forum?id=EEZLBhyer1)
    have been accepted at NeurIPS 2025, and [one](https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/program) at the WiML Workshop."
 
 - date: 15. September 2025
@@ -21,7 +27,7 @@
   headline: "Tom is presenting his work on implicit regularization at [Cohere Labs](https://cohere.com/events/Cohere-Labs-Tom-Jacobs-2025): Open Science Community ([video](/outreach#tom-jacobs--cohere-labs-aug-14-2025))."
 
 - date: 12. June 2025
-  headline: "Tom is attending the AI & Mathematics Workshop ([AIM](https://aimath.nl/index.php/2025/03/13/4th-aim-cluster-event-tilburg/)) at Tilburg University."
+  headline: "Tom is attending the AI & Mathematics Workshop ([AIM](https://aimath.nl/index.php/2025/03/13/4th-aim-cluster-event-tilburg/)) in Tilburg."
 
 - date: 2. June 2025
   headline: "Rebekka and Celia are presenting at [NetSci](https://netsci2025.github.io/) in Maastricht with a [satellite keynote](/outreach#netbiomed-2025-keynote-jun-2-2025) and a lightning talk."
@@ -39,7 +45,7 @@
   headline: "Welcome Baraah!"
 
 - date: 24. March 2025
-  headline: "Rebekka is at [CPAL](https://cpal.cc/spotlight_track/) presenting three [papers](/publications) as recent spotlights."
+  headline: "Rebekka is at [CPAL](https://cpal.cc/spotlight_track/) presenting three papers as recent spotlights."
 
 - date: 13. February 2025
   headline: "Celia is presenting her work on graph rewiring at [Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025): Open Science Community ([video](/outreach#celia-rubio-madrigal--cohere-labs-feb-13-2025))."
@@ -54,7 +60,7 @@
   headline: "Welcome to Gowtham and Nik!"
 
 - date: 25. December 2024
-  headline: "Celia, Adarsh, Nimrah, and Rebekka are presenting their work at the [ELLIS Pre-NeurIPS](https://lacoco-lab.github.io/events/PreNeurIPS2024/) Session in Saarbrücken."
+  headline: "Celia, Adarsh, Nimrah, and Rebekka have posters at the [ELLIS Pre-NeurIPS](https://lacoco-lab.github.io/events/PreNeurIPS2024/) Session in Saarbrücken."
 
 - date: 25. September 2024
   headline: "Three papers 
