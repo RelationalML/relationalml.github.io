@@ -64,7 +64,7 @@
 - role: Past Master's theses
   members:
     - name: Sree Harsha Nelaturu
-      thesis: "Bridging the Gap: Improving Random Sparse Masks with Distillation-Guided Optimization"
+      thesis: "Enhancing the Performance of Random Sparse Masks for Image Classification via Knowledge Distillation"
       date_thesis: 2025
     - name: Nirav Shenoy
       thesis: "Efficient Sparse Training: Combining Continuous Sparsification with LRR and Rewiring"
