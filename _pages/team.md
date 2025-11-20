@@ -62,10 +62,7 @@ permalink: /team/
 {% assign number_printed = 0 %}
 {% for group in site.data.alumni_members %}
 
-{% assign full_width = true %}
-<!-- {% if group.role contains "Research assistants" or group.role contains "Master's thesis" %}
-{% assign full_width = true %}  
-{% endif %} -->
+{% assign full_width = group.full_width %}
 
 {% assign mod_two = number_printed | modulo: 2 %}
 {% if full_width and mod_two != 0 %}
@@ -87,11 +84,11 @@ permalink: /team/
 
 <h3>{{group.role}}</h3>
 {% for member in group.members %}
-{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif -%}
+{% if member.start_date %}{{ member.start_date }}-{{ member.end_date }}: {% endif %}{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif -%}
 {%- if member.from %} ({{ member.from }}){%- endif -%}
-{%- if member.thesis -%}: <i>{% if member.url_thesis -%}<a href="{{ member.url_thesis }}">{{ member.thesis }}</a>{% else %}{{ member.thesis }}{% endif %}</i>{%- if member.date_thesis -%}, {{ member.date_thesis }}{%- endif -%}.{%- else -%}: 
-{{ member.start_date }}-{{ member.end_date }}{%- if member.next -%}. Next {%- endif -%}
-{% for next in member.next %} ⇢ {{ next }}{% endfor %}.{%- endif %}
+{%- if member.thesis -%}: <i>{% if member.url_thesis -%}<a href="{{ member.url_thesis }}">{{ member.thesis }}</a>{% else %}{{ member.thesis }}{% endif %}</i>{%- if member.date_thesis -%}, {{ member.date_thesis }}{%- endif -%}.{%- else -%} 
+{%- if member.next -%} {%- endif -%}
+{% for next in member.next %} ⇢ {{ next }}{% endfor %}{%- endif %}
 {% endfor %}
 </div>
 

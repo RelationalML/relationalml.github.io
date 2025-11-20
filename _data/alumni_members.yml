@@ -1,4 +1,17 @@
 
+- role: Research scientists
+  full_width: true
+  members:
+  - name: Nikita Vedeneev
+    last_name: Vedeneev
+    photo: c01mive.jpg
+    start_date: Dec 24
+    end_date: May 25
+    email: mikita.vedzeneyeu@cispa.de
+    url: https://github.com/nikitaved
+    description: "I am interesting in making modern AI models efficient. In particular, I work on discovering and exploiting structure in Neural Networks (sparsity, low-dimensional representations and similar) for efficient training, fine-tuning and inference. I am a former full-time core developer for [PyTorch](https://github.com/pytorch/pytorch) and [Lightning Thunder](https://github.com/Lightning-AI/lightning-thunder). Check my [GitHub](https://github.com/nikitaved) to see what I work on now."
+    next: Senior Engineer at NVIDIA
+
 - role: Research assistants
   members:
     - name: Ben Horvath
@@ -14,7 +27,7 @@
       end_date: Oct 24
       email: adarsh.jamadandi@cispa.de
       url: https://adarshmj.github.io
-      next: PhD candidate at IRISA Rennes
+      next: PhD  at IRISA Rennes
 
     - name: Harsha Nelaturu
       last_name: Nelaturu
@@ -22,24 +35,12 @@
       start_date: Aug 23
       end_date: Jul 24
       url: https://nelaturuharsha.github.io/
-      next: Applied Scientist Intern at Amazon
+      next: PhD  at Zuse Institute Berlin
 
     - name: Advait Athreya
       last_name: Athreya
       start_date: Dec 21
       end_date: Oct 22
-
-- role: Research engineers
-  members:
-    - name: Nikita Vedeneev
-      last_name: Vedeneev
-      photo: c01mive.jpg
-      start_date: Dec 24
-      end_date: May 25
-      email: mikita.vedzeneyeu@cispa.de
-      url: https://github.com/nikitaved
-      description: "I am interesting in making modern AI models efficient. In particular, I work on discovering and exploiting structure in Neural Networks (sparsity, low-dimensional representations and similar) for efficient training, fine-tuning and inference. I am a former full-time core developer for [PyTorch](https://github.com/pytorch/pytorch) and [Lightning Thunder](https://github.com/Lightning-AI/lightning-thunder). Check my [GitHub](https://github.com/nikitaved) to see what I work on now."
-      next: Senior Engineer at NVIDIA
 
 - role: Visiting students
   members:
@@ -53,7 +54,7 @@
       last_name: Chaves
       from: University of Campinas
       start_date: Sep 25
-      end_date: ongoing
+      end_date: Nov 25
       url: https://scholar.google.com/citations?user=dDfbSWUAAAAJ
     - name: Otto Piramuthu
       last_name: Piramuthu
@@ -62,6 +63,7 @@
       end_date: Aug 24
 
 - role: Past Master's theses
+  full_width: true
   members:
     - name: Sree Harsha Nelaturu
       thesis: "Enhancing the Performance of Random Sparse Masks for Image Classification via Knowledge Distillation"

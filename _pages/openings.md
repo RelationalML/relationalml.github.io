@@ -8,8 +8,8 @@ permalink: /openings
 
 # Open positions
 
-> **<span style="color:#d9534f">New positions available!</span>**<br>
-> We are currently hiring for PhD and Postdoc positions. Check the details below and apply now!  
+> **Open positions — extended deadline**  
+> We are recruiting PhD candidates and postdoctoral researchers. We will consider candidates until positions are filled — please apply via the [CISPA Career portal](https://career.cispa.de/jobs/group-relationalml-53).
 
 Are you curious about some of our research and have further questions? Feel free to drop us an e-mail ([burkholz@cispa.de](mailto:burkholz@cispa.de)) to get in touch.
 
@@ -49,11 +49,14 @@ We are a small team with a flat management structure and a collaborative work cu
 
 The starting dates of the positions are flexible. We are committed to providing a healthy work environment and fostering diversity and respectful interaction. We welcome applications by candidates from all backgrounds and also support non-standard careers.
 
-### Past open positions
+### Current open positions
 
-* We have some PhD and postdoc positions available for 2026.
-  * [PhD and Postdocs in Efficient Deep Learning](https://career.cispa.de/jobs/group-relationalml-53)
-  * [Postdoctoral Researcher in Efficient Deep Learning](https://de.linkedin.com/jobs/view/postdoctoral-researcher-in-efficient-deep-learning-at-relational-machine-learning-lab-4300176253).
+* We have PhD and postdoc positions available for 2026.
+  * [PhD and Postdocs in Efficient Deep Learning](https://career.cispa.de/jobs/group-relationalml-53) at CISPA Helmholtz Center for Information Security.
+
+### Past open positions
+This is a non-exhaustive list of past open positions in our group.
+
 * We received an ERC Starting Grant in 2023 ([SPARSE-ML](https://cispa.de/en/research/grants/sparse-ml)) and had several open positions for PhD students and Postdocs:
   * [PhD position in sparse machine learning](https://euraxess.ec.europa.eu/jobs/144401).
   * [Postdoctoral position in sparse machine learning](https://euraxess.ec.europa.eu/jobs/144392).

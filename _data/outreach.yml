@@ -1,4 +1,26 @@
 videos:
+# - title: "Mask in the Mirror: Implicit Sparsification"
+#   date: 2025-11-17
+#   speaker: "Tom Jacobs"
+#   venue: "ELLIS [DL Math+Efficiency] reading group"
+#   video: https://www.youtube.com/embed/udKX0Y69O08?si=U2dSnD4vkY5s7ERM
+#   papers:
+#     - title: "Mask in the Mirror: Implicit Sparsification"
+#       authors: "Tom Jacobs, and Rebekka Burkholz"
+#       conference: ICLR 2025
+#       link: https://openreview.net/forum?id=U47ymTS3ut
+
+# - title: "GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring"
+#   date: 2025-10-29
+#   speaker: "Celia Rubio-Madrigal"
+#   venue: "GLOW reading group"
+#   video: https://www.youtube.com/embed/L-EH9iys8gc?si=5m7o6BlwaPOktgCG
+#   papers:
+#     - title: "GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring"
+#       authors: "Celia Rubio-Madrigal*, Adarsh Jamadandi*, and Rebekka Burkholz"
+#       conference: ICLR 2025
+#       link: https://openreview.net/forum?id=g6v09VxgFw
+
 - title: "Weight Decay Controls Implicit Regularization: Insights on Generalization and Sparsity"
   date: 2025-08-14
   speaker: "Tom Jacobs"
@@ -13,6 +35,7 @@ videos:
       authors: "Tom Jacobs, Chao Zhou, and Rebekka Burkholz"
       conference: ICML 2025
       link: https://openreview.net/forum?id=MLiR9LS5PW
+
 - title: "Rewiring Graph Neural Networks: When Less is More and Structure Matters"
   date: 2025-02-13
   speaker: "Celia Rubio-Madrigal"
