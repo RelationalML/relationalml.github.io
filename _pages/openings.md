@@ -8,10 +8,7 @@ permalink: /openings
 
 # Open positions
 
-> **Open positions — extended deadline**  
-> We are recruiting PhD candidates and postdoctoral researchers. We will consider candidates until positions are filled — please apply via the [CISPA Career portal](https://career.cispa.de/jobs/group-relationalml-53).
-
-Are you curious about some of our research and have further questions? Feel free to drop us an e-mail ([burkholz@cispa.de](mailto:burkholz@cispa.de)) to get in touch.
+Are you curious about some of our research and have further questions? Feel free to drop us an e-mail ([relationalml+positions@gmail.com](mailto:relationalml+positions@gmail.com)) to get in touch.
 
 For more general information on pursuing a PhD or postdoc at the CISPA Helmholtz Center for Information Security, see the [CISPA Career Portal](https://career.cispa.de/).
 
@@ -49,13 +46,11 @@ We are a small team with a flat management structure and a collaborative work cu
 
 The starting dates of the positions are flexible. We are committed to providing a healthy work environment and fostering diversity and respectful interaction. We welcome applications by candidates from all backgrounds and also support non-standard careers.
 
-### Current open positions
-
-* We have PhD and postdoc positions available for 2026.
-  * [PhD and Postdocs in Efficient Deep Learning](https://career.cispa.de/jobs/group-relationalml-53) at CISPA Helmholtz Center for Information Security.
-
 ### Past open positions
 This is a non-exhaustive list of past open positions in our group.
+
+* We had PhD and postdoc positions available for 2026.
+  * [PhD and Postdocs in Efficient Deep Learning](https://career.cispa.de/jobs/group-relationalml-53) at CISPA Helmholtz Center for Information Security.
 
 * We received an ERC Starting Grant in 2023 ([SPARSE-ML](https://cispa.de/en/research/grants/sparse-ml)) and had several open positions for PhD students and Postdocs:
   * [PhD position in sparse machine learning](https://euraxess.ec.europa.eu/jobs/144401).
@@ -66,4 +61,4 @@ This is a non-exhaustive list of past open positions in our group.
 
 ### Student positions at UdS
 
-We welcome Master and Bachelor students from Saarland University interested in completing their thesis with our group. We also offer paid internship (HiWi) positions at CISPA. Topics around machine learning theory and applications are available—see the [team](/team)'s interests, past theses, and recent [publications](/publications), and contact us by email for more details.
+We welcome Master and Bachelor students from Saarland University interested in completing their thesis with our group. We also offer paid internship (HiWi) positions at CISPA. Topics around machine learning theory and applications are available—see the [team](/team)'s interests, past theses, and recent [publications](/publications), and contact us by email ([relationalml+positions@gmail.com](mailto:relationalml+positions@gmail.com)) to get in touch. Please include a CV and transcript of records, and use that specific email address (not personal addresses).
