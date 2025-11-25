@@ -8,6 +8,9 @@ permalink: /
 
 # Relational Machine Learning Lab
 
+> **Open positions — extended deadline**  
+> We are recruiting postdoctoral researchers and PhD candidates. See the <a href="/openings"><strong style="color:#d9534f">Openings</strong></a> page and apply now!
+
 Welcome! We are the Relational ML research group. 
 We are part of the [CISPA Helmholtz Center for Information Security](https://cispa.de) in Saarbrücken and St. Ingbert, Germany, and are grateful to [Saarland University (UdS)](https://www.uni-saarland.de) for granting us supervision rights.
 
