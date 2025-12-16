@@ -19,7 +19,7 @@ For more general information on pursuing a PhD or postdoc at the CISPA Helmholtz
 
 Deep learning continues to achieve impressive breakthroughs across disciplines and is a major driving force behind a multitude of innovations. For instance, it has helped computers convert text into images, assist in the design of new drugs, generate code, and even find fast matrix multiplication algorithms. Yet, it comes at considerable costs. It requires huge amounts of data to learn complex models that are difficult to interpret and are vulnerable to attacks.
 
-The major goal of the Relational Machine Learning Lab is to alleviate these problems based on sound theoretical insights and broaden the applicability of deep learning across the natural sciences and biomedical domain.
+The major goal of the Relational Machine Learning Lab is to alleviate these problems based on sound theoretical insights, and broaden the applicability of deep learning across the natural sciences and biomedical domain.
 
 ### What we look for
 
