@@ -1,10 +1,10 @@
-<h3>News</h3>
+<h3 style="display:inline-block; margin:0em 0.5em 0.5em 0em; vertical-align:bottom;">News</h3>
+<a href="{{ site.url }}{{ site.baseurl }}/news.html" style="float:right; position:relative; top:0.3em; margin-bottom:0.5em">View all (+media)</a>
+
 <div class="well">
 {% for post in site.data.news limit:5 %}
 <b>{{ post.date | date_to_string }}</b>
 {{ post.headline  | markdownify }}
-<hr/>
+{% unless forloop.last %}<hr/>{% endunless %}
 {% endfor %}
-
-<a href="{{ site.url }}{{ site.baseurl }}/news.html">... see all news</a>
 </div>
