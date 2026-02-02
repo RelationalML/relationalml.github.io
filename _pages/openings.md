@@ -8,10 +8,7 @@ permalink: /openings
 
 # Open positions
 
-> **Open positions — extended deadline**  
-> We are recruiting postdoctoral researchers and PhD candidates. We will consider candidates until positions are filled — please apply via the [CISPA Career portal](https://career.cispa.de/jobs/group-relationalml-53).
-
-Are you curious about some of our research and have further questions? Feel free to drop us an e-mail ([relationalml+positions@gmail.com](mailto:relationalml+positions@gmail.com)) to get in touch, including relevant documents if applicable (CV, transcripts, publications, etc.).
+Are you curious about some of our research and have further questions? Feel free to drop us an e-mail ([burkholz@cispa.de](mailto:burkholz@cispa.de)) to get in touch, including relevant documents if applicable (CV, transcripts, publications, etc.).
 
 For more general information on pursuing a PhD or postdoc at the CISPA Helmholtz Center for Information Security, see the [CISPA Career Portal](https://career.cispa.de/).
 
@@ -66,4 +63,4 @@ This is a non-exhaustive list of past open positions in our group.
 
 ### Student positions at UdS
 
-We welcome Master and Bachelor students from Saarland University interested in completing their thesis with our group. We also offer paid internship (HiWi) positions at CISPA. Topics around machine learning theory and applications are available—see the [team](/team)'s interests, past theses, and recent [publications](/publications), and contact us by email ([relationalml+positions@gmail.com](mailto:relationalml+positions@gmail.com)) to get in touch. Please include a CV and transcript of records, and use this specific email address (not personal ones).
+We welcome Master and Bachelor students from Saarland University interested in completing their thesis with our group. We also offer paid internship (HiWi) positions at CISPA. Topics around machine learning theory and applications are available—see the [team](/team)'s interests, past theses, and recent [publications](/publications), and contact us by email to get in touch. Please include a CV and transcript of records.

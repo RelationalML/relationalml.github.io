@@ -1,5 +1,54 @@
 ---
 ---
+
+@inproceedings{
+  reddy2026boosting,
+  title={Boosting for Predictive Sufficiency},
+  author={Abbavaram Gowtham Reddy and Rajeev Verma and Celia Rubio-Madrigal and Krikamol Muandet and Rebekka Burkholz},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=1mQT8PXIy8},
+  pdf={https://openreview.net/pdf?id=1mQT8PXIy8},
+  abstract={Out-of-distribution (OOD) generalization is a defining hallmark of truly robust and reliable machine learning systems. Recently, it has been empirically observed that existing OOD generalization methods often underperform on real-world tabular data, where hidden confounding shifts drive distribution changes that boosting models handle more effectively. Part of boosting’s success is attributed to variance reduction, handling missing variables, feature selection, and connections to multicalibration. This paper uncovers a crucial reason behind its success in OOD generalization: boosting’s ability to infer stable environments robust to hidden confounding shifts and maximize predictive performance within those environments. This paper introduces an information-theoretic notion called $\alpha$-predictive sufficiency and formalizes its link to OOD generalization under hidden confounding. We show that boosting implicitly identifies suitable environments and produces an $\alpha$-predictive sufficient predictor. We validate our theoretical results through synthetic and real-world experiments and show that boosting achieves robust performance by identifying these environments and maximizing the association between predictions and true outcomes.},
+  img={predictive-sufficiency.png},
+}
+
+@inproceedings{
+  reddy2026when,
+  title={When Shift Happens - Confounding Is to Blame},
+  author={Abbavaram Gowtham Reddy and Celia Rubio-Madrigal and Rebekka Burkholz and Krikamol Muandet},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=sFjxg8cyJS},
+  pdf={https://openreview.net/pdf?id=sFjxg8cyJS},
+  abstract={Distribution shifts introduce uncertainty that undermines the robustness and generalization capabilities of machine learning models. While conventional wisdom suggests that learning causal-invariant representations enhances robustness to such shifts, recent empirical studies present a counterintuitive finding: (i) empirical risk minimization (ERM) can rival or even outperform state-of-the-art out-of-distribution (OOD) generalization methods, and (ii) OOD generalization performance improves when all available covariates, including non-causal ones, are utilized. We present theoretical and empirical explanations that attribute this phenomenon to hidden confounding. Shifts in hidden confounding induce changes in data distributions that violate assumptions commonly made by existing approaches. Under such conditions, we prove that generalization requires learning environment-specific relationships, rather than relying solely on invariant ones. Furthermore, we explain why models augmented with non-causal but informative covariates can mitigate the challenges posed by hidden confounding shifts. These findings offer new theoretical insights and practical guidance, serving as a roadmap for future research on OOD generalization and principled covariate-selection strategies.},
+  img={when-shift-happens.png},
+}
+
+@inproceedings{
+  jacobs2026never,
+  title={Never Saddle for Reparameterized Steepest Descent as Mirror Flow},
+  author={Tom Jacobs and Chao Zhou and Rebekka Burkholz},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=YgudIlQ9nC},
+  pdf={https://openreview.net/pdf?id=YgudIlQ9nC},
+  abstract={How does the choice of optimization algorithm shape a model's ability to learn features? To address this question for steepest descent methods —including sign descent, which is closely related to Adam —we introduce steepest mirror flows as a unifying theoretical framework. This framework reveals how optimization geometry governs learning dynamics, implicit bias, and sparsity and it provides two explanations for why Adam and AdamW often outperform SGD in fine-tuning. Focusing on diagonal linear networks and deep diagonal linear reparameterizations (a simplified proxy for attention), we show that steeper descent facilitates both saddle-point escape and feature learning. In contrast, gradient descent requires unrealistically large learning rates to escape saddles, an uncommon regime in fine-tuning. Empirically, we confirm that saddle-point escape is a central challenge in fine-tuning. Furthermore, we demonstrate that decoupled weight decay, as in AdamW, stabilizes feature learning by enforcing novel balance equations. Together, these results highlight two mechanisms how steepest descent can aid modern optimization.},
+  img={never-saddle.png},
+}
+
+@inproceedings{
+  jacobs2026hyperbolic,
+  title={Hyperbolic Aware Minimization: Implicit Bias for Sparsity},
+  author={Tom Jacobs and Advait Gadhikar and Celia Rubio-Madrigal and Rebekka Burkholz},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=XKB5Hu0ACY},
+  pdf={https://openreview.net/pdf?id=XKB5Hu0ACY},
+  abstract={Understanding the implicit bias of optimization algorithms is key to explaining and improving the generalization of deep models. The hyperbolic implicit bias induced by pointwise overparameterization promotes sparsity, but also yields a small inverse Riemannian metric near zero, slowing down parameter movement and impeding meaningful parameter sign flips. To overcome this obstacle, we propose Hyperbolic Aware Minimization (HAM), which alternates a standard optimizer step with a lightweight hyperbolic mirror step. The mirror step incurs less compute and memory than pointwise overparameterization, reproduces its beneficial hyperbolic geometry for feature learning, and mitigates the small–inverse-metric bottleneck. Our characterization of the implicit bias in the context of underdetermined linear regression provides insights into the mechanism how HAM consistently increases performance --even in the case of dense training, as we demonstrate in experiments with standard vision benchmarks. HAM is especially effective in combination with different sparsification methods, advancing the state of the art.},
+  img={ham-hyperbolic-step.png},
+}
+
 @inproceedings{
 rubio-madrigal2025fixed,
 title={Fixed Aggregation Features Can Rival {GNN}s},
@@ -210,7 +259,7 @@ img={are-gats-out-of-balance.png}
   code = 	 {https://github.com/RelationalML/sparse_to_sparse},
   img={why-random-pruning.png},
 }
-﻿@Article{BenGuebila2023,
+@Article{BenGuebila2023,
 author={Ben Guebila, Marouen
 and Wang, Tian
 and Lopes-Ramos, Camila M.

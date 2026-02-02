@@ -22,6 +22,6 @@ permalink: /news.html
 {%-endif-%}
 {%-for image in post.images-%}
 <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ image }}" alt="News Image" style="height:180px;"/>
-{%-endfor %}
+{% endfor %}
 <hr/>
 {% endfor %}

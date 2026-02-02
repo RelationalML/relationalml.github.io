@@ -29,6 +29,14 @@
       scholar: https://scholar.google.com/citations?user=Iewg-GAAAAAJ
       description: "I work on research problems at the intersection of machine learning and causality, focusing on modeling, inference, and interpreting machine learning models from a causal perspective to enhance their robustness and trustworthiness."
 
+    - name: Dr. Franka Bause
+      last_name: Bause
+      photo: 
+      start_date: Feb 2026
+      email: franka.bause@cispa.de
+      url: https://frareba.github.io/
+      scholar: https://scholar.google.com/citations?user=UTQlpH8AAAAJ
+
 - role: PhD students
   members:
     - name: Advait Gadhikar
@@ -38,7 +46,7 @@
       email: advait.gadhikar@cispa.de
       url: https://advaitgadhikar.github.io/
       scholar: https://scholar.google.com/citations?user=parDMogAAAAJ
-      description: "I work on building provable algorithms for deep learning and am currently interested in algorithms related to sparsity in neural nets. Specifically I am interested in the Lottery Ticket Hypothesis and how it can help identify the underlying structure of a learnt network."
+      description: "I work on building provable algorithms for deep learning and am currently interested in algorithms related to sparsity in neural nets. Specifically I am interested in the Lottery Ticket Hypothesis and how it can help identify the underlying structure of a learnt network. I completed my Master's from the Electrical and Computer Engineering Department at Carnegie Mellon University."
 
     - name: Nimrah Mustafa
       last_name: Mustafa
@@ -46,6 +54,7 @@
       start_date: Jun 2022
       email: nimrah.mustafa@cispa.de
       url: https://cispa.de/en/people/c01nimu
+      description: "I work on understanding the training dynamics of graph neural networks. Specifically, I am interested in developing an attention-based message passing formulation that would allow the model to utilize the input graph as data and a computational structure in potentially different ways to adapt to the graph learning task. Previously, I completed my Master's in Computer Science at LUMS (Pakistan)."
 
     - name: Celia Rubio-Madrigal
       last_name: Rubio-Madrigal
@@ -54,7 +63,7 @@
       email: celia.rubio-madrigal@cispa.de
       url: https://celrm.github.io/
       scholar: https://scholar.google.com/citations?user=AsvScCAAAAAJ
-      description: "I study generalization challenges in graph learning, focusing on the dual role of input graphs as both data and computation structures, and the effects of modifying them under different criteria. In 2022 I received a ”la Caixa” Foundation Postgraduate Fellowship which funded my master's at the University of Strathclyde, where I was awarded the Best Overall Prize. I previously completed degrees in Mathematics and Computer Science from Universidad Complutense de Madrid."
+      description: "I study generalization challenges in graph learning regarding the computational role of input graphs, with techniques such as rewiring graphs under different criteria, and non-trained aggregation methods. I was awarded a ”la Caixa” Foundation Postgraduate Fellowship which funded my master's at the University of Strathclyde, where I received the Best Overall Prize. I hold degrees in Mathematics and Computer Science from Universidad Complutense de Madrid."
       
     - name: Tom Jacobs
       last_name: Jacobs
@@ -63,15 +72,15 @@
       email: tom.jacobs@cispa.de
       url: https://tomjacobs05.github.io/
       scholar: https://scholar.google.com/citations?user=Yi62zDEAAAAJ
-      description: "My research interests lie at the intersection of understanding neural network training dynamics and designing efficient deep learning methods. Concretely, I work with theoretical tools such as mirror flow, regularization techniques, and mean field descriptions to study the effect of overparameterization and improve model efficiency."
+      description: "My research interests lie at the intersection of understanding neural network training dynamics and designing efficient deep learning methods. Concretely, I work with theoretical tools such as mirror flow, regularization techniques, and mean field descriptions to study the effect of overparameterization and improve model efficiency. I completed my Master's and Bachelor's degrees in Applied Mathematics at Eindhoven University of Technology."
 
     - name: Rahul Nittala
       last_name: Nittala
       photo: c01rani.jpg
-      start_date: Jun 2024
+      start_date: May 2024
       email: rahul.nittala@cispa.de
       url: https://cispa.de/en/people/c01rani
-      description: "I am developing algorithms to reduce the size of neural networks by increasing parameter sparsity and decreasing the storage required for each parameter. My current focus is on sparse topologies that enhance the performance of sparse networks. Additionally, I am working on efficient quantization techniques to minimize the effective size of large language models (LLMs)."
+      description: "I am developing algorithms to reduce the size of neural networks by increasing parameter sparsity and decreasing the storage required for each parameter. My current focus is on sparse topologies that enhance the performance of sparse networks. Additionally, I am working on efficient quantization techniques to minimize the effective size of large language models (LLMs). I studied a master's degree at Universität des Saarlandes."
 
     - name: Dong Sun
       last_name: Sun
@@ -79,7 +88,8 @@
       start_date: Jul 2024
       email: dong.sun@cispa.de
       url: https://cispa.de/en/people/c01dosu
-      description: "My current research focuses on theoretically elucidating the superior performance of Mixture of Experts models, with an emphasis on their generalization performance, sample complexity, training dynamics, and robustness to adversarial noises."
+      description: "My current research focuses on theoretically elucidating the superior performance of Mixture of Experts models, with an emphasis on their generalization performance, sample complexity, training dynamics, and robustness to adversarial noises.
+      I did my master's degree at ETH Zurich."
 
     - name: Baraah Sidahmed
       last_name: Sidahmed
@@ -89,3 +99,11 @@
       url: https://cispa.de/en/people/c01baad
       scholar: https://scholar.google.com/citations?user=LGI13OsAAAAJ
       description: "I study how multiple agents interact, learn, and how these processes can be optimized. Currently, I'm developing a general framework that enables a wide range of agents—from simple nodes to complex models—to interact efficiently. My past work focused on optimizing multi-agent reinforcement learning using ideas from game theory. I recently completed a Data Science and AI master at Saarland University. Previously, I did a bachelor in Electrical and Electronics Engineering at University of Khartoum."
+
+    - name: Rohan Jain
+      last_name: Jain
+      photo: 
+      start_date: Feb 2026
+      email: rohan.jain@cispa.de
+      url: https://cispa.de/en/people/c01roja
+      scholar: https://scholar.google.com/citations?user=cUkv6VcAAAAJ
