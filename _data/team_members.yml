@@ -20,7 +20,7 @@
       scholar: https://scholar.google.com/citations?user=ttO5HpQAAAAJ
       description: "I focus on understanding the intricate dynamics of training and fine-tuning in machine learning models, with the goal of developing more efficient and effective learning algorithms. My research explores how optimization processes evolve and how we can refine these methods to improve performance. Currently, I am particularly interested in gradient compression techniques."
 
-    - name: Dr. Gowtham Abbavaram
+    - name: Dr. Gowtham Abbavaram Reddy
       last_name: Reddy
       photo: c01goab.jpg
       start_date: Oct 2024
@@ -31,7 +31,7 @@
 
     - name: Dr. Franka Bause
       last_name: Bause
-      photo: 
+      photo: c02frba.jpg
       start_date: Feb 2026
       email: franka.bause@cispa.de
       url: https://frareba.github.io/
@@ -102,8 +102,8 @@
 
     - name: Rohan Jain
       last_name: Jain
-      photo: 
+      photo: c02roja.jpg
       start_date: Feb 2026
       email: rohan.jain@cispa.de
-      url: https://cispa.de/en/people/c01roja
+      url: https://cispa.de/en/people/c02roja
       scholar: https://scholar.google.com/citations?user=cUkv6VcAAAAJ

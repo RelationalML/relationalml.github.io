@@ -1,12 +1,18 @@
-- date: 1. February 2026
-  headline: "Welcome to Rohan and Franka!"
-
-- date: 26. January 2026
+- date: 23. April 2026
   headline: "📛 Four papers have been accepted at ICLR 2026
     [(1)](https://openreview.net/forum?id=XKB5Hu0ACY)
     [(2)](https://openreview.net/forum?id=YgudIlQ9nC)
     [(3)](https://openreview.net/forum?id=sFjxg8cyJS)
     [(4)](https://openreview.net/forum?id=1mQT8PXIy8)."
+
+- date: 23. March 2026
+  headline: "💬 Chao, Celia, and Tom are presenting at [CPAL](https://cpal.cc/spotlight_track/) with five papers as recent spotlights."
+
+- date: 1. March 2026
+  headline: "Congratulations to Advait for finishing his PhD!"
+
+- date: 1. February 2026
+  headline: "Welcome to Rohan and Franka!"
 
 - date: 3. December 2025
   headline: "📛 Three papers have been accepted at NeurIPS 2025
@@ -20,7 +26,7 @@
   images: ["NeurIPS-2025-1.jpg", "NeurIPS-2025-2.jpg", "NeurIPS-2025-3.jpg", "NeurIPS-2025-4.jpg", "NeurIPS-2025-RML-Group.jpg"]
 
 - date: 17. November 2025
-  headline: "💬 Tom is presenting his work on continuous sparsification at the [Mathematics & Efficiency of Deep Learning](https://sites.google.com/view/efficientml) ELLIS online reading group."
+  headline: "💬 Tom is presenting his work on continuous sparsification at the [Mathematics & Efficiency of Deep Learning](https://sites.google.com/view/efficientml) ELLIS online seminar."
   video: https://www.youtube.com/embed/udKX0Y69O08?si=U2dSnD4vkY5s7ERM
 
 - date: 13. November 2025
@@ -31,7 +37,7 @@
   images: [GTML-2025-1.jpg, GTML-2025-2.jpg, GTML-2025-Group-Picture.png]
 
 - date: 29. October 2025
-  headline: "💬 Celia is presenting her work on graph rewiring at the [GLOW](https://sites.google.com/view/graph-learning-on-weds/events) online reading group."
+  headline: "💬 Celia is presenting her work on graph rewiring at the [GLOW](https://sites.google.com/view/graph-learning-on-weds/events) online seminar."
   video: https://www.youtube.com/embed/L-EH9iys8gc?si=5m7o6BlwaPOktgCG
 
 - date: 24. October 2025
@@ -44,7 +50,7 @@
   headline: "Natalie Schluter (Apple Research) is visiting us today to talk about data-scarce languages."
   
 - date: 8. October 2025
-  headline: "💬 Baraah is presenting her work on game-aware optimization at the [Shocklab](https://shocklab.net/seminars/) online reading group."
+  headline: "💬 Baraah is presenting her work on game-aware optimization at the [Shocklab](https://ai.uct.ac.za/events/shocklab-seminar-series-baraah-sidahmed/) online seminar."
 
 - date: 6. October 2025
   headline: "Welcome to Adnan (University of Calgary) and Levy (University of Campinas) for research stays. Furthermore, Prof. [Yani Ioannou](https://yani.ai/) (University of Calgary) is visiting us for a week, and has a talk on sparse training."
@@ -85,7 +91,7 @@
   images: ["ICLR-2025-1.jpg", "ICLR-2025-2.jpg"]
 
 - date: 24. March 2025
-  headline: "💬 Rebekka is at [CPAL](https://cpal.cc/spotlight_track/) presenting three papers as recent spotlights."
+  headline: "💬 Rebekka is at [CPAL](https://2025.cpal.cc/spotlight_track/) presenting three papers as recent spotlights."
 
 - date: 13. February 2025
   headline: "💬 Celia is presenting her work on graph rewiring at [Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) online reading group."
