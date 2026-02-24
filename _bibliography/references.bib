@@ -1,6 +1,25 @@
 ---
 ---
 
+@inproceedings{merge,
+title={Bridging Domains through Subspace-Aware Model Merging},
+author={Levy Chaves and Chao Zhou and Rebekka Burkholz and Eduardo Valle and Andra Avila},
+year={2026},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
+img={model-merging.png},
+}
+
+@inproceedings{sanyal2026games,
+title={Frequency-Based Hyperparameter Selection in Games},
+author={Aniket Sanyal and Baraah A. M. Sidahmed and Rebekka Burkholz and Tatjana Chavdarova},
+year={2026},
+booktitle={International Conference on Artificial Intelligence and Statistics},
+img={frequency-based-hyperparameter-selection.png},
+url={https://arxiv.org/abs/2601.18409},
+pdf={https://arxiv.org/pdf/2601.18409},
+abstract={Learning in smooth games fundamentally differs from standard minimization due to rotational dynamics, which invalidate classical hyperparameter tuning strategies. Despite their practical importance, effective methods for tuning in games remain underexplored. A notable example is LookAhead (LA), which achieves strong empirical performance but introduces additional parameters that critically influence performance. We propose a principled approach to hyperparameter selection in games by leveraging frequency estimation of oscillatory dynamics. Specifically, we analyze oscillations both in continuous-time trajectories and through the spectrum of the discrete dynamics in the associated frequency-based space. Building on this analysis, we introduce \emph{Modal LookAhead (MoLA)}, an extension of LA that selects the hyperparameters adaptively to a given problem. We provide convergence guarantees and demonstrate in experiments that MoLA accelerates training in both purely rotational games and mixed regimes, all with minimal computational overhead.}
+}
+
 @inproceedings{
   reddy2026boosting,
   title={Boosting for Predictive Sufficiency},
@@ -55,10 +74,23 @@ title={Fixed Aggregation Features Can Rival {GNN}s},
 author={Celia Rubio-Madrigal and Rebekka Burkholz},
 booktitle={Women in Machine Learning Workshop @ NeurIPS},
 year={2025},
-url={https://openreview.net/forum?id=OHgWEMce80},
-pdf={https://openreview.net/pdf?id=OHgWEMce80},
+url={https://arxiv.org/abs/2601.19449},
+pdf={https://arxiv.org/pdf/2601.19449},
 img={fixed-aggregation-features.png},
 abstract={Graph neural networks (GNNs) are widely believed to excel at node representation learning through trainable neighborhood aggregations. We challenge this view by introducing Fixed Aggregation Features (FAFs), a training-free approach that transforms graph learning tasks into tabular problems. This simple shift enables the use of well-established tabular methods, offering strong interpretability and the flexibility to deploy diverse classifiers. Across 14 benchmarks, well-tuned multilayer perceptrons trained on FAFs rival or outperform state-of-the-art GNNs and graph transformers on 12 tasks -- often using only mean aggregation. The only exceptions are the Roman Empire and Minesweeper datasets, which typically require unusually deep GNNs. To explain the theoretical possibility of non-trainable aggregations, we connect our findings to Kolmogorov–Arnold representations and discuss when mean aggregation can be sufficient. In conclusion, our results call for (i) richer benchmarks benefiting from learning diverse neighborhood aggregations, (ii) strong tabular baselines as standard, and (iii) employing and advancing tabular models for graph data to gain new insights into related tasks.},
+code={https://github.com/celrm/fixed-aggregation-features}
+}
+
+@inproceedings{
+gadhikar2025optrot,
+title={OptRot: Mitigating Weight Outliers via Data-Free Rotations for Post-Training Quantization},
+author={Advait Gadhikar and Riccardo Grazzi and James Hensman},
+booktitle={Machine Learning for Systems @ NeurIPS},
+year={2025},
+img={optrot.png},
+url={https://openreview.net/forum?id=4uwRaBhjHY},
+pdf={https://openreview.net/pdf?id=4uwRaBhjHY},
+abstract={We introduce OptRot, a data-free preprocessing method to learn fusible rotations for post-training quantization of language models. OptRot reduces weight outliers by finding rotations which minimize the element-wise fourth power of the rotated weights. We show how reducing weight outliers can provably improve weight quantization performance and how OptRot rotations can outperform both Hadamard rotations and rotations learned by the data-dependent method SpinQuant.},
 }
 
 @inproceedings{ zhou2025payattentionsmallweights, 
@@ -104,6 +136,18 @@ url={https://openreview.net/forum?id=MLiR9LS5PW},
 pdf={https://openreview.net/pdf?id=MLiR9LS5PW},
 img={mirror-mirror.jpg},
 abstract={Implicit bias plays an important role in explaining how overparameterized models generalize well. Explicit regularization like weight decay is often employed in addition to prevent overfitting. While both concepts have been studied separately, in practice, they often act in tandem. Understanding their interplay is key to controlling the shape and strength of implicit bias, as it can be modified by explicit regularization. To this end, we incorporate explicit regularization into the mirror flow framework and analyze its lasting effects on the geometry of the training dynamics, covering three distinct effects: positional bias, type of bias, and range shrinking. Our analytical approach encompasses a broad class of problems, including sparse coding, matrix sensing, single-layer attention, and LoRA, for which we demonstrate the utility of our insights. To exploit the lasting effect of regularization and highlight the potential benefit of dynamic weight decay schedules, we propose to switch off weight decay during training, which can improve generalization, as we demonstrate in experiments.},
+}
+
+@inproceedings{
+gadhikar2025attention,
+title={Attention Is All You Need For Mixture-of-Depths Routing},
+author={Advait Gadhikar and Souptik Kumar Majumdar and Niclas Popp and Piyapat Saranrittichai and Martin Rapp and Lukas Schott},
+booktitle={Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models @ ICLR},
+year={2025},
+img={mod-routing.png},
+url={https://openreview.net/forum?id=1uDP4ld3eZ},
+pdf={https://openreview.net/pdf?id=1uDP4ld3eZ},
+abstract={Advancements in deep learning are driven by training models with increasingly larger numbers of parameters, which in turn heightens the computational demands. To address this issue, Mixture-of-Depths (MoD) models have been proposed to dynamically focus computations on the most relevant parts of the inputs, thereby enabling the deployment of large-parameter models with high efficiency during inference and training. However, conventional MoD models employ additional network layers specifically for the routing which are difficult to train, and add complexity to the model. In this paper, we introduce a novel attention-based routing mechanism A-MoD that leverages the existing attention map of the preceding layer for routing decisions within the current layer. Compared to standard routing, A-MoD allows for more efficient training as it introduces no additional trainable parameters and can be easily adapted from pre-trained transformer models. Furthermore, it can increase the performance of the MoD model. For instance, we observe up to 2% higher accuracy on ImageNet compared to standard routing and isoFLOP ViT baselines.}
 }
 
 @inproceedings{
