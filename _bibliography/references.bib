@@ -1,12 +1,14 @@
 ---
 ---
-
 @inproceedings{merge,
 title={Bridging Domains through Subspace-Aware Model Merging},
 author={Levy Chaves and Chao Zhou and Rebekka Burkholz and Eduardo Valle and Andra Avila},
 year={2026},
 booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
 img={model-merging.png},
+url={https://arxiv.org/abs/2603.05768},
+pdf={https://arxiv.org/pdf/2603.05768},
+abstract={Model merging integrates multiple task-specific models into a single consolidated one. Recent research has made progress in improving merging performance for in-distribution or multi-task scenarios, but domain generalization in model merging remains underexplored. We investigate how merging models fine-tuned on distinct domains affects generalization to unseen domains. Through an analysis of parameter competition in the task matrix using singular value decomposition, we show that merging models trained under different distribution shifts induces stronger conflicts between their subspaces compared to traditional multi-task settings. To mitigate this issue, we propose SCORE (Subspace COnflict-Resolving mErging), a method designed to alleviate such singular subspace conflicts. SCORE finds a shared orthogonal basis by computing the principal components of the concatenated leading singular vectors of all models. It then projects each task matrix into the shared basis, pruning off-diagonal components to remove conflicting singular directions. SCORE consistently outperforms, on average, existing model merging approaches in domain generalization settings across a variety of architectures and model scales, demonstrating its effectiveness and scalability.},
 }
 
 @inproceedings{sanyal2026games,
@@ -65,7 +67,19 @@ abstract={Learning in smooth games fundamentally differs from standard minimizat
   url={https://openreview.net/forum?id=XKB5Hu0ACY},
   pdf={https://openreview.net/pdf?id=XKB5Hu0ACY},
   abstract={Understanding the implicit bias of optimization algorithms is key to explaining and improving the generalization of deep models. The hyperbolic implicit bias induced by pointwise overparameterization promotes sparsity, but also yields a small inverse Riemannian metric near zero, slowing down parameter movement and impeding meaningful parameter sign flips. To overcome this obstacle, we propose Hyperbolic Aware Minimization (HAM), which alternates a standard optimizer step with a lightweight hyperbolic mirror step. The mirror step incurs less compute and memory than pointwise overparameterization, reproduces its beneficial hyperbolic geometry for feature learning, and mitigates the small–inverse-metric bottleneck. Our characterization of the implicit bias in the context of underdetermined linear regression provides insights into the mechanism how HAM consistently increases performance --even in the case of dense training, as we demonstrate in experiments with standard vision benchmarks. HAM is especially effective in combination with different sparsification methods, advancing the state of the art.},
-  img={ham-hyperbolic-step.png},
+  img={hyperbolic-aware-minimization.png},
+}
+
+@inproceedings{
+adnan2026sparseopt,
+title={SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training},
+author={Mohammed Adnan and Rohan Jain and Tom Jacobs and Ekansh Sharma and Rahul G Krishnan and Rebekka Burkholz and Yani Ioannou},
+booktitle={The Third Conference on Parsimony and Learning (Recent Spotlight Track)},
+year={2026},
+url={https://openreview.net/forum?id=qerVUczDMf},
+pdf={https://openreview.net/pdf?id=qerVUczDMf},
+abstract={Dynamic Sparse Training (DST) methods train neural networks by maintaining sparsity while dynamically adapting the network topology. Despite the promise of reduced computation, DST methods converge significantly slower than dense training, often requiring comparable training time to achieve similar accuracy. We demonstrate both analytically and empirically that Batch Normalization (BN) adversely affects sparse training and propose SparseOpt — a sparsity-aware optimizer— to address this. Experiments on ResNet models across CIFAR-100 and ImageNet demonstrate consistently faster convergence and improved generalization with our proposed method. Our work highlights the limitations of current normalization layers in sparse training and provides the first systematic study of the interaction between Batch Normalization, sparse layers, and DST, taking a significant step toward making DST practically competitive with dense training.},
+img={sparseopt.png}
 }
 
 @inproceedings{

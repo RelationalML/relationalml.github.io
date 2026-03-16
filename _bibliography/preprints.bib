@@ -1,5 +1,16 @@
 ---
 ---
+@misc{sun2026robustnessmixturesexpertsfeature,
+      title={Robustness of Mixtures of Experts to Feature Noise}, 
+      author={Dong Sun and Rahul Nittala and Rebekka Burkholz},
+      year={2026},
+      eprint={2601.14792},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2601.14792}, 
+      img={robustness-of-moes.png},
+      abstract={Despite their practical success, it remains unclear why Mixture of Experts (MoE) models can outperform dense networks beyond sheer parameter scaling. We study an iso-parameter regime where inputs exhibit latent modular structure but are corrupted by feature noise, a proxy for noisy internal activations. We show that sparse expert activation acts as a noise filter: compared to a dense estimator, MoEs achieve lower generalization error under feature noise, improved robustness to perturbations, and faster convergence speed. Empirical results on synthetic data and real-world language tasks corroborate the theoretical insights, demonstrating consistent robustness and efficiency gains from sparse modular computation.},
+}
 @misc{gadhikar2024cyclicsparsetrainingenough,
       title={Cyclic Sparse Training: Is it Enough?}, 
       author={Advait Gadhikar and Sree Harsha Nelaturu and Rebekka Burkholz},
@@ -10,6 +21,18 @@
       url={https://arxiv.org/abs/2406.02773}, 
       code={https://github.com/RelationalML/TurboPrune},
       img={cyclic-train.png},
+      abstract={The success of iterative pruning methods in achieving state-of-the-art sparse networks has largely been attributed to improved mask identification and an implicit regularization induced by pruning. We challenge this hypothesis and instead posit that their repeated cyclic training schedules enable improved optimization. To verify this, we show that pruning at initialization is significantly boosted by repeated cyclic training, even outperforming standard iterative pruning methods. The dominant mechanism how this is achieved, as we conjecture, can be attributed to a better exploration of the loss landscape leading to a lower training loss. However, at high sparsity, repeated cyclic training alone is not enough for competitive performance. A strong coupling between learnt parameter initialization and mask seems to be required. Standard methods obtain this coupling via expensive pruning-training iterations, starting from a dense network. To achieve this with sparse training instead, we propose SCULPT-ing, i.e., repeated cyclic training of any sparse mask followed by a single pruning step to couple the parameters and the mask, which is able to match the performance of state-of-the-art iterative pruning methods in the high sparsity regime at reduced computational cost.}
+}
+@misc{gadhikar2022dynamicalisometryresidualnetworks,
+      title={Dynamical Isometry for Residual Networks}, 
+      author={Advait Gadhikar and Rebekka Burkholz},
+      year={2022},
+      eprint={2210.02411},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2210.02411}, 
+      abstract={The training success, training speed and generalization ability of neural networks rely crucially on the choice of random parameter initialization. It has been shown for multiple architectures that initial dynamical isometry is particularly advantageous. Known initialization schemes for residual blocks, however, miss this property and suffer from degrading separability of different inputs for increasing depth and instability without Batch Normalization or lack feature diversity. We propose a random initialization scheme, RISOTTO, that achieves perfect dynamical isometry for residual networks with ReLU activation functions even for finite depth and width. It balances the contributions of the residual and skip branches unlike other schemes, which initially bias towards the skip connections. In experiments, we demonstrate that in most cases our approach outperforms initialization schemes proposed to make Batch Normalization obsolete, including Fixup and SkipInit, and facilitates stable training. Also in combination with Batch Normalization, we find that RISOTTO often achieves the overall best result.},
+      img={risotto.png},
 }
 @misc{fischer2022lotteryticketsnonzerobiases,
       title={Lottery Tickets with Nonzero Biases}, 
@@ -20,5 +43,6 @@
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2110.11150}, 
       code={https://github.com/RelationalML/NonZeroBiases},
-      img={nonzerobiases.png}
+      img={nonzerobiases.png},
+      abstract={The strong lottery ticket hypothesis holds the promise that pruning randomly initialized deep neural networks could offer a computationally efficient alternative to deep learning with stochastic gradient descent. Common parameter initialization schemes and existence proofs, however, are focused on networks with zero biases, thus foregoing the potential universal approximation property of pruning. To fill this gap, we extend multiple initialization schemes and existence proofs to nonzero biases, including explicit 'looks-linear' approaches for ReLU activation functions. These do not only enable truly orthogonal parameter initialization but also reduce potential pruning errors. In experiments on standard benchmark data, we further highlight the practical benefits of nonzero bias initialization schemes, and present theoretically inspired extensions for state-of-the-art strong lottery ticket pruning.}
 }

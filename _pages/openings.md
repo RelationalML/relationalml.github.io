@@ -46,13 +46,11 @@ We are a small team with a flat management structure and a collaborative work cu
 
 The starting dates of the positions are flexible. We are committed to providing a healthy work environment and fostering diversity and respectful interaction. We welcome applications by candidates from all backgrounds and also support non-standard careers.
 
-### Current open positions
-
-* We have PhD and postdoc positions available for 2026.
-  * [PhD and Postdocs in Efficient Deep Learning](https://career.cispa.de/jobs/group-relationalml-53) at CISPA Helmholtz Center for Information Security.
-
 ### Past open positions
 This is a non-exhaustive list of past open positions in our group.
+
+* We had PhD and postdoc positions available for 2026.
+  * [PhD and Postdocs in Efficient Deep Learning](https://career.cispa.de/jobs/group-relationalml-53) at CISPA Helmholtz Center for Information Security.
 
 * We received an ERC Starting Grant in 2023 ([SPARSE-ML](https://cispa.de/en/research/grants/sparse-ml)) and had several open positions for PhD students and Postdocs:
   * [PhD position in sparse machine learning](https://euraxess.ec.europa.eu/jobs/144401).

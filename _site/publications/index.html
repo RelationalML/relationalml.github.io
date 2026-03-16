@@ -91,6 +91,7 @@
     <option value="Sun">Dong Sun</option>
     <option value="Sidahmed">Baraah Sidahmed</option>
     <option value="Jain">Rohan Jain</option>
+    <option value="Niederle">Jonas Niederle</option>
     </select></p>
 
 <h2 id="accepted-papers">Accepted papers</h2>
@@ -109,7 +110,7 @@
         <div id="merge" class="col-sm-10">
         <!-- Title -->
         
-          <div class="title"><b>Bridging Domains through Subspace-Aware Model Merging</b></div>
+          <div class="title"><a href="https://arxiv.org/abs/2603.05768"><b>Bridging Domains through Subspace-Aware Model Merging</b></a></div>
         
         <!-- Author -->
         <div class="author">
@@ -129,16 +130,22 @@
 
           <!-- Links/Buttons -->
         <div class="links"><a class="conf btn btn-sm z-depth-0">CVPR</a><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <!-- <a href="https://arxiv.org/pdf/2603.05768" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
           </div>
           
 
-          <!-- Hidden bibtex block -->
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Model merging integrates multiple task-specific models into a single consolidated one. Recent research has made progress in improving merging performance for in-distribution or multi-task scenarios, but domain generalization in model merging remains underexplored. We investigate how merging models fine-tuned on distinct domains affects generalization to unseen domains. Through an analysis of parameter competition in the task matrix using singular value decomposition, we show that merging models trained under different distribution shifts induces stronger conflicts between their subspaces compared to traditional multi-task settings. To mitigate this issue, we propose SCORE (Subspace COnflict-Resolving mErging), a method designed to alleviate such singular subspace conflicts. SCORE finds a shared orthogonal basis by computing the principal components of the concatenated leading singular vectors of all models. It then projects each task matrix into the shared basis, pruning off-diagonal components to remove conflicting singular directions. SCORE consistently outperforms, on average, existing model merging approaches in domain generalization settings across a variety of architectures and model scales, demonstrating its effectiveness and scalability.</p>
+          </div><!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">merge</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Bridging Domains through Subspace-Aware Model Merging}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Chaves, Levy and Zhou, Chao and Burkholz, Rebekka and Valle, Eduardo and Avila, Andra}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{IEEE Conference on Computer Vision and Pattern Recognition}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2603.05768}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -363,7 +370,7 @@
 
 
   <div class="row" style="margin-top: 30px;" id="bib-jacobs2026hyperbolic" authors="JacobsGadhikarRubio-MadrigalBurkholz">
-        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/ham-hyperbolic-step.png" />
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/hyperbolic-aware-minimization.png" />
             <!-- include figure.html
             path=entry_path
             class="preview z-depth-1 rounded"
@@ -409,6 +416,60 @@
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{The Fourteenth International Conference on Learning Representations}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=XKB5Hu0ACY}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+
+
+  <div class="row" style="margin-top: 30px;" id="bib-adnan2026sparseopt" authors="AdnanJainJacobsSharmaKrishnanBurkholzIoannou">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/sparseopt.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="adnan2026sparseopt" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><a href="https://openreview.net/forum?id=qerVUczDMf"><b>SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training</b></a></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Mohammed Adnan,&nbsp;Rohan Jain,&nbsp;Tom Jacobs,&nbsp;Ekansh Sharma,&nbsp;Rahul G Krishnan,&nbsp;Rebekka Burkholz,&nbsp;and&nbsp;Yani Ioannou</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In The Third Conference on Parsimony and Learning (Recent Spotlight Track)</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <!-- <a href="https://openreview.net/pdf?id=qerVUczDMf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Dynamic Sparse Training (DST) methods train neural networks by maintaining sparsity while dynamically adapting the network topology. Despite the promise of reduced computation, DST methods converge significantly slower than dense training, often requiring comparable training time to achieve similar accuracy. We demonstrate both analytically and empirically that Batch Normalization (BN) adversely affects sparse training and propose SparseOpt — a sparsity-aware optimizer— to address this. Experiments on ResNet models across CIFAR-100 and ImageNet demonstrate consistently faster convergence and improved generalization with our proposed method. Our work highlights the limitations of current normalization layers in sparse training and provides the first systematic study of the interaction between Batch Normalization, sparse layers, and DST, taking a significant step toward making DST practically competitive with dense training.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">adnan2026sparseopt</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Adnan, Mohammed and Jain, Rohan and Jacobs, Tom and Sharma, Ekansh and Krishnan, Rahul G and Burkholz, Rebekka and Ioannou, Yani}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{The Third Conference on Parsimony and Learning (Recent Spotlight Track)}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=qerVUczDMf}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -1864,6 +1925,61 @@
 <ol class="bibliography"><li><!-- _layouts/bib.html -->
 
 
+  <div class="row" style="margin-top: 30px;" id="bib-sun2026robustnessmixturesexpertsfeature" authors="SunNittalaBurkholz">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/robustness-of-moes.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="sun2026robustnessmixturesexpertsfeature" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><a href="https://arxiv.org/abs/2601.14792"><b>Robustness of Mixtures of Experts to Feature Noise</b></a></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Dong Sun,&nbsp;Rahul Nittala,&nbsp;and&nbsp;Rebekka Burkholz</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Pre-print on arXiv</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Despite their practical success, it remains unclear why Mixture of Experts (MoE) models can outperform dense networks beyond sheer parameter scaling. We study an iso-parameter regime where inputs exhibit latent modular structure but are corrupted by feature noise, a proxy for noisy internal activations. We show that sparse expert activation acts as a noise filter: compared to a dense estimator, MoEs achieve lower generalization error under feature noise, improved robustness to perturbations, and faster convergence speed. Empirical results on synthetic data and real-world language tasks corroborate the theoretical insights, demonstrating consistent robustness and efficiency gains from sparse modular computation.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">sun2026robustnessmixturesexpertsfeature</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Robustness of Mixtures of Experts to Feature Noise}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Sun, Dong and Nittala, Rahul and Burkholz, Rebekka}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2601.14792}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{cs.LG}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2601.14792}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+
+
   <div class="row" style="margin-top: 30px;" id="bib-gadhikar2024cyclicsparsetrainingenough" authors="GadhikarNelaturuBurkholz">
         <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/cyclic-train.png" />
             <!-- include figure.html
@@ -1895,11 +2011,15 @@
 
           <!-- Links/Buttons -->
         <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://github.com/RelationalML/TurboPrune" class="btn btn-sm z-depth-0" role="button">Code</a>
           </div>
           
 
-          <!-- Hidden bibtex block -->
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The success of iterative pruning methods in achieving state-of-the-art sparse networks has largely been attributed to improved mask identification and an implicit regularization induced by pruning. We challenge this hypothesis and instead posit that their repeated cyclic training schedules enable improved optimization. To verify this, we show that pruning at initialization is significantly boosted by repeated cyclic training, even outperforming standard iterative pruning methods. The dominant mechanism how this is achieved, as we conjecture, can be attributed to a better exploration of the loss landscape leading to a lower training loss. However, at high sparsity, repeated cyclic training alone is not enough for competitive performance. A strong coupling between learnt parameter initialization and mask seems to be required. Standard methods obtain this coupling via expensive pruning-training iterations, starting from a dense network. To achieve this with sparse training instead, we propose SCULPT-ing, i.e., repeated cyclic training of any sparse mask followed by a single pruning step to couple the parameters and the mask, which is able to match the performance of state-of-the-art iterative pruning methods in the high sparsity regime at reduced computational cost.</p>
+          </div><!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">gadhikar2024cyclicsparsetrainingenough</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Cyclic Sparse Training: Is it Enough?}</span><span class="p">,</span>
@@ -1909,6 +2029,61 @@
   <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
   <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{cs.LG}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2406.02773}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+
+
+  <div class="row" style="margin-top: 30px;" id="bib-gadhikar2022dynamicalisometryresidualnetworks" authors="GadhikarBurkholz">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/risotto.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="gadhikar2022dynamicalisometryresidualnetworks" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><a href="https://arxiv.org/abs/2210.02411"><b>Dynamical Isometry for Residual Networks</b></a></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Advait Gadhikar,&nbsp;and&nbsp;Rebekka Burkholz</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Pre-print on arXiv</em>, 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The training success, training speed and generalization ability of neural networks rely crucially on the choice of random parameter initialization. It has been shown for multiple architectures that initial dynamical isometry is particularly advantageous. Known initialization schemes for residual blocks, however, miss this property and suffer from degrading separability of different inputs for increasing depth and instability without Batch Normalization or lack feature diversity. We propose a random initialization scheme, RISOTTO, that achieves perfect dynamical isometry for residual networks with ReLU activation functions even for finite depth and width. It balances the contributions of the residual and skip branches unlike other schemes, which initially bias towards the skip connections. In experiments, we demonstrate that in most cases our approach outperforms initialization schemes proposed to make Batch Normalization obsolete, including Fixup and SkipInit, and facilitates stable training. Also in combination with Batch Normalization, we find that RISOTTO often achieves the overall best result.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">gadhikar2022dynamicalisometryresidualnetworks</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Dynamical Isometry for Residual Networks}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Gadhikar, Advait and Burkholz, Rebekka}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2210.02411}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{cs.LG}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2210.02411}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -1947,11 +2122,15 @@
 
           <!-- Links/Buttons -->
         <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://github.com/RelationalML/NonZeroBiases" class="btn btn-sm z-depth-0" role="button">Code</a>
           </div>
           
 
-          <!-- Hidden bibtex block -->
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The strong lottery ticket hypothesis holds the promise that pruning randomly initialized deep neural networks could offer a computationally efficient alternative to deep learning with stochastic gradient descent. Common parameter initialization schemes and existence proofs, however, are focused on networks with zero biases, thus foregoing the potential universal approximation property of pruning. To fill this gap, we extend multiple initialization schemes and existence proofs to nonzero biases, including explicit ’looks-linear’ approaches for ReLU activation functions. These do not only enable truly orthogonal parameter initialization but also reduce potential pruning errors. In experiments on standard benchmark data, we further highlight the practical benefits of nonzero bias initialization schemes, and present theoretically inspired extensions for state-of-the-art strong lottery ticket pruning.</p>
+          </div><!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">fischer2022lotteryticketsnonzerobiases</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Lottery Tickets with Nonzero Biases}</span><span class="p">,</span>

@@ -18,7 +18,7 @@
       email: chao.zhou@cispa.de
       url: https://chaoedisonzhouucl.github.io/
       scholar: https://scholar.google.com/citations?user=ttO5HpQAAAAJ
-      description: "I focus on understanding the intricate dynamics of training and fine-tuning in machine learning models, with the goal of developing more efficient and effective learning algorithms. My research explores how optimization processes evolve and how we can refine these methods to improve performance. Currently, I am particularly interested in gradient compression techniques."
+      description: "I focus on understanding the intricate dynamics of training and fine-tuning in machine learning models, with the goal of developing more efficient and effective learning algorithms. My research explores how optimization processes evolve and how we can refine these methods to improve performance. Currently, I am particularly interested in gradient compression techniques. I obtained my PhD under the supervision of Prof. Miguel Rodrigues at University College London, UK."
 
     - name: Dr. Gowtham Abbavaram Reddy
       last_name: Reddy
@@ -27,7 +27,7 @@
       email: gowtham.abbavaram@cispa.de
       url: https://gautam0707.github.io/
       scholar: https://scholar.google.com/citations?user=Iewg-GAAAAAJ
-      description: "I work on research problems at the intersection of machine learning and causality, focusing on modeling, inference, and interpreting machine learning models from a causal perspective to enhance their robustness and trustworthiness."
+      description: "I work on research problems at the intersection of machine learning and causality, focusing on modeling, inference, and interpreting machine learning models from a causal perspective to enhance their robustness and trustworthiness. I received my Ph.D. at the Indian Institute of Technology Hyderabad, where I was advised by Prof. Vineeth N Balasubramanian. During my Ph.D., I was awarded the prestigious Prime Minister's Research Fellowship (PMRF)."
 
     - name: Dr. Franka Bause
       last_name: Bause
@@ -36,7 +36,8 @@
       email: franka.bause@cispa.de
       url: https://frareba.github.io/
       scholar: https://scholar.google.com/citations?user=UTQlpH8AAAAJ
-
+      description: "I focus on graph learning and similarity measures for graphs, with the aim of improving efficiency, expressivity, and accuracy. I completed my doctorate with distinction in the Kriege group at University of Vienna, and received the Award of Excellence from the Austrian Ministry of Women, Science and Research for my thesis."
+      
 - role: PhD students
   members:
     - name: Advait Gadhikar
@@ -88,8 +89,7 @@
       start_date: Jul 2024
       email: dong.sun@cispa.de
       url: https://cispa.de/en/people/c01dosu
-      description: "My current research focuses on theoretically elucidating the superior performance of Mixture of Experts models, with an emphasis on their generalization performance, sample complexity, training dynamics, and robustness to adversarial noises.
-      I did my master's degree at ETH Zurich."
+      description: "My current research focuses on theoretically elucidating the superior performance of Mixture of Experts models, with an emphasis on their generalization performance, sample complexity, training dynamics, and robustness to adversarial noises. I studied a master's degree at ETH Zurich."
 
     - name: Baraah Sidahmed
       last_name: Sidahmed
@@ -107,3 +107,11 @@
       email: rohan.jain@cispa.de
       url: https://cispa.de/en/people/c02roja
       scholar: https://scholar.google.com/citations?user=cUkv6VcAAAAJ
+
+    - name: Jonas Niederle
+      last_name: Niederle
+      photo: c01joni.jpg
+      url: https://cispa.de/en/people/c01joni
+      scholar: https://scholar.google.com/citations?user=-K5k5z0AAAAJ
+      start_date: Mar 2026
+      email: jonas.niederle@cispa.de
