@@ -1,7 +1,27 @@
+- role: PhD students
+  members:
+    - name: Advait Gadhikar
+      last_name: Gadhikar
+      photo: c01adga.jpg
+      start_date: Apr 22
+      end_date: Mar 26
+      email: advait.gadhikar@cispa.de
+      url: https://advaitgadhikar.github.io/
+      scholar: https://scholar.google.com/citations?user=parDMogAAAAJ
+      description: "I work on building provable algorithms for deep learning and am currently interested in algorithms related to sparsity in neural nets. Specifically I am interested in the Lottery Ticket Hypothesis and how it can help identify the underlying structure of a learnt network. I completed my Master's from the Electrical and Computer Engineering Department at Carnegie Mellon University."
 
 - role: Research scientists
   full_width: true
   members:
+  - name: Dong Sun
+    last_name: Sun
+    photo: c01dosu.jpg
+    start_date: Jul 24
+    end_date: Mar 26
+    email: dong.sun@cispa.de
+    url: 
+    description: "My current research focuses on theoretically elucidating the superior performance of Mixture of Experts models, with an emphasis on their generalization performance, sample complexity, training dynamics, and robustness to adversarial noises. I studied a master's degree at ETH Zurich."
+
   - name: Nikita Vedeneev
     last_name: Vedeneev
     photo: c01mive.jpg
@@ -17,7 +37,7 @@
     - name: Ben Horvath
       last_name: Horvath
       start_date: May 25
-      end_date: ongoing
+      end_date: Apr 26
       email: ben.horvath@cispa.de
 
     - name: Adarsh Jamadandi

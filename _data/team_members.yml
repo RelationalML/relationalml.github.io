@@ -40,15 +40,6 @@
       
 - role: PhD students
   members:
-    - name: Advait Gadhikar
-      last_name: Gadhikar
-      photo: c01adga.jpg
-      start_date: Apr 2022
-      email: advait.gadhikar@cispa.de
-      url: https://advaitgadhikar.github.io/
-      scholar: https://scholar.google.com/citations?user=parDMogAAAAJ
-      description: "I work on building provable algorithms for deep learning and am currently interested in algorithms related to sparsity in neural nets. Specifically I am interested in the Lottery Ticket Hypothesis and how it can help identify the underlying structure of a learnt network. I completed my Master's from the Electrical and Computer Engineering Department at Carnegie Mellon University."
-
     - name: Nimrah Mustafa
       last_name: Mustafa
       photo: c01nimu.jpg
@@ -82,14 +73,6 @@
       email: rahul.nittala@cispa.de
       url: https://cispa.de/en/people/c01rani
       description: "I am developing algorithms to reduce the size of neural networks by increasing parameter sparsity and decreasing the storage required for each parameter. My current focus is on sparse topologies that enhance the performance of sparse networks. Additionally, I am working on efficient quantization techniques to minimize the effective size of large language models (LLMs). I studied a master's degree at Universität des Saarlandes."
-
-    - name: Dong Sun
-      last_name: Sun
-      photo: c01dosu.jpg
-      start_date: Jul 2024
-      email: dong.sun@cispa.de
-      url: https://cispa.de/en/people/c01dosu
-      description: "My current research focuses on theoretically elucidating the superior performance of Mixture of Experts models, with an emphasis on their generalization performance, sample complexity, training dynamics, and robustness to adversarial noises. I studied a master's degree at ETH Zurich."
 
     - name: Baraah Sidahmed
       last_name: Sidahmed
