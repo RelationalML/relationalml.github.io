@@ -16,12 +16,15 @@ permalink: /news.html
 <iframe height="180" src="{{ post.video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {%-endif-%}
 {%-if post.image-%}
-<img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ post.image }}" alt="News Image" style="height:180px;"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ post.image }}" alt="News Image" style="height:150px;"/>
 {%-endif-%}
 {%-if post.images-%}
-{%-endif-%}
 {%-for image in post.images-%}
-<img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ image }}" alt="News Image" style="height:180px;"/>
-{% endfor %}
-<hr/>
+{%-if image[0]-%}
+<img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ image[0] }}" alt="News Image: © {{ image[1] }}" style="height:150px;"/>
+{%-else-%}
+<img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ image }}" alt="News Image" style="height:150px;"/>
+{%-endif-%}
+{%-endfor-%}
+{%-endif-%}
 {% endfor %}

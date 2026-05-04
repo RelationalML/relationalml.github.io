@@ -1,5 +1,62 @@
 ---
 ---
+@inproceedings{
+rubio-madrigal2026fixed,
+title={Fixed Aggregation Features Can Rival {GNN}s},
+author={Celia Rubio-Madrigal and Rebekka Burkholz},
+booktitle={Forty-third International Conference on Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=gSZhNPp103},
+pdf={https://openreview.net/pdf?id=gSZhNPp103},
+img={fixed-aggregation-features.png},
+abstract={Graph neural networks (GNNs) are widely believed to excel at node representation learning through trainable neighborhood aggregations. We challenge this view by introducing Fixed Aggregation Features (FAFs), a training-free approach that transforms graph learning tasks into tabular problems. This simple shift enables the use of well-established tabular methods, offering strong interpretability and the flexibility to deploy diverse classifiers. Across 14 benchmarks, well-tuned multilayer perceptrons trained on FAFs rival or outperform state-of-the-art GNNs and graph transformers on 12 tasks -- often using only mean aggregation. The only exceptions are the Roman Empire and Minesweeper datasets, which typically require unusually deep GNNs. To explain the theoretical possibility of non-trainable aggregations, we connect our findings to Kolmogorov–Arnold representations and discuss when mean aggregation can be sufficient. In conclusion, our results call for (i) richer benchmarks benefiting from learning diverse neighborhood aggregations, (ii) strong tabular baselines as standard, and (iii) employing and advancing tabular models for graph data to gain new insights into related tasks.},
+code={https://github.com/celrm/fixed-aggregation-features}
+}
+@inproceedings{sun2026robustnessmixturesexpertsfeature,
+      title={Robustness of Mixtures of Experts to Feature Noise}, 
+      author={Dong Sun and Rahul Nittala and Rebekka Burkholz},
+      year={2026},
+      booktitle={Forty-third International Conference on Machine Learning},
+      img={robustness-of-moes.png},
+      url={https://arxiv.org/abs/2601.14792}, 
+      pdf={https://arxiv.org/pdf/2601.14792},
+      abstract={Despite their practical success, it remains unclear why Mixture of Experts (MoE) models can outperform dense networks beyond sheer parameter scaling. We study an iso-parameter regime where inputs exhibit latent modular structure but are corrupted by feature noise, a proxy for noisy internal activations. We show that sparse expert activation acts as a noise filter: compared to a dense estimator, MoEs achieve lower generalization error under feature noise, improved robustness to perturbations, and faster convergence speed. Empirical results on synthetic data and real-world language tasks corroborate the theoretical insights, demonstrating consistent robustness and efficiency gains from sparse modular computation.},
+}
+@inproceedings{
+  adnan2026sparseopt,
+  title={SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training},
+  author={Mohammed Adnan and Rohan Jain and Tom Jacobs and Ekansh Sharma and Rahul G Krishnan and Rebekka Burkholz and Yani Ioannou},
+  booktitle={Forty-third International Conference on Machine Learning},
+  year={2026},
+  url={https://openreview.net/forum?id=qerVUczDMf},
+  pdf={https://openreview.net/pdf?id=qerVUczDMf},
+  abstract={Dynamic Sparse Training (DST) methods train neural networks by maintaining sparsity while dynamically adapting the network topology. Despite the promise of reduced computation, DST methods converge significantly slower than dense training, often requiring comparable training time to achieve similar accuracy. We demonstrate both analytically and empirically that Batch Normalization (BN) adversely affects sparse training and propose SparseOpt — a sparsity-aware optimizer— to address this. Experiments on ResNet models across CIFAR-100 and ImageNet demonstrate consistently faster convergence and improved generalization with our proposed method. Our work highlights the limitations of current normalization layers in sparse training and provides the first systematic study of the interaction between Batch Normalization, sparse layers, and DST, taking a significant step toward making DST practically competitive with dense training.},
+  img={sparseopt.png}
+}
+@Article{Lopes-Ramos2026,
+author={Lopes-Ramos, Camila M.
+and Burkholz, Rebekka
+and Ben Guebila, Marouen
+and Fanfani, Viola
+and Saha, Enakshi
+and Shutta, Katherine H.
+and Glass, Kimberly
+and Quackenbush, John
+and DeMeo, Dawn L.},
+title={Sex differences in gene regulation and its impact on cancer incidence},
+journal={iScience},
+year={2026},
+month={May},
+day={15},
+publisher={Elsevier},
+volume={29},
+number={5},
+abstract={There are significant sex differences in cancer incidence, yet the underlying regulatory mechanisms in normal tissues remain poorly understood. We studied 8,279 gene regulatory networks across 29 non-cancerous tissues and compared network centrality by sex. Cancer genes were differentially targeted by transcription factors in males and females, with an overrepresentation on the X chromosome, particularly among X-inactivation escapees, and key signaling pathways such as WNT, NOTCH, and p53. We observed higher targeting of cancer-related pathways in females for tissues that have higher tumor incidence in females (breast, lung, and thyroid) and higher targeting in males for tissues with increased tumor incidence in males (stomach, colon, and liver), a pattern replicated in independent lung data. Sex-biased transcription factors were enriched for sex hormone response elements. These findings suggest that sex-biased transcriptional programs in normal tissues contribute to sex differences in cancer incidence and should be considered in cancer prevention strategies.},
+issn={2589-0042},
+doi={10.1016/j.isci.2026.115570},
+url={https://doi.org/10.1016/j.isci.2026.115570},
+img={sex-differences.jpg}
+}
 @inproceedings{merge,
 title={Bridging Domains through Subspace-Aware Model Merging},
 author={Levy Chaves and Chao Zhou and Rebekka Burkholz and Eduardo Valle and Andra Avila},
@@ -68,31 +125,6 @@ abstract={Learning in smooth games fundamentally differs from standard minimizat
   pdf={https://openreview.net/pdf?id=XKB5Hu0ACY},
   abstract={Understanding the implicit bias of optimization algorithms is key to explaining and improving the generalization of deep models. The hyperbolic implicit bias induced by pointwise overparameterization promotes sparsity, but also yields a small inverse Riemannian metric near zero, slowing down parameter movement and impeding meaningful parameter sign flips. To overcome this obstacle, we propose Hyperbolic Aware Minimization (HAM), which alternates a standard optimizer step with a lightweight hyperbolic mirror step. The mirror step incurs less compute and memory than pointwise overparameterization, reproduces its beneficial hyperbolic geometry for feature learning, and mitigates the small–inverse-metric bottleneck. Our characterization of the implicit bias in the context of underdetermined linear regression provides insights into the mechanism how HAM consistently increases performance --even in the case of dense training, as we demonstrate in experiments with standard vision benchmarks. HAM is especially effective in combination with different sparsification methods, advancing the state of the art.},
   img={hyperbolic-aware-minimization.png},
-}
-
-@inproceedings{
-adnan2026sparseopt,
-title={SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training},
-author={Mohammed Adnan and Rohan Jain and Tom Jacobs and Ekansh Sharma and Rahul G Krishnan and Rebekka Burkholz and Yani Ioannou},
-booktitle={The Third Conference on Parsimony and Learning (Recent Spotlight Track)},
-year={2026},
-url={https://openreview.net/forum?id=qerVUczDMf},
-pdf={https://openreview.net/pdf?id=qerVUczDMf},
-abstract={Dynamic Sparse Training (DST) methods train neural networks by maintaining sparsity while dynamically adapting the network topology. Despite the promise of reduced computation, DST methods converge significantly slower than dense training, often requiring comparable training time to achieve similar accuracy. We demonstrate both analytically and empirically that Batch Normalization (BN) adversely affects sparse training and propose SparseOpt — a sparsity-aware optimizer— to address this. Experiments on ResNet models across CIFAR-100 and ImageNet demonstrate consistently faster convergence and improved generalization with our proposed method. Our work highlights the limitations of current normalization layers in sparse training and provides the first systematic study of the interaction between Batch Normalization, sparse layers, and DST, taking a significant step toward making DST practically competitive with dense training.},
-img={sparseopt.png}
-}
-
-@inproceedings{
-rubio-madrigal2025fixed,
-title={Fixed Aggregation Features Can Rival {GNN}s},
-author={Celia Rubio-Madrigal and Rebekka Burkholz},
-booktitle={Women in Machine Learning Workshop @ NeurIPS},
-year={2025},
-url={https://arxiv.org/abs/2601.19449},
-pdf={https://arxiv.org/pdf/2601.19449},
-img={fixed-aggregation-features.png},
-abstract={Graph neural networks (GNNs) are widely believed to excel at node representation learning through trainable neighborhood aggregations. We challenge this view by introducing Fixed Aggregation Features (FAFs), a training-free approach that transforms graph learning tasks into tabular problems. This simple shift enables the use of well-established tabular methods, offering strong interpretability and the flexibility to deploy diverse classifiers. Across 14 benchmarks, well-tuned multilayer perceptrons trained on FAFs rival or outperform state-of-the-art GNNs and graph transformers on 12 tasks -- often using only mean aggregation. The only exceptions are the Roman Empire and Minesweeper datasets, which typically require unusually deep GNNs. To explain the theoretical possibility of non-trainable aggregations, we connect our findings to Kolmogorov–Arnold representations and discuss when mean aggregation can be sufficient. In conclusion, our results call for (i) richer benchmarks benefiting from learning diverse neighborhood aggregations, (ii) strong tabular baselines as standard, and (iii) employing and advancing tabular models for graph data to gain new insights into related tasks.},
-code={https://github.com/celrm/fixed-aggregation-features}
 }
 
 @inproceedings{

@@ -1,3 +1,12 @@
+- date: 6. July 2026
+  headline: "📛 Three papers have been accepted at ICML 2026
+    [(1)](https://arxiv.org/abs/2601.19449)
+    [(2)](https://arxiv.org/abs/2601.14792)
+    [(3)](https://openreview.net/forum?id=qerVUczDMf)."
+
+- date: 8. June 2026
+  headline: "💬 Celia is presenting two posters at the Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/)) in Madrid."
+
 - date: 23. April 2026
   headline: "📛 Four papers have been accepted at ICLR 2026
     [(1)](https://openreview.net/forum?id=XKB5Hu0ACY)
@@ -10,7 +19,7 @@
 
 - date: 23. March 2026
   headline: "💬 Chao, Celia, Tom, and Rohan are presenting at [CPAL](https://cpal.cc/spotlight_track/) with nine papers as recent spotlights, and Rebekka is attending as PC."
-  images: ["CPAL-2026-1.jpeg", "CPAL-2026-2.jpg"]
+  images: [["CPAL-2026-1.jpeg", "Roberto Montebello"], ["CPAL-2026-2.jpg", "Roberto Montebello"]]
 
 - date: 1. March 2026
   headline: "Welcome to Rohan, Franka, and Jonas!"
