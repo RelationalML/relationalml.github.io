@@ -88,6 +88,10 @@
 - role: Past Master's theses
   full_width: true
   members:
+    - name: Chinmay Joshi
+      thesis: "On the Effect of Data Pruning on Memorization"
+      url_thesis: https://openreview.net/pdf?id=IFnzabrAbl
+      date_thesis: 2026
     - name: Sree Harsha Nelaturu
       thesis: "Enhancing the Performance of Random Sparse Masks for Image Classification via Knowledge Distillation"
       date_thesis: 2025

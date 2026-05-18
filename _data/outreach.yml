@@ -1,4 +1,30 @@
 videos:
+- title: "Smart and Sparse: Deep Learning Efficiency for a Greener Future"
+  date: 2026-04-01
+  speaker: "Rebekka Burkholz"
+  venue: "CISPA Inaugural Lecture"
+  video: https://www.youtube.com/embed/2gyytWxEpuU?si=EDwl38GjG-wS22Z0
+  papers:
+    - title: "Masks, Signs, and Learning Rate Rewinding"
+      authors: "A. Gadhikar, R. Burkholz"
+      conference: ICLR 2024 (spotlight)
+      link: https://openreview.net/forum?id=qODvxQ8TXW
+    - title: "Sign-In to the Lottery: Reparameterizing Sparse Training"
+      authors: "A. Gadhikar, T. Jacobs, C. Zhou, R. Burkholz"
+      conference: NeurIPS 2025
+      link: https://openreview.net/forum?id=iwKT7MEZZw
+    - title: "Hyperbolic Aware Minimization: Implicit Bias for Sparsity"
+      authors: "T. Jacobs, A. Gadhikar, C. Rubio-Madrigal, R. Burkholz"
+      conference: ICLR 2025
+      link: https://openreview.net/forum?id=XKB5Hu0ACY
+    - title: "Pay Attention to Small Weights"
+      authors: "C. Zhou, T. Jacobs, A. Gadhikar, R. Burkholz"
+      conference: NeurIPS 2025
+      link: https://openreview.net/forum?id=XKnOA7MhCz
+    - title: "Don’t Trust Stubborn Neighbors: A Security Framework for Agentic Networks"
+      authors: "S. Abedini, S. Mavali, L. Schönherr, M. Pawelczyk, R. Burkholz"
+      link: https://arxiv.org/abs/2603.15809
+
 # - title: "Mask in the Mirror: Implicit Sparsification"
 #   date: 2025-11-17
 #   speaker: "Tom Jacobs"
@@ -165,12 +191,6 @@ other_links:
   url: ["https://www.tag-der-deutschen-einheit.de/programm/paneldiskussion-mit-rebekka-burkholz", "https://www.linkedin.com/posts/cispa_tde25-apollonfestival-cybersicherheit-activity-7379617165827534848-hfja"]
   description: "„KI-Kompass für Krisenzeiten“ – Echte Hilfe oder Black-Box-Gefahr? Dr. Rebekka Burkholz, CISPA Helmholtz-Zentrum für Informationssicherheit im Gespräch mit Christian Seel, Landesbeauftragter für zivil-militärische Zusammenarbeit und Bevölkerungsschutz."
   date: "2025-10-02"
-
-- title: "NetBioMed 2025 Keynote"
-  # url: "https://bsky.app/profile/netbiomed2025.bsky.social/post/3lqmzjkcks22l"
-  # description: "After coffee break we had Rebekka Burkholz discussing current challenges when modelling gene regulation and how to fix them. Her approach is innovative and allows us to infer biological processes with both scalability and interpretability."
-  date: "2025-06-02"
-  embeds: '<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:6azaynaddykjpnn6a2gj7rms/app.bsky.feed.post/3lqmzjkcks22l" data-bluesky-cid="bafyreid4sijbp7ftpkc4bam7e4mvxem4nyi7idji3vvuh2zc5mnexkzhpi" data-bluesky-embed-color-mode="system"><p lang="en">After coffee break we had Rebekka Burkholz discussing current challenges when modelling gene regulation and how to fix them. Her approach is innovative and allows us to infer biological processes with both scalability and interpretability. #NetBioMed2025 #NetSci2025<br><br><a href="https://bsky.app/profile/did:plc:6azaynaddykjpnn6a2gj7rms/post/3lqmzjkcks22l?ref_src=embed">[image or embed]</a></p>&mdash; NetBioMed 2025 (<a href="https://bsky.app/profile/did:plc:6azaynaddykjpnn6a2gj7rms?ref_src=embed">@netbiomed2025.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:6azaynaddykjpnn6a2gj7rms/post/3lqmzjkcks22l?ref_src=embed">June 2, 2025 at 4:49 PM</a></blockquote>'
 
 - title: "Die Abenteuer der KI in der Genomik"
   url: "https://www.mdc-berlin.de/de/news/news/die-abenteuer-der-ki-der-genomik"

@@ -20,13 +20,13 @@
       scholar: https://scholar.google.com/citations?user=ttO5HpQAAAAJ
       description: "I focus on understanding the intricate dynamics of training and fine-tuning in machine learning models, with the goal of developing more efficient and effective learning algorithms. My research explores how optimization processes evolve and how we can refine these methods to improve performance. Currently, I am particularly interested in gradient compression techniques. I obtained my PhD under the supervision of Prof. Miguel Rodrigues at University College London, UK."
 
-    - name: Dr. Gowtham Abbavaram Reddy
+    - name: Dr. Gowtham Reddy Abbavaram
       last_name: Reddy
       photo: c01goab.jpg
       start_date: Oct 2024
       email: gowtham.abbavaram@cispa.de
       url: https://gautam0707.github.io/
-      scholar: https://scholar.google.com/citations?user=Iewg-GAAAAAJ
+      scholar: https://scholar.google.com/citations?user=MYxVMwcAAAAJ
       description: "I work on research problems at the intersection of machine learning and causality, focusing on modeling, inference, and interpreting machine learning models from a causal perspective to enhance their robustness and trustworthiness. I received my Ph.D. at the Indian Institute of Technology Hyderabad, where I was advised by Prof. Vineeth N Balasubramanian. During my Ph.D., I was awarded the prestigious Prime Minister's Research Fellowship (PMRF)."
 
     - name: Dr. Franka Bause
@@ -55,7 +55,7 @@
       email: celia.rubio-madrigal@cispa.de
       url: https://celrm.github.io/
       scholar: https://scholar.google.com/citations?user=AsvScCAAAAAJ
-      description: "I study generalization challenges in graph learning regarding the computational role of input graphs, with techniques such as rewiring graphs under different criteria, and non-trained aggregation methods. I was awarded a ”la Caixa” Foundation Postgraduate Fellowship which funded my master's at the University of Strathclyde, where I received the Best Overall Prize. I hold degrees in Mathematics and Computer Science from Universidad Complutense de Madrid."
+      description: "My research focuses on machine learning for graph and structured data. I am particularly interested in how input structures shape both data representation and computation, with broader interests in generalization trade-offs and architectural efficiency. I was awarded a ”la Caixa” Foundation Postgraduate Fellowship, which supported my master's studies at the University of Strathclyde in the UK, where I was awarded the Departmental Best Overall Performance Prize. I hold degrees in Mathematics and Computer Science from Universidad Complutense de Madrid."
       
     - name: Tom Jacobs
       last_name: Jacobs
@@ -98,3 +98,10 @@
       scholar: https://scholar.google.com/citations?user=-K5k5z0AAAAJ
       start_date: Mar 2026
       email: jonas.niederle@cispa.de
+
+    - name: Michael Sonntag
+      last_name: Sonntag
+      photo: 
+      url: https://cispa.de/en/people/c01miso
+      start_date: May 2026
+      email: michael.sonntag@cispa.de

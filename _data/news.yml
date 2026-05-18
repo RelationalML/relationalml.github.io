@@ -7,12 +7,25 @@
 - date: 8. June 2026
   headline: "💬 Celia is presenting two posters at the Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/)) in Madrid."
 
+- date: 26. May 2026
+  headline: "💬 The group is presenting posters at the CISPA Machine Learning Day."
+
+- date: 20. May 2026
+  headline: "💬 Celia is giving a talk at the CISPA ML seminar, and will give a talk next week at the [AI Security Afternoon](https://www.ais-saarland.org/ai-security#block-91e0ba70bbc468a0910c) at the University of Saarland."
+
+- date: 11. May 2026
+  headline: "💬 Tom is giving talks at the [University of Twente](https://www.utwente.nl/en/eemcs/mds/mds-seminar/archive_MDS_seminars/) and at [TU/e](https://casa.win.tue.nl/home/event/colloquium-tom-jacobs-cispa-helmholtzcenter-saarbrucken/) in the Netherlands."
+
 - date: 23. April 2026
   headline: "📛 Four papers have been accepted at ICLR 2026
     [(1)](https://openreview.net/forum?id=XKB5Hu0ACY)
     [(2)](https://openreview.net/forum?id=YgudIlQ9nC)
     [(3)](https://openreview.net/forum?id=sFjxg8cyJS)
     [(4)](https://openreview.net/forum?id=1mQT8PXIy8)."
+  images: ["ICLR-2026-1.jpg", "ICLR-2026-2.jpg", "ICLR-2026-3.jpg", "ICLR-2026-4.jpg"]
+
+- date: 15. April 2026
+  headline: "💬 Gowtham is giving a talk at the CISPA ML seminar."
 
 - date: 31. March 2026
   headline: "Congratulations to Advait for submitting his PhD!"
@@ -45,8 +58,8 @@
   headline: "💬 Tom is presenting his work on continuous sparsification at the [Mathematics & Efficiency of Deep Learning](https://sites.google.com/view/efficientml) ELLIS online seminar."
   video: https://www.youtube.com/embed/udKX0Y69O08?si=U2dSnD4vkY5s7ERM
 
-- date: 13. November 2025
-  headline: "💬 Chao is presenting at [CHN Energy Europe](https://www.nicenergy.com/eu) in Berlin."
+- date: 12. November 2025
+  headline: "💬 Chao is giving a talk at the CISPA ML seminar, and tomorrow will present at [CHN Energy Europe](https://www.nicenergy.com/eu) in Berlin."
 
 - date: 10. November 2025
   headline: "💬 Celia and Tom are presenting lightning talks at the Workshop on Geometry, Topology, and Machine Learning ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025)) in Leipzig."

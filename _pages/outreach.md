@@ -37,9 +37,9 @@ Based on papers:
 <ul>
 {% for paper in talk.papers %}
 <li>
-        <strong>{{ paper.title }}</strong>,
+        <strong><a href="{{ paper.link }}" target="_blank" rel="noopener">{{ paper.title }}</a></strong>.
         {{ paper.authors }},
-        <em>{{ paper.conference }}</em>. (<a href="{{ paper.link }}">Link to paper</a>)
+        <em>{{ paper.conference }}</em>.
 </li>
 {% endfor %}
 </ul>
