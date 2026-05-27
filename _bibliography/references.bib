@@ -1,6 +1,60 @@
 ---
 ---
 @inproceedings{
+rubio-madrigal2026linear,
+title={Linear {GCN}s Need Better Bias, Not More Expressive Power},
+author={Celia Rubio-Madrigal and Rebekka Burkholz},
+booktitle={Workshop on Graph Foundation Models: A New Era for Graph Machine Learning (GFM) @ ICML},
+year={2026},
+url={https://openreview.net/forum?id=cUJMrMzYVG},
+pdf={https://openreview.net/pdf?id=cUJMrMzYVG},
+img={linear-gcns.png},
+abstract={Do modern GNNs succeed because of architectural expressive power or because of implicit bias? We show that simple linear graph convolutions with sum aggregation and MLP classifiers can match the generalization performance of state-of-the-art graph learning methods. Theoretically, sum aggregation after a linear feature transformation can preserve neighborhood multiset information, yielding Weisfeiler–Lehman-level expressive power. Empirically, however, this potential is realized only through distillation from more complex GNN teachers. When trained from scratch, linear GCNs often fail to generalize. This reveals a gap between what simple models can express and what standard training selects. Our findings suggest that progress in graph learning may depend less on increasing expressiveness and more on controlling implicit bias, trainability, and model selection. Our experimental design provides a framework to distinguish these concepts.}
+}
+@inproceedings{
+  joshi2026prune,
+  title={Prune to Protect: Faster Training and Enhanced Privacy by Dynamic Data Pruning},
+  author={Chinmay Joshi and Advait Gadhikar and Celia Rubio-Madrigal and Aneet Kumar Dutta and Mridula Singh and Rebekka Burkholz},
+  booktitle={Workshop on The Impact of Memorization on Trustworthy Foundation Models (MemFM) @ ICML},
+  year={2026},
+  url={https://openreview.net/forum?id=IFnzabrAbl}, 
+  pdf={https://openreview.net/pdf?id=IFnzabrAbl},
+  img={prune-to-protect.png},
+  abstract={Deep networks memorize parts of their training data, exposing them to privacy attacks such as membership inference. The most vulnerable samples are often hard-to-learn tail examples: they are fitted late, carry high information for generalization, and are difficult to protect without sacrificing performance. We show that this privacy–utility tension can be mitigated by learning such samples earlier. To this end, we propose Weighted Loss InfoBatch (WLIB), which dynamically prunes easy samples while re-weighting hard ones according to sample-wise pruning ratios. By adjusting the influence of informative samples throughout training, WLIB jointly reduces memorization, improves robustness to membership inference attacks, and speeds up optimization. Extensive experiments demonstrate that WLIB achieves a favorable combination of privacy, utility, and training efficiency.},
+}
+@inproceedings{
+  abedini2026donttruststubbornneighbors,
+  title={Don't Trust Stubborn Neighbors: A Security Framework for Agentic Networks},
+  author={Samira Abedini and Sina Mavali and Lea Schönherr and Martin Pawelczyk and Rebekka Burkholz},
+  booktitle={Workshop on Compositional Learning: Safety, Interpretability, and Agents (CompLearn) @ ICML},
+  year={2026},
+  url={https://arxiv.org/abs/2603.15809},
+  pdf={https://arxiv.org/pdf/2603.15809},
+  img={stubborn-neighbors.png},
+  abstract={Large Language Model (LLM)-based Multi-Agent Systems (MASs) are increasingly deployed for agentic tasks, such as web automation, itinerary planning, and collaborative problem solving. Yet, their interactive nature introduces new security risks: malicious or compromised agents can exploit communication channels to propagate misinformation and manipulate collective outcomes. In this paper, we study how such manipulation can arise and spread by borrowing the Friedkin-Johnsen opinion formation model from social sciences to propose a general theoretical framework to study LLM-MAS. Remarkably, this model closely captures LLM-MAS behavior, as we verify in extensive experiments across different network topologies and attack and defense scenarios. Theoretically and empirically, we find that a single highly stubborn and persuasive agent can take over MAS dynamics, underscoring the systems' high susceptibility to attacks by triggering a persuasion cascade that reshapes collective opinion. Our theoretical analysis reveals three mechanisms to increase system security: a) increasing the number of benign agents, b) increasing the innate stubbornness or peer-resistance of agents, or c) reducing trust in potential adversaries. Because scaling is computationally expensive and high stubbornness degrades the network's ability to reach consensus, we propose a new mechanism to mitigate threats by a trust-adaptive defense that dynamically adjusts inter-agent trust to limit adversarial influence while maintaining cooperative performance. Extensive experiments confirm that this mechanism effectively defends against manipulation.},
+  code={https://github.com/Dormant-Neurons/MAS-Cascade}
+}
+@inproceedings{
+  jacobs2026horstcomposingoptimizergeometries,
+      title={HORST: Composing Optimizer Geometries for Sparse Transformer Training}, 
+      author={Tom Jacobs and Rohan Jain and Rebekka Burkholz},
+      booktitle={Workshop on High-dimensional Learning Dynamics (HiLD) @ ICML},
+      year={2026},
+      url={https://arxiv.org/abs/2605.21104}, 
+      pdf={https://arxiv.org/pdf/2605.21104},
+      abstract={Sparsifying transformers remains a fundamental challenge, as standard optimizers fail to simultaneously encourage sparsity and maintain training stability. Effective adaptive optimizers exhibit an implicit $L_{\infty{}}$ bias favoring stability, yet, sparsity requires an $L_1$ bias. To integrate sparsity, we propose a composition of optimizer steps, which we cast as non-commutative operators to analyze and combine their optimization geometry in a principled way. This yields HORST (Hyperbolic Operator for Robust Sparse Training), a modular optimizer that inherits stability from adaptive methods while inducing $L_1$ sparsity bias through a hyperbolic mirror map. Our experiments demonstrate its utility for sparse training of transformers on both vision and language tasks. HORST consistently and significantly outperforms AdamW baselines across all sparsity levels, with large gains at higher sparsity.}
+}
+@inproceedings{
+  pham2026continuous,
+      title={Continuous Sparsification via Minimizing Movement}, 
+      author={Hoang Pham and Tom Jacobs and Binh Nguyen and Rebekka Burkholz and Long Tran-Thanh},
+      booktitle={Workshop on High-dimensional Learning Dynamics (HiLD) @ ICML},
+      year={2026},
+      url={https://openreview.net/forum?id=nsSLDnJ2uU},
+      pdf={https://openreview.net/pdf?id=nsSLDnJ2uU},
+      abstract={Continuous sparsification is a popular approach for finding efficient sparse subnetworks, optimizing soft masks before applying a hard Top-$K$ projection. However, existing methods typically regularize mask variables using flat Euclidean geometry, penalizing local rewirings and disruptive long-range relocations equally. To address this, we propose Continuous Sparsification via Minimizing Movement (CSMM), a geometry-aware framework that treats layer connectivity as a probability allocation on the simplex. By leveraging the minimizing-movement scheme, we regularize the temporal evolution of connectivity using flexible proximal penalty functions. This approach decouples task performance from structural evolution, allowing practitioners to impose specific geometric inductive biases on topology evolution. The experiment shows a promising result on CIFAR10 dataset under ResNet-20 architecture, offering a new approach on continuous sparsification.}
+}
+@inproceedings{
 rubio-madrigal2026fixed,
 title={Fixed Aggregation Features Can Rival {GNN}s},
 author={Celia Rubio-Madrigal and Rebekka Burkholz},
@@ -13,14 +67,14 @@ abstract={Graph neural networks (GNNs) are widely believed to excel at node repr
 code={https://github.com/celrm/fixed-aggregation-features}
 }
 @inproceedings{sun2026robustnessmixturesexpertsfeature,
-      title={Robustness of Mixtures of Experts to Feature Noise}, 
-      author={Dong Sun and Rahul Nittala and Rebekka Burkholz},
-      year={2026},
-      booktitle={Forty-third International Conference on Machine Learning},
-      img={robustness-of-moes.png},
-      url={https://arxiv.org/abs/2601.14792}, 
-      pdf={https://arxiv.org/pdf/2601.14792},
-      abstract={Despite their practical success, it remains unclear why Mixture of Experts (MoE) models can outperform dense networks beyond sheer parameter scaling. We study an iso-parameter regime where inputs exhibit latent modular structure but are corrupted by feature noise, a proxy for noisy internal activations. We show that sparse expert activation acts as a noise filter: compared to a dense estimator, MoEs achieve lower generalization error under feature noise, improved robustness to perturbations, and faster convergence speed. Empirical results on synthetic data and real-world language tasks corroborate the theoretical insights, demonstrating consistent robustness and efficiency gains from sparse modular computation.},
+  title={Robustness of Mixtures of Experts to Feature Noise}, 
+  author={Dong Sun and Rahul Nittala and Rebekka Burkholz},
+  year={2026},
+  booktitle={Forty-third International Conference on Machine Learning},
+  img={robustness-of-moes.png},
+  url={https://arxiv.org/abs/2601.14792}, 
+  pdf={https://arxiv.org/pdf/2601.14792},
+  abstract={Despite their practical success, it remains unclear why Mixture of Experts (MoE) models can outperform dense networks beyond sheer parameter scaling. We study an iso-parameter regime where inputs exhibit latent modular structure but are corrupted by feature noise, a proxy for noisy internal activations. We show that sparse expert activation acts as a noise filter: compared to a dense estimator, MoEs achieve lower generalization error under feature noise, improved robustness to perturbations, and faster convergence speed. Empirical results on synthetic data and real-world language tasks corroborate the theoretical insights, demonstrating consistent robustness and efficiency gains from sparse modular computation.},
 }
 @inproceedings{
   adnan2026sparseopt,
@@ -131,7 +185,7 @@ abstract={Learning in smooth games fundamentally differs from standard minimizat
 gadhikar2025optrot,
 title={OptRot: Mitigating Weight Outliers via Data-Free Rotations for Post-Training Quantization},
 author={Advait Gadhikar and Riccardo Grazzi and James Hensman},
-booktitle={Machine Learning for Systems @ NeurIPS},
+booktitle={Workshop on Machine Learning for Systems (MLForSys) @ NeurIPS},
 year={2025},
 img={optrot.png},
 url={https://openreview.net/forum?id=4uwRaBhjHY},
@@ -188,7 +242,7 @@ abstract={Implicit bias plays an important role in explaining how overparameteri
 gadhikar2025attention,
 title={Attention Is All You Need For Mixture-of-Depths Routing},
 author={Advait Gadhikar and Souptik Kumar Majumdar and Niclas Popp and Piyapat Saranrittichai and Martin Rapp and Lukas Schott},
-booktitle={Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models @ ICLR},
+booktitle={Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models (SCOPE) @ ICLR},
 year={2025},
 img={mod-routing.png},
 url={https://openreview.net/forum?id=1uDP4ld3eZ},

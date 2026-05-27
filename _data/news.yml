@@ -5,13 +5,17 @@
     [(3)](https://openreview.net/forum?id=qerVUczDMf)."
 
 - date: 8. June 2026
-  headline: "💬 Celia is presenting two posters at the Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/)) in Madrid."
+  headline: "💬 Celia is presenting one oral and one poster at the Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/)) in Madrid."
 
 - date: 26. May 2026
-  headline: "💬 The group is presenting posters at the CISPA Machine Learning Day."
+  headline: "💬 The group is presenting six posters at the CISPA Machine Learning Day."
+  images: ["CISPAMLDay-2026-1.jpeg", "CISPAMLDay-2026-2.jpeg", "CISPAMLDay-2026-3.jpeg", "CISPAMLDay-2026-4.jpeg", "CISPAMLDay-2026-5.jpeg"]
 
 - date: 20. May 2026
-  headline: "💬 Celia is giving a talk at the CISPA ML seminar, and will give a talk next week at the [AI Security Afternoon](https://www.ais-saarland.org/ai-security#block-91e0ba70bbc468a0910c) at the University of Saarland."
+  headline: "💬 Celia is giving a talk at the CISPA ML seminar."
+
+- date: 15. May 2026
+  headline: "Welcome Michael!"
 
 - date: 11. May 2026
   headline: "💬 Tom is giving talks at the [University of Twente](https://www.utwente.nl/en/eemcs/mds/mds-seminar/archive_MDS_seminars/) and at [TU/e](https://casa.win.tue.nl/home/event/colloquium-tom-jacobs-cispa-helmholtzcenter-saarbrucken/) in the Netherlands."
@@ -26,6 +30,9 @@
 
 - date: 15. April 2026
   headline: "💬 Gowtham is giving a talk at the CISPA ML seminar."
+
+- date: 7. April 2026
+  headline: "Congratulations to Tom for qualifying as a finalist for the [2026 Qualcomm Innovation Fellowship Europe](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-europe)."
 
 - date: 31. March 2026
   headline: "Congratulations to Advait for submitting his PhD!"
@@ -82,11 +89,11 @@
   headline: "💬 Baraah is presenting her work on game-aware optimization at the [Shocklab](https://ai.uct.ac.za/events/shocklab-seminar-series-baraah-sidahmed/) online seminar."
 
 - date: 6. October 2025
-  headline: "Welcome to Adnan (University of Calgary) and Levy (University of Campinas) for research stays. Furthermore, Prof. [Yani Ioannou](https://yani.ai/) (University of Calgary) is visiting us for a week, and has a talk on sparse training."
+  headline: "Welcome to Adnan (University of Calgary) and Levy (University of Campinas) for research stays. Furthermore, Prof. [Yani Ioannou](https://yani.ai/) (University of Calgary) is visiting us for a week, and will give a talk on sparse training."
   image: Yani-2025-talk.jpg
 
 - date: 15. September 2025
-  headline: "💬 Rebekka and Celia are presenting at the Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto with a keynote and two lightning talks."
+  headline: "💬 Rebekka and Celia are presenting at the Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto with a keynote and two lightning talks, respectively."
   images: ["MLG-2025-1.jpg", "MLG-2025-2.jpg"]
 
 - date: 14. August 2025

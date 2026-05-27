@@ -11,7 +11,7 @@
       scholar: https://scholar.google.com/citations?user=parDMogAAAAJ
       thesis: "On the Challenges in Training Sparse Neural Networks From Scratch"
       description: "I work on building provable algorithms for deep learning and am currently interested in algorithms related to sparsity in neural nets. Specifically I am interested in the Lottery Ticket Hypothesis and how it can help identify the underlying structure of a learnt network. I completed my Master's from the Electrical and Computer Engineering Department at Carnegie Mellon University."
-      next: Microsoft Research
+      next: RSDE 2 at Microsoft Research
 
 - role: Research scientists
   full_width: true
@@ -50,7 +50,7 @@
       end_date: Oct 24
       email: adarsh.jamadandi@cispa.de
       url: https://adarshmj.github.io
-      next: PhD  at IRISA Rennes
+      next: PhD at IRISA Rennes
 
     - name: Harsha Nelaturu
       last_name: Nelaturu
@@ -58,7 +58,7 @@
       start_date: Aug 23
       end_date: Jul 24
       url: https://nelaturuharsha.github.io/
-      next: PhD  at Zuse Institute Berlin
+      next: PhD at Zuse Institute Berlin
 
     - name: Advait Athreya
       last_name: Athreya

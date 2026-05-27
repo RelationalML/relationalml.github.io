@@ -10,7 +10,7 @@ videos:
       conference: ICLR 2024 (spotlight)
       link: https://openreview.net/forum?id=qODvxQ8TXW
     - title: "Sign-In to the Lottery: Reparameterizing Sparse Training"
-      authors: "A. Gadhikar, T. Jacobs, C. Zhou, R. Burkholz"
+      authors: "A. Gadhikar*, T. Jacobs*, C. Zhou, R. Burkholz"
       conference: NeurIPS 2025
       link: https://openreview.net/forum?id=iwKT7MEZZw
     - title: "Hyperbolic Aware Minimization: Implicit Bias for Sparsity"
