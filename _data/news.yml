@@ -7,6 +7,9 @@
 - date: 8. June 2026
   headline: "💬 Celia is presenting one oral and one poster at the Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/)) in Madrid."
 
+- date: 1. June 2026
+  headline: "💬 Rebekka is at NetSci in Boston, USA, giving a keynote at the [NSIA](https://network-science-ai.github.io/speakers.html) satellite. Next week, she is giving a talk at the GNN Symposium at the [International Conference on Curves and Surfaces](https://cs2026.sciencesconf.org/704887) in France."
+
 - date: 26. May 2026
   headline: "💬 The group is presenting six posters at the CISPA Machine Learning Day."
   images: ["CISPAMLDay-2026-1.jpeg", "CISPAMLDay-2026-2.jpeg", "CISPAMLDay-2026-3.jpeg", "CISPAMLDay-2026-4.jpeg", "CISPAMLDay-2026-5.jpeg"]
@@ -19,6 +22,10 @@
 
 - date: 11. May 2026
   headline: "💬 Tom is giving talks at the [University of Twente](https://www.utwente.nl/en/eemcs/mds/mds-seminar/archive_MDS_seminars/) and at [TU/e](https://casa.win.tue.nl/home/event/colloquium-tom-jacobs-cispa-helmholtzcenter-saarbrucken/) in the Netherlands."
+
+- date: 9. May 2026
+  headline: "💬 Rebekka is giving a keynote at [GHOST Day](https://ghostday.pl/26-edition-speakers/) in Poland."
+  images: ["GHOSTDay-2026-1.jpg", "GHOSTDay-2026-2.jpg"]
 
 - date: 23. April 2026
   headline: "📛 Four papers have been accepted at ICLR 2026
