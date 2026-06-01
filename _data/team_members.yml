@@ -1,4 +1,4 @@
-- role: Tenured faculty
+- role: Faculty
   members:
     - name: Dr. Rebekka Burkholz
       last_name: Burkholz
@@ -28,6 +28,7 @@
       url: https://gautam0707.github.io/
       scholar: https://scholar.google.com/citations?user=MYxVMwcAAAAJ
       description: "I work on research problems at the intersection of machine learning and causality, focusing on modeling, inference, and interpreting machine learning models from a causal perspective to enhance their robustness and trustworthiness. I received my Ph.D. at the Indian Institute of Technology Hyderabad, where I was advised by Prof. Vineeth N Balasubramanian. During my Ph.D., I was awarded the prestigious Prime Minister's Research Fellowship (PMRF)."
+      shared_with: "[Krikamol Muandet](https://www.krikamol.org/)"
 
     - name: Dr. Franka Bause
       last_name: Bause
@@ -82,6 +83,7 @@
       url: https://cispa.de/en/people/c01baad
       scholar: https://scholar.google.com/citations?user=LGI13OsAAAAJ
       description: "I study how multiple agents interact, learn, and how these processes can be optimized. Currently, I'm developing a general framework that enables a wide range of agents—from simple nodes to complex models—to interact efficiently. My past work focused on optimizing multi-agent reinforcement learning using ideas from game theory. I recently completed a Data Science and AI master at Saarland University. Previously, I did a bachelor in Electrical and Electronics Engineering at University of Khartoum."
+      shared_with: "[Tatjana Chavdarova](https://chavdarova.github.io/)"
 
     - name: Rohan Jain
       last_name: Jain
@@ -105,3 +107,12 @@
       url: https://cispa.de/en/people/c01miso
       start_date: May 2026
       email: michael.sonntag@cispa.de
+
+- role: Administrative support
+  full_width: true
+  members:
+    - name: Christina Risch
+      photo: c01chri.jpg
+      email: office-burkholz@cispa.de
+      start_date: May 2025
+      url: https://cispa.de/en/people/c01chri

@@ -14,7 +14,6 @@
       next: RSDE 2 at Microsoft Research
 
 - role: Research scientists
-  full_width: true
   members:
   - name: Dong Sun
     last_name: Sun
@@ -35,13 +34,57 @@
     description: "I am interesting in making modern AI models efficient. In particular, I work on discovering and exploiting structure in Neural Networks (sparsity, low-dimensional representations and similar) for efficient training, fine-tuning and inference. I am a former full-time core developer for [PyTorch](https://github.com/pytorch/pytorch) and [Lightning Thunder](https://github.com/Lightning-AI/lightning-thunder). Check my [GitHub](https://github.com/nikitaved) to see what I work on now."
     next: Senior Engineer at NVIDIA
 
-- role: Research assistants
+- role: Visiting students
   members:
+    - name: Mohammed Adnan
+      last_name: Adnan
+      from: U. Calgary and Vector Institute
+      start_date: Oct 25
+      end_date: Nov 25
+      url: https://adnan1306.github.io
+
+    - name: Levy Chaves
+      last_name: Chaves
+      from: U. Campinas
+      start_date: Sep 25
+      end_date: Nov 25
+      url: https://scholar.google.com/citations?user=dDfbSWUAAAAJ
+
+    - name: Otto Piramuthu
+      last_name: Piramuthu
+      from: U. Illinois, Urbana-Champaign
+      start_date: Jun 24
+      end_date: Aug 24
+
+- role: Research assistants
+  full_width: true
+  members:
+    - name: Siddhant Agrawal
+      last_name: Agrawal
+      photo:
+      start_date: May 2026
+      email: siddhant.agrawal@cispa.de
+      advisors: "Franka"
+
+    - name: Rafi Matthias Hakim
+      last_name: Hakim
+      photo: c01raha.jpg
+      start_date: May 2026
+      email: rafi.hakim@cispa.de
+
+    - name: Aniket Sanyal
+      last_name: Sanyal
+      photo: 
+      start_date: Apr 2026
+      email: aniket.sanyal@cispa.de
+      advisors: "Tom"
+
     - name: Ben Horvath
       last_name: Horvath
       start_date: May 25
       end_date: Apr 26
       email: ben.horvath@cispa.de
+      advisors: "Tom"
 
     - name: Adarsh Jamadandi
       last_name: Jamadandi
@@ -51,6 +94,7 @@
       email: adarsh.jamadandi@cispa.de
       url: https://adarshmj.github.io
       next: PhD at IRISA Rennes
+      advisors: "Celia"
 
     - name: Harsha Nelaturu
       last_name: Nelaturu
@@ -59,31 +103,13 @@
       end_date: Jul 24
       url: https://nelaturuharsha.github.io/
       next: PhD at Zuse Institute Berlin
+      advisors: "Advait"
 
     - name: Advait Athreya
       last_name: Athreya
       start_date: Dec 21
       end_date: Oct 22
-
-- role: Visiting students
-  members:
-    - name: Mohammed Adnan
-      last_name: Adnan
-      from: University of Calgary and Vector Institute
-      start_date: Oct 25
-      end_date: Nov 25
-      url: https://adnan1306.github.io
-    - name: Levy Chaves
-      last_name: Chaves
-      from: University of Campinas
-      start_date: Sep 25
-      end_date: Nov 25
-      url: https://scholar.google.com/citations?user=dDfbSWUAAAAJ
-    - name: Otto Piramuthu
-      last_name: Piramuthu
-      from: University of Illinois, Urbana-Champaign
-      start_date: Jun 24
-      end_date: Aug 24
+      advisors: "Advait"
 
 - role: Past Master's theses
   full_width: true
@@ -92,17 +118,33 @@
       thesis: "On the Effect of Data Pruning on Memorization"
       url_thesis: https://openreview.net/pdf?id=IFnzabrAbl
       date_thesis: 2026
+      advisors: ["Advait", "Celia"]
     - name: Sree Harsha Nelaturu
-      thesis: "Enhancing the Performance of Random Sparse Masks for Image Classification via Knowledge Distillation"
+      thesis: "Enhancing the Performance of Random Sparse Masks for Image Classification via KD"
       date_thesis: 2025
+      advisors: "Advait"
     - name: Nirav Shenoy
       thesis: "Efficient Sparse Training: Combining Continuous Sparsification with LRR and Rewiring"
       date_thesis: 2025
+      advisors: "Advait"
     - name: Adarsh Jamadandi
       thesis: "On the Importance of Graph-Task Alignment for Graph Neural Networks"
       url_thesis: https://adarshmj.github.io/assets/Graph-TaskAlignment.pdf
       date_thesis: 2024
+      advisors: "Celia"
     - name: Rahul Nittala
       thesis: Scale-free Masks for Random Pruning
       url_thesis:
       date_thesis: 2024
+
+- role: Past Bachelor's theses
+  full_width: true
+  members:
+    - name: Abhi Gabani
+      thesis: TBD
+      date_thesis: 2026
+      advisors: "Nimrah"
+    - name: Florian Sollinger
+      thesis: "GNNs for Toxicity Prediction"
+      date_thesis: 2026
+      advisors: "Celia"

@@ -1522,8 +1522,8 @@ h3 .small, .h3 small,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 7.3333333333px;
+  margin-bottom: 7.3333333333px;
 }
 h4 small,
 h4 .small, .h4 small,
@@ -4503,6 +4503,7 @@ tbody.collapse.in {
   padding-left: 15px;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
 }
 .navbar-collapse:before, .navbar-collapse:after {
   content: " ";
@@ -4510,9 +4511,6 @@ tbody.collapse.in {
 }
 .navbar-collapse:after {
   clear: both;
-}
-.navbar-collapse {
-  -webkit-overflow-scrolling: touch;
 }
 .navbar-collapse.in {
   overflow-y: auto;
@@ -4701,6 +4699,8 @@ tbody.collapse.in {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 @media (min-width: 768px) {
   .navbar-form .form-group {
@@ -4759,10 +4759,6 @@ tbody.collapse.in {
   .navbar-form .form-group:last-child {
     margin-bottom: 0;
   }
-}
-.navbar-form {
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 @media (min-width: 768px) {
   .navbar-form {
@@ -6720,7 +6716,7 @@ button.close {
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#00000000", GradientType=1);
 }
 .carousel-control.right {
   left: auto;
@@ -6729,7 +6725,7 @@ button.close {
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#00000000", GradientType=1);
 }
 .carousel-control:hover, .carousel-control:focus {
   outline: 0;
@@ -7705,10 +7701,14 @@ ol.bibliography li .preview {
   margin-top: -11px;
 }
 ol.bibliography li .preview img {
-  margin: 16px 22px 6px 0;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  object-position: center;
+  background: white;
+  margin: 16px 22px 24px 0;
   border-radius: 10%;
   box-shadow: 2px 2px 5px #888888;
-  margin-bottom: 24px;
 }
 
 #memberselect {

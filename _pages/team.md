@@ -37,8 +37,9 @@ permalink: /team/
   {%- if member.scholar %} | <a href="{{ member.scholar}}"><svg xmlns="http://www.w3.org/2000/svg" height="0.75em" aria-label="Google Scholar" role="img" viewBox="102 112 310 328"><path fill="currentColor" d="M213 111l-107 94h69c5 45 41 64 78 67-7 18-4 27 7 39-43 1-103 26-103 67 4 45 63 54 92 54 38 1 81-19 90-54 4-35-10-54-31-71-23-18-28-28-21-40 15-17 35-27 39-51 2-17-2-28-6-43l45-38-1 16c-3 2-5 6-5 9v103c2 13 22 11 23 0V160c0-3-2-7-5-8v-25l16-16zm58 141c-61 10-87-87-38-99 56-11 83 86 38 99zm-5 73c60 13 61 63 10 78-44 9-82-4-81-30 0-25 35-48 71-48z"/></svg></a> {%- endif -%} 
   {% if member.description %}
    |  <a class="membercv" role="button">Show bio↓</a> {% endif %} <br>
-  <i>since {{ member.start_date }}</i>
-  {% if member.description %}
+  <small><i>since {{ member.start_date }}</i>
+  {%- if member.shared_with %} | with {{ member.shared_with }}{% endif %}</small>
+  {% if member.description %}<br><br>
 <div class="membercv hidden">
 {{ member.description }}
 </div>
@@ -86,7 +87,10 @@ permalink: /team/
 {% for member in group.members %}
 {% if member.start_date %}{{ member.start_date }}-{{ member.end_date }}. {% endif %}{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif -%}
 {%- if member.from %} ({{ member.from }}){%- endif -%}
-{%- if member.thesis -%}: <i>{% if member.url_thesis -%}<a href="{{ member.url_thesis }}">{{ member.thesis }}</a>{% else %}{{ member.thesis }}{% endif %}</i>{%- if member.date_thesis -%}, {{ member.date_thesis }}.{%- endif -%}{%- endif %}
+{%- if member.thesis -%}: <i>{% if member.url_thesis -%}<a href="{{ member.url_thesis }}">{{ member.thesis }}</a>{% else %}{{ member.thesis }}{% endif %}</i>{%- endif -%}
+{%- if member.advisors %} <small><i>(advised by {{ member.advisors | join: ', ' }})</i></small>{% endif -%}
+{%- if member.thesis -%}
+{%- if member.date_thesis -%}, {{ member.date_thesis }}.{%- endif -%}{%- endif %}
 {% for next in member.next %} ⇢ {{ next }}{% endfor %}
 {% endfor %}
 </div>
