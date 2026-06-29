@@ -12,7 +12,7 @@ Explore our latest research by browsing **[pre-prints](#pre-prints)** and **[acc
 <select id="memberselect">
     <option value="">All members</option>
     {% for group in site.data.team_members %}{% for member in group.members 
-    %}<option value="{{ member.last_name }}">{{ member.name }}</option>
+    %}{%- if member.last_name %}<option value="{{ member.last_name }}">{{ member.name }}</option>{%- endif -%}
     {% endfor %}{% endfor %}</select>
 
 

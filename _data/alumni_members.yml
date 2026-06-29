@@ -111,14 +111,15 @@
       end_date: Oct 22
       advisors: "Advait"
 
-- role: Past Master's theses
+- role: Master's theses
+  description: "Advised by Dr. Rebekka Burkholz."
   full_width: true
   members:
-    - name: Chinmay Joshi
-      thesis: "On the Effect of Data Pruning on Memorization"
-      url_thesis: https://openreview.net/pdf?id=IFnzabrAbl
-      date_thesis: 2026
-      advisors: ["Advait", "Celia"]
+    # - name: Chinmay Joshi
+    #   thesis: "On the Effect of Data Pruning on Memorization"
+    #   url_thesis: https://openreview.net/pdf?id=IFnzabrAbl
+    #   date_thesis: TBD
+    #   advisors: ["Advait", "Celia"]
     - name: Sree Harsha Nelaturu
       thesis: "Enhancing the Performance of Random Sparse Masks for Image Classification via KD"
       date_thesis: 2025
@@ -137,14 +138,15 @@
       url_thesis:
       date_thesis: 2024
 
-- role: Past Bachelor's theses
-  full_width: true
-  members:
-    - name: Abhi Gabani
-      thesis: TBD
-      date_thesis: 2026
-      advisors: "Nimrah"
-    - name: Florian Sollinger
-      thesis: "GNNs for Toxicity Prediction"
-      date_thesis: 2026
-      advisors: "Celia"
+# - role: Bachelor's theses
+#   description: "Advised by Dr. Rebekka Burkholz."
+#   full_width: true
+#   members:
+#     - name: Abhi Gabani
+#       thesis: TBD
+#       date_thesis: TBD
+#       advisors: "Nimrah"
+#     - name: Florian Sollinger
+#       thesis: "GNNs for Toxicity Prediction"
+#       date_thesis: TBD
+#       advisors: ["Dr. Volkamer","Lisa-Marie Rolli","Celia"]
