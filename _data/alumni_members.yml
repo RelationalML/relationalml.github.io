@@ -21,7 +21,7 @@
     start_date: Jul 24
     end_date: Mar 26
     email: dong.sun@cispa.de
-    url: 
+    url: https://openreview.net/profile?id=~Dong_Sun1
     description: "My current research focuses on theoretically elucidating the superior performance of Mixture of Experts models, with an emphasis on their generalization performance, sample complexity, training dynamics, and robustness to adversarial noises. I studied a master's degree at ETH Zurich."
 
   - name: Nikita Vedeneev
