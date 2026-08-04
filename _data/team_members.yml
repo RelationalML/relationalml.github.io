@@ -39,6 +39,22 @@
       scholar: https://scholar.google.com/citations?user=UTQlpH8AAAAJ
       description: "I focus on graph learning and similarity measures for graphs, with the aim of improving efficiency, expressivity, and accuracy. I completed my doctorate with distinction in the Kriege group at University of Vienna, and received the Award of Excellence from the Austrian Ministry of Women, Science and Research for my thesis."
       
+    - name: Dr. Gerrit Großmann
+      last_name: Grossmann
+      photo: c01gegr.jpg
+      start_date: Aug 2026
+      email: gerrit.grossmann@cispa.de
+      url: https://gerritgrossmann.de/
+      scholar: https://scholar.google.de/citations?user=e27EmFsAAAAJ   
+
+    - name: Dr. Soroush H. Zargarbashi
+      last_name: Zargarbashi
+      photo: c01saha.jpg
+      start_date: Sep 2026
+      email: sayed.haj-zargarbashi@cispa.de
+      url: https://de.linkedin.com/in/soroushzargar
+      scholar: https://scholar.google.de/citations?user=XnPiy-YAAAAJ
+    
 - role: PhD students
   members:
     - name: Nimrah Mustafa
@@ -110,11 +126,19 @@
 
     - name: Prasanga Dhungel
       last_name: Dhungel
-      photo: 
+      photo: c01prdh.jpg
       url: https://prasangadhungel.com.np/
       scholar: https://scholar.google.com/citations?user=ecEEUj4AAAAJ
       start_date: July 2026
       email: prasanga.dhungel@cispa.de
+
+    - name: Clara Kümpel
+      last_name: Kümpel
+      photo: c01clku.jpg
+      url: https://clarakuempel.github.io/
+      scholar: https://scholar.google.com/citations?user=FqD9Zg4AAAAJ
+      start_date: Sep 2026
+      email: clara.kuempel@cispa.de
 
 - role: Administrative support
   full_width: true

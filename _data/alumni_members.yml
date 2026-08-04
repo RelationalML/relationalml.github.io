@@ -48,10 +48,11 @@
       from: U. Campinas
       start_date: Sep 25
       end_date: Nov 25
-      url: https://scholar.google.com/citations?user=dDfbSWUAAAAJ
+      url: https://br.linkedin.com/in/levychaves
 
     - name: Otto Piramuthu
       last_name: Piramuthu
+      url: https://www.linkedin.com/in/otto-piramuthu
       from: U. Illinois, Urbana-Champaign
       start_date: Jun 24
       end_date: Aug 24
@@ -61,26 +62,28 @@
   members:
     - name: Siddhant Agrawal
       last_name: Agrawal
-      photo:
+      url: https://in.linkedin.com/in/siddhantiitd
       start_date: May 2026
       email: siddhant.agrawal@cispa.de
       advisors: "Franka"
 
     - name: Rafi Matthias Hakim
       last_name: Hakim
+      url: https://www.linkedin.com/in/rafi-hakim-489930223
       photo: c01raha.jpg
       start_date: May 2026
       email: rafi.hakim@cispa.de
 
     - name: Aniket Sanyal
       last_name: Sanyal
-      photo: 
+      url: https://de.linkedin.com/in/aniket-sanyal-2335028b
       start_date: Apr 2026
       email: aniket.sanyal@cispa.de
       advisors: "Tom"
 
     - name: Ben Horvath
       last_name: Horvath
+      url: https://de.linkedin.com/in/ben-horvath
       start_date: May 25
       end_date: Apr 26
       email: ben.horvath@cispa.de
@@ -107,6 +110,7 @@
 
     - name: Advait Athreya
       last_name: Athreya
+      url: https://at.linkedin.com/in/advaitathreya
       start_date: Dec 21
       end_date: Oct 22
       advisors: "Advait"
