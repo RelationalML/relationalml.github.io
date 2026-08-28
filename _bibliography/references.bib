@@ -1,17 +1,6 @@
 ---
 ---
 @inproceedings{
-rubio-madrigal2026linear,
-title={Linear {GCN}s Need Better Bias, Not More Expressive Power},
-author={Celia Rubio-Madrigal and Rebekka Burkholz},
-booktitle={Workshop on Graph Foundation Models: A New Era for Graph Machine Learning (GFM) @ ICML},
-year={2026},
-url={https://openreview.net/forum?id=cUJMrMzYVG},
-pdf={https://openreview.net/pdf?id=cUJMrMzYVG},
-img={linear-gcns.png},
-abstract={Do modern GNNs succeed because of architectural expressive power or because of implicit bias? We show that simple linear graph convolutions with sum aggregation and MLP classifiers can match the generalization performance of state-of-the-art graph learning methods. Theoretically, sum aggregation after a linear feature transformation can preserve neighborhood multiset information, yielding Weisfeiler–Lehman-level expressive power. Empirically, however, this potential is realized only through distillation from more complex GNN teachers. When trained from scratch, linear GCNs often fail to generalize. This reveals a gap between what simple models can express and what standard training selects. Our findings suggest that progress in graph learning may depend less on increasing expressiveness and more on controlling implicit bias, trainability, and model selection. Our experimental design provides a framework to distinguish these concepts.}
-}
-@inproceedings{
   joshi2026prune,
   title={Prune to Protect: Faster Training and Enhanced Privacy by Dynamic Data Pruning},
   author={Chinmay Joshi and Advait Gadhikar and Celia Rubio-Madrigal and Aneet Kumar Dutta and Mridula Singh and Rebekka Burkholz},
@@ -46,6 +35,17 @@ abstract={The effectiveness of multi-agent LLM deliberation depends not only on 
   code={https://github.com/Dormant-Neurons/MAS-Cascade}
 }
 @inproceedings{
+rubio-madrigal2026linear,
+title={Linear {GCN}s Need Better Bias, Not More Expressive Power},
+author={Celia Rubio-Madrigal and Rebekka Burkholz},
+booktitle={Workshop on Graph Foundation Models: A New Era for Graph Machine Learning (GFM) @ ICML},
+year={2026},
+url={https://openreview.net/forum?id=cUJMrMzYVG},
+pdf={https://openreview.net/pdf?id=cUJMrMzYVG},
+img={linear-gcns.png},
+abstract={Do modern GNNs succeed because of architectural expressive power or because of implicit bias? We show that simple linear graph convolutions with sum aggregation and MLP classifiers can match the generalization performance of state-of-the-art graph learning methods. Theoretically, sum aggregation after a linear feature transformation can preserve neighborhood multiset information. Empirically, however, this potential is realized only through distillation from more complex GNN teachers. When trained from scratch, linear GCNs often fail to generalize. This reveals a gap between what simple models can express and what standard training selects. Our findings suggest that progress in graph learning may depend less on increasing expressiveness and more on controlling implicit bias, trainability, and model selection. Our experimental design provides a framework to distinguish these concepts.}
+}
+@inproceedings{
   jacobs2026horstcomposingoptimizergeometries,
       title={HORST: Composing Optimizer Geometries for Sparse Transformer Training}, 
       author={Tom Jacobs and Rohan Jain and Rebekka Burkholz},
@@ -63,6 +63,7 @@ abstract={The effectiveness of multi-agent LLM deliberation depends not only on 
       year={2026},
       url={https://openreview.net/forum?id=nsSLDnJ2uU},
       pdf={https://openreview.net/pdf?id=nsSLDnJ2uU},
+      img={graphon-cs.png},
       abstract={Continuous sparsification is a popular approach for finding efficient sparse subnetworks, optimizing soft masks before applying a hard Top-$K$ projection. However, existing methods typically regularize mask variables using flat Euclidean geometry, penalizing local rewirings and disruptive long-range relocations equally. To address this, we propose Continuous Sparsification via Minimizing Movement (CSMM), a geometry-aware framework that treats layer connectivity as a probability allocation on the simplex. By leveraging the minimizing-movement scheme, we regularize the temporal evolution of connectivity using flexible proximal penalty functions. This approach decouples task performance from structural evolution, allowing practitioners to impose specific geometric inductive biases on topology evolution. The experiment shows a promising result on CIFAR10 dataset under ResNet-20 architecture, offering a new approach on continuous sparsification.}
 }
 @inproceedings{

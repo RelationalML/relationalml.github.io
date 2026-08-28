@@ -13,6 +13,19 @@
       description: "I work on building provable algorithms for deep learning and am currently interested in algorithms related to sparsity in neural nets. Specifically I am interested in the Lottery Ticket Hypothesis and how it can help identify the underlying structure of a learnt network. I completed my Master's from the Electrical and Computer Engineering Department at Carnegie Mellon University."
       next: RSDE 2 at Microsoft Research
 
+- role: PostDocs
+  members:
+    - name: Dr. Chao Zhou
+      last_name: Zhou
+      photo: c01chzh.jpg
+      start_date: May 2024
+      end_date: Aug 2026
+      email: chao.zhou@cispa.de
+      url: https://chaoedisonzhouucl.github.io/
+      scholar: https://scholar.google.com/citations?user=ttO5HpQAAAAJ
+      description: "I focus on understanding the intricate dynamics of training and fine-tuning in machine learning models, with the goal of developing more efficient and effective learning algorithms. My research explores how optimization processes evolve and how we can refine these methods to improve performance. Currently, I am particularly interested in gradient compression techniques. I obtained my PhD under the supervision of Prof. Miguel Rodrigues at University College London, UK."
+      next: 
+
 - role: Research scientists
   members:
   - name: Dong Sun
@@ -34,52 +47,30 @@
     description: "I am interesting in making modern AI models efficient. In particular, I work on discovering and exploiting structure in Neural Networks (sparsity, low-dimensional representations and similar) for efficient training, fine-tuning and inference. I am a former full-time core developer for [PyTorch](https://github.com/pytorch/pytorch) and [Lightning Thunder](https://github.com/Lightning-AI/lightning-thunder). Check my [GitHub](https://github.com/nikitaved) to see what I work on now."
     next: Senior Engineer at NVIDIA
 
-- role: Visiting students
-  members:
-    - name: Mohammed Adnan
-      last_name: Adnan
-      from: U. Calgary and Vector Institute
-      start_date: Oct 25
-      end_date: Nov 25
-      url: https://adnan1306.github.io
-
-    - name: Levy Chaves
-      last_name: Chaves
-      from: U. Campinas
-      start_date: Sep 25
-      end_date: Nov 25
-      url: https://br.linkedin.com/in/levychaves
-
-    - name: Otto Piramuthu
-      last_name: Piramuthu
-      url: https://www.linkedin.com/in/otto-piramuthu
-      from: U. Illinois, Urbana-Champaign
-      start_date: Jun 24
-      end_date: Aug 24
-
 - role: Research assistants
-  full_width: true
   members:
-    - name: Siddhant Agrawal
-      last_name: Agrawal
-      url: https://in.linkedin.com/in/siddhantiitd
-      start_date: May 2026
-      email: siddhant.agrawal@cispa.de
-      advisors: "Franka"
-
     - name: Rafi Matthias Hakim
       last_name: Hakim
       url: https://www.linkedin.com/in/rafi-hakim-489930223
       photo: c01raha.jpg
-      start_date: May 2026
+      start_date: May 26
       email: rafi.hakim@cispa.de
+      advisors: ["Franka", "Jonas"]
 
     - name: Aniket Sanyal
       last_name: Sanyal
       url: https://de.linkedin.com/in/aniket-sanyal-2335028b
-      start_date: Apr 2026
+      start_date: Apr 26
       email: aniket.sanyal@cispa.de
       advisors: "Tom"
+
+    - name: Siddhant Agrawal
+      last_name: Agrawal
+      url: https://in.linkedin.com/in/siddhantiitd
+      start_date: May 26
+      end_date: July 26
+      email: siddhant.agrawal@cispa.de
+      advisors: ["Franka", "Jonas"]
 
     - name: Ben Horvath
       last_name: Horvath
@@ -114,6 +105,29 @@
       start_date: Dec 21
       end_date: Oct 22
       advisors: "Advait"
+
+- role: Visiting PhD students
+  members:
+    - name: Mohammed Adnan
+      last_name: Adnan
+      from: U. Calgary and Vector Institute
+      start_date: Oct 25
+      end_date: Nov 25
+      url: https://adnan1306.github.io
+
+    - name: Levy Chaves
+      last_name: Chaves
+      from: U. Campinas
+      start_date: Sep 25
+      end_date: Nov 25
+      url: https://br.linkedin.com/in/levychaves
+
+    - name: Otto Piramuthu
+      last_name: Piramuthu
+      url: https://www.linkedin.com/in/otto-piramuthu
+      from: U. Illinois, Urbana-Champaign
+      start_date: Jun 24
+      end_date: Aug 24
 
 - role: Master's theses
   description: "Advised by Dr. Rebekka Burkholz."

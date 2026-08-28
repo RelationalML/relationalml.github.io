@@ -11,15 +11,6 @@
 
 - role: PostDocs
   members:
-    - name: Dr. Chao Zhou
-      last_name: Zhou
-      photo: c01chzh.jpg
-      start_date: May 2024
-      email: chao.zhou@cispa.de
-      url: https://chaoedisonzhouucl.github.io/
-      scholar: https://scholar.google.com/citations?user=ttO5HpQAAAAJ
-      description: "I focus on understanding the intricate dynamics of training and fine-tuning in machine learning models, with the goal of developing more efficient and effective learning algorithms. My research explores how optimization processes evolve and how we can refine these methods to improve performance. Currently, I am particularly interested in gradient compression techniques. I obtained my PhD under the supervision of Prof. Miguel Rodrigues at University College London, UK."
-
     - name: Dr. Gowtham Reddy Abbavaram
       last_name: Reddy
       photo: c01goab.jpg
@@ -134,7 +125,7 @@
 
     - name: Clara Kümpel
       last_name: Kümpel
-      photo: c01clku.jpg
+      photo: 
       url: https://clarakuempel.github.io/
       scholar: https://scholar.google.com/citations?user=FqD9Zg4AAAAJ
       start_date: Sep 2026
