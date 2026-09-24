@@ -4,10 +4,10 @@
   joshi2026prune,
   title={Prune to Protect: Faster Training and Enhanced Privacy by Dynamic Data Pruning},
   author={Chinmay Joshi and Advait Gadhikar and Celia Rubio-Madrigal and Aneet Kumar Dutta and Mridula Singh and Rebekka Burkholz},
-  booktitle={Workshop on The Impact of Memorization on Trustworthy Foundation Models (MemFM) @ ICML},
+  booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
   year={2026},
-  url={https://openreview.net/forum?id=IFnzabrAbl}, 
-  pdf={https://openreview.net/pdf?id=IFnzabrAbl},
+  url={https://openreview.net/forum?id=aqIbhSL3JS}, 
+  pdf={https://openreview.net/pdf?id=aqIbhSL3JS},
   img={prune-to-protect.png},
   abstract={Deep networks memorize parts of their training data, exposing them to privacy attacks such as membership inference. The most vulnerable samples are often hard-to-learn tail examples: they are fitted late, carry high information for generalization, and are difficult to protect without sacrificing performance. We show that this privacy–utility tension can be mitigated by learning such samples earlier. To this end, we propose Weighted Loss InfoBatch (WLIB), which dynamically prunes easy samples while re-weighting hard ones according to sample-wise pruning ratios. By adjusting the influence of informative samples throughout training, WLIB jointly reduces memorization, improves robustness to membership inference attacks, and speeds up optimization. Extensive experiments demonstrate that WLIB achieves a favorable combination of privacy, utility, and training efficiency.},
 }
@@ -53,6 +53,7 @@ abstract={Do modern GNNs succeed because of architectural expressive power or be
       year={2026},
       url={https://arxiv.org/abs/2605.21104}, 
       pdf={https://arxiv.org/pdf/2605.21104},
+      img={horst.png},
       abstract={Sparsifying transformers remains a fundamental challenge, as standard optimizers fail to simultaneously encourage sparsity and maintain training stability. Effective adaptive optimizers exhibit an implicit $L_{\infty{}}$ bias favoring stability, yet, sparsity requires an $L_1$ bias. To integrate sparsity, we propose a composition of optimizer steps, which we cast as non-commutative operators to analyze and combine their optimization geometry in a principled way. This yields HORST (Hyperbolic Operator for Robust Sparse Training), a modular optimizer that inherits stability from adaptive methods while inducing $L_1$ sparsity bias through a hyperbolic mirror map. Our experiments demonstrate its utility for sparse training of transformers on both vision and language tasks. HORST consistently and significantly outperforms AdamW baselines across all sparsity levels, with large gains at higher sparsity.}
 }
 @inproceedings{
