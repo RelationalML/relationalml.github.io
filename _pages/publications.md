@@ -18,7 +18,13 @@ Explore our latest research by browsing **[pre-prints](#pre-prints)** and **[acc
 
 ## Accepted papers
 
-{% bibliography %}
+{% bibliography --file accepted %}
+
+<hr>
+
+## Workshop papers
+
+{% bibliography --file workshops %}
 
 <hr>
 

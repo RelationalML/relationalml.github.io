@@ -86,6 +86,58 @@
 <ol class="bibliography"><li><!-- _layouts/bib.html -->
 
 
+  <div class="row" style="margin-top: 30px;" id="bib-lodhi2026rosa" authors="LodhiZhouBurkholz">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/rosa.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="lodhi2026rosa" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><b>RoSA: Rotational Sparse Adaptation for Memory-Efficient Fine-Tuning</b></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Azeem Lodhi,&nbsp;Chao Zhou,&nbsp;and&nbsp;Rebekka Burkholz</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In The Fortieth Annual Conference on Neural Information Processing Systems</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="conf btn btn-sm z-depth-0">NeurIPS</a><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Parameter-efficient fine-tuning (PEFT) reduces the cost of adapting foundation models by focusing training on a small parameter subset. Complementary to this idea, we introduce RoSA (Rotational Sparse Adaptation), which narrows adaptation to a subset of layers at a time. RoSA freezes lower layers close to the input throughout training and rotates a trainable block over later layers, progressively increasing the number of frozen layers close to the input. This design reduces optimizer-state memory, shortens backpropagation, and even forward propagation if activations at the last frozen layer are cached. Because RoSA is orthogonal to the choice of trainable parameterization, it can be combined with PEFT methods or sparse optimizers within each active block. Experiments across multiple LLM architectures and tasks show that RoSA reduces peak memory while maintaining strong fine-tuning performance.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">lodhi2026rosa</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{RoSA: Rotational Sparse Adaptation for Memory-Efficient Fine-Tuning}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lodhi, Azeem and Zhou, Chao and Burkholz, Rebekka}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{The Fortieth Annual Conference on Neural Information Processing Systems}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+
+
   <div class="row" style="margin-top: 30px;" id="bib-joshi2026prune" authors="JoshiGadhikarRubio-MadrigalDuttaSinghBurkholz">
         <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/prune-to-protect.png" />
             <!-- include figure.html
@@ -133,277 +185,6 @@
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{The Fortieth Annual Conference on Neural Information Processing Systems}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=aqIbhSL3JS}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div></li>
-<li><!-- _layouts/bib.html -->
-
-
-  <div class="row" style="margin-top: 30px;" id="bib-bause2026masaremoes" authors="BauseNiederlePawelczykBurkholz">
-        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/mas_are_moes.png" />
-            <!-- include figure.html
-            path=entry_path
-            class="preview z-depth-1 rounded"
-            zoomable=false
-            alt=entry.img --></div>
-        <!-- Entry bib key -->
-        <div id="bause2026masaremoes" class="col-sm-10">
-        <!-- Title -->
-        
-          <div class="title"><a href="https://arxiv.org/abs/2605.25929"><b>Multi-Agent Systems are Mixtures of Experts: Who Becomes an Influencer?</b></a></div>
-        
-        <!-- Author -->
-        <div class="author">
-        
-
-        Franka Bause,&nbsp;Jonas Niederle,&nbsp;Martin Pawelczyk,&nbsp;and&nbsp;Rebekka Burkholz</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Workshop on Compositional Learning: Safety, Interpretability, and Agents (CompLearn) @ ICML</em>, 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <!-- <a href="https://arxiv.org/pdf/2605.25929" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
-          
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>The effectiveness of multi-agent LLM deliberation depends not only on the agents’ individual predictions, but also on how they communicate and collaborate. We study this mechanism through the lens of Friedkin-Johnsen (FJ) opinion dynamics, a tractable model for analyzing stubbornness, influence, and opinion change in multi-agent systems that captures empirically observed deliberation patterns. We show that the FJ parameters are input-dependent, turning multi-agent deliberation into a mixture of experts. This perspective implies that multi-agent systems can outperform single agents and static ensembles when routing reflects agent competence. Since competence is latent in practice, we analyze how influence is established through observable proxies: agents’ self-assessed confidence, their perceived confidence, and initial alignment with other agents’ views.</p>
-          </div><!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">bause2026masaremoes</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Multi-Agent Systems are Mixtures of Experts: Who Becomes an Influencer?}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bause, Franka and Niederle, Jonas and Pawelczyk, Martin and Burkholz, Rebekka}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Compositional Learning: Safety, Interpretability, and Agents (CompLearn) @ ICML}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2605.25929}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div></li>
-<li><!-- _layouts/bib.html -->
-
-
-  <div class="row" style="margin-top: 30px;" id="bib-abedini2026donttruststubbornneighbors" authors="AbediniMavaliSchönherrPawelczykBurkholz">
-        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/stubborn-neighbors.png" />
-            <!-- include figure.html
-            path=entry_path
-            class="preview z-depth-1 rounded"
-            zoomable=false
-            alt=entry.img --></div>
-        <!-- Entry bib key -->
-        <div id="abedini2026donttruststubbornneighbors" class="col-sm-10">
-        <!-- Title -->
-        
-          <div class="title"><a href="https://arxiv.org/abs/2603.15809"><b>Don’t Trust Stubborn Neighbors: A Security Framework for Agentic Networks</b></a></div>
-        
-        <!-- Author -->
-        <div class="author">
-        
-
-        Samira Abedini,&nbsp;Sina Mavali,&nbsp;Lea Schönherr,&nbsp;Martin Pawelczyk,&nbsp;and&nbsp;Rebekka Burkholz</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Workshop on Compositional Learning: Safety, Interpretability, and Agents (CompLearn) @ ICML</em>, 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <!-- <a href="https://arxiv.org/pdf/2603.15809" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-            <a href="https://github.com/Dormant-Neurons/MAS-Cascade" class="btn btn-sm z-depth-0" role="button">Code</a>
-          </div>
-          
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Large Language Model (LLM)-based Multi-Agent Systems (MASs) are increasingly deployed for agentic tasks, such as web automation, itinerary planning, and collaborative problem solving. Yet, their interactive nature introduces new security risks: malicious or compromised agents can exploit communication channels to propagate misinformation and manipulate collective outcomes. In this paper, we study how such manipulation can arise and spread by borrowing the Friedkin-Johnsen opinion formation model from social sciences to propose a general theoretical framework to study LLM-MAS. Remarkably, this model closely captures LLM-MAS behavior, as we verify in extensive experiments across different network topologies and attack and defense scenarios. Theoretically and empirically, we find that a single highly stubborn and persuasive agent can take over MAS dynamics, underscoring the systems’ high susceptibility to attacks by triggering a persuasion cascade that reshapes collective opinion. Our theoretical analysis reveals three mechanisms to increase system security: a) increasing the number of benign agents, b) increasing the innate stubbornness or peer-resistance of agents, or c) reducing trust in potential adversaries. Because scaling is computationally expensive and high stubbornness degrades the network’s ability to reach consensus, we propose a new mechanism to mitigate threats by a trust-adaptive defense that dynamically adjusts inter-agent trust to limit adversarial influence while maintaining cooperative performance. Extensive experiments confirm that this mechanism effectively defends against manipulation.</p>
-          </div><!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">abedini2026donttruststubbornneighbors</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Don't Trust Stubborn Neighbors: A Security Framework for Agentic Networks}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Abedini, Samira and Mavali, Sina and Schönherr, Lea and Pawelczyk, Martin and Burkholz, Rebekka}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Compositional Learning: Safety, Interpretability, and Agents (CompLearn) @ ICML}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2603.15809}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div></li>
-<li><!-- _layouts/bib.html -->
-
-
-  <div class="row" style="margin-top: 30px;" id="bib-rubio-madrigal2026linear" authors="Rubio-MadrigalBurkholz">
-        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/linear-gcns.png" />
-            <!-- include figure.html
-            path=entry_path
-            class="preview z-depth-1 rounded"
-            zoomable=false
-            alt=entry.img --></div>
-        <!-- Entry bib key -->
-        <div id="rubio-madrigal2026linear" class="col-sm-10">
-        <!-- Title -->
-        
-          <div class="title"><a href="https://openreview.net/forum?id=cUJMrMzYVG"><b>Linear GCNs Need Better Bias, Not More Expressive Power</b></a></div>
-        
-        <!-- Author -->
-        <div class="author">
-        
-
-        Celia Rubio-Madrigal,&nbsp;and&nbsp;Rebekka Burkholz</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Workshop on Graph Foundation Models: A New Era for Graph Machine Learning (GFM) @ ICML</em>, 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <!-- <a href="https://openreview.net/pdf?id=cUJMrMzYVG" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
-          
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Do modern GNNs succeed because of architectural expressive power or because of implicit bias? We show that simple linear graph convolutions with sum aggregation and MLP classifiers can match the generalization performance of state-of-the-art graph learning methods. Theoretically, sum aggregation after a linear feature transformation can preserve neighborhood multiset information. Empirically, however, this potential is realized only through distillation from more complex GNN teachers. When trained from scratch, linear GCNs often fail to generalize. This reveals a gap between what simple models can express and what standard training selects. Our findings suggest that progress in graph learning may depend less on increasing expressiveness and more on controlling implicit bias, trainability, and model selection. Our experimental design provides a framework to distinguish these concepts.</p>
-          </div><!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">rubio-madrigal2026linear</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Linear {GCN}s Need Better Bias, Not More Expressive Power}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Rubio-Madrigal, Celia and Burkholz, Rebekka}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Graph Foundation Models: A New Era for Graph Machine Learning (GFM) @ ICML}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=cUJMrMzYVG}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div></li>
-<li><!-- _layouts/bib.html -->
-
-
-  <div class="row" style="margin-top: 30px;" id="bib-jacobs2026horstcomposingoptimizergeometries" authors="JacobsJainBurkholz">
-        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/horst.png" />
-            <!-- include figure.html
-            path=entry_path
-            class="preview z-depth-1 rounded"
-            zoomable=false
-            alt=entry.img --></div>
-        <!-- Entry bib key -->
-        <div id="jacobs2026horstcomposingoptimizergeometries" class="col-sm-10">
-        <!-- Title -->
-        
-          <div class="title"><a href="https://arxiv.org/abs/2605.21104"><b>HORST: Composing Optimizer Geometries for Sparse Transformer Training</b></a></div>
-        
-        <!-- Author -->
-        <div class="author">
-        
-
-        Tom Jacobs,&nbsp;Rohan Jain,&nbsp;and&nbsp;Rebekka Burkholz</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Workshop on High-dimensional Learning Dynamics (HiLD) @ ICML</em>, 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <!-- <a href="https://arxiv.org/pdf/2605.21104" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
-          
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Sparsifying transformers remains a fundamental challenge, as standard optimizers fail to simultaneously encourage sparsity and maintain training stability. Effective adaptive optimizers exhibit an implicit L_∞ bias favoring stability, yet, sparsity requires an L_1 bias. To integrate sparsity, we propose a composition of optimizer steps, which we cast as non-commutative operators to analyze and combine their optimization geometry in a principled way. This yields HORST (Hyperbolic Operator for Robust Sparse Training), a modular optimizer that inherits stability from adaptive methods while inducing L_1 sparsity bias through a hyperbolic mirror map. Our experiments demonstrate its utility for sparse training of transformers on both vision and language tasks. HORST consistently and significantly outperforms AdamW baselines across all sparsity levels, with large gains at higher sparsity.</p>
-          </div><!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">jacobs2026horstcomposingoptimizergeometries</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{HORST: Composing Optimizer Geometries for Sparse Transformer Training}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Jacobs, Tom and Jain, Rohan and Burkholz, Rebekka}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on High-dimensional Learning Dynamics (HiLD) @ ICML}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2605.21104}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div></li>
-<li><!-- _layouts/bib.html -->
-
-
-  <div class="row" style="margin-top: 30px;" id="bib-pham2026continuous" authors="PhamJacobsNguyenBurkholzTran-Thanh">
-        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/graphon-cs.png" />
-            <!-- include figure.html
-            path=entry_path
-            class="preview z-depth-1 rounded"
-            zoomable=false
-            alt=entry.img --></div>
-        <!-- Entry bib key -->
-        <div id="pham2026continuous" class="col-sm-10">
-        <!-- Title -->
-        
-          <div class="title"><a href="https://openreview.net/forum?id=nsSLDnJ2uU"><b>Continuous Sparsification via Minimizing Movement</b></a></div>
-        
-        <!-- Author -->
-        <div class="author">
-        
-
-        Hoang Pham,&nbsp;Tom Jacobs,&nbsp;Binh Nguyen,&nbsp;Rebekka Burkholz,&nbsp;and&nbsp;Long Tran-Thanh</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Workshop on High-dimensional Learning Dynamics (HiLD) @ ICML</em>, 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <!-- <a href="https://openreview.net/pdf?id=nsSLDnJ2uU" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
-          
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Continuous sparsification is a popular approach for finding efficient sparse subnetworks, optimizing soft masks before applying a hard Top-K projection. However, existing methods typically regularize mask variables using flat Euclidean geometry, penalizing local rewirings and disruptive long-range relocations equally. To address this, we propose Continuous Sparsification via Minimizing Movement (CSMM), a geometry-aware framework that treats layer connectivity as a probability allocation on the simplex. By leveraging the minimizing-movement scheme, we regularize the temporal evolution of connectivity using flexible proximal penalty functions. This approach decouples task performance from structural evolution, allowing practitioners to impose specific geometric inductive biases on topology evolution. The experiment shows a promising result on CIFAR10 dataset under ResNet-20 architecture, offering a new approach on continuous sparsification.</p>
-          </div><!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">pham2026continuous</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Continuous Sparsification via Minimizing Movement}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Pham, Hoang and Jacobs, Tom and Nguyen, Binh and Burkholz, Rebekka and Tran-Thanh, Long}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on High-dimensional Learning Dynamics (HiLD) @ ICML}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=nsSLDnJ2uU}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -958,60 +739,6 @@
 <li><!-- _layouts/bib.html -->
 
 
-  <div class="row" style="margin-top: 30px;" id="bib-gadhikar2025optrot" authors="GadhikarGrazziHensman">
-        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/optrot.png" />
-            <!-- include figure.html
-            path=entry_path
-            class="preview z-depth-1 rounded"
-            zoomable=false
-            alt=entry.img --></div>
-        <!-- Entry bib key -->
-        <div id="gadhikar2025optrot" class="col-sm-10">
-        <!-- Title -->
-        
-          <div class="title"><a href="https://openreview.net/forum?id=4uwRaBhjHY"><b>OptRot: Mitigating Weight Outliers via Data-Free Rotations for Post-Training Quantization</b></a></div>
-        
-        <!-- Author -->
-        <div class="author">
-        
-
-        Advait Gadhikar,&nbsp;Riccardo Grazzi,&nbsp;and&nbsp;James Hensman</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Workshop on Machine Learning for Systems (MLForSys) @ NeurIPS</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <!-- <a href="https://openreview.net/pdf?id=4uwRaBhjHY" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
-          
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>We introduce OptRot, a data-free preprocessing method to learn fusible rotations for post-training quantization of language models. OptRot reduces weight outliers by finding rotations which minimize the element-wise fourth power of the rotated weights. We show how reducing weight outliers can provably improve weight quantization performance and how OptRot rotations can outperform both Hadamard rotations and rotations learned by the data-dependent method SpinQuant.</p>
-          </div><!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">gadhikar2025optrot</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{OptRot: Mitigating Weight Outliers via Data-Free Rotations for Post-Training Quantization}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Gadhikar, Advait and Grazzi, Riccardo and Hensman, James}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Machine Learning for Systems (MLForSys) @ NeurIPS}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=4uwRaBhjHY}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div></li>
-<li><!-- _layouts/bib.html -->
-
-
   <div class="row" style="margin-top: 30px;" id="bib-zhou2025payattentionsmallweights" authors="ZhouJacobsGadhikarBurkholz">
         <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/smallweights.png" />
             <!-- include figure.html
@@ -1221,60 +948,6 @@
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Forty-second International Conference on Machine Learning}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=MLiR9LS5PW}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div></li>
-<li><!-- _layouts/bib.html -->
-
-
-  <div class="row" style="margin-top: 30px;" id="bib-gadhikar2025attention" authors="GadhikarMajumdarPoppSaranrittichaiRappSchott">
-        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/mod-routing.png" />
-            <!-- include figure.html
-            path=entry_path
-            class="preview z-depth-1 rounded"
-            zoomable=false
-            alt=entry.img --></div>
-        <!-- Entry bib key -->
-        <div id="gadhikar2025attention" class="col-sm-10">
-        <!-- Title -->
-        
-          <div class="title"><a href="https://openreview.net/forum?id=1uDP4ld3eZ"><b>Attention Is All You Need For Mixture-of-Depths Routing</b></a></div>
-        
-        <!-- Author -->
-        <div class="author">
-        
-
-        Advait Gadhikar,&nbsp;Souptik Kumar Majumdar,&nbsp;Niclas Popp,&nbsp;Piyapat Saranrittichai,&nbsp;Martin Rapp,&nbsp;and&nbsp;Lukas Schott</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models (SCOPE) @ ICLR</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <!-- <a href="https://openreview.net/pdf?id=1uDP4ld3eZ" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
-          
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Advancements in deep learning are driven by training models with increasingly larger numbers of parameters, which in turn heightens the computational demands. To address this issue, Mixture-of-Depths (MoD) models have been proposed to dynamically focus computations on the most relevant parts of the inputs, thereby enabling the deployment of large-parameter models with high efficiency during inference and training. However, conventional MoD models employ additional network layers specifically for the routing which are difficult to train, and add complexity to the model. In this paper, we introduce a novel attention-based routing mechanism A-MoD that leverages the existing attention map of the preceding layer for routing decisions within the current layer. Compared to standard routing, A-MoD allows for more efficient training as it introduces no additional trainable parameters and can be easily adapted from pre-trained transformer models. Furthermore, it can increase the performance of the MoD model. For instance, we observe up to 2% higher accuracy on ImageNet compared to standard routing and isoFLOP ViT baselines.</p>
-          </div><!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">gadhikar2025attention</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Attention Is All You Need For Mixture-of-Depths Routing}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Gadhikar, Advait and Majumdar, Souptik Kumar and Popp, Niclas and Saranrittichai, Piyapat and Rapp, Martin and Schott, Lukas}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models (SCOPE) @ ICLR}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=1uDP4ld3eZ}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -2339,6 +2012,390 @@
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{The Tenth International Conference on Learning Representations}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=SYB4WrJql1n}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li></ol>
+
+<hr />
+
+<h2 id="workshop-papers">Workshop papers</h2>
+
+<ol class="bibliography"><li><!-- _layouts/bib.html -->
+
+
+  <div class="row" style="margin-top: 30px;" id="bib-bause2026masaremoes" authors="BauseNiederlePawelczykBurkholz">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/mas_are_moes.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="bause2026masaremoes" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><a href="https://arxiv.org/abs/2605.25929"><b>Multi-Agent Systems are Mixtures of Experts: Who Becomes an Influencer?</b></a></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Franka Bause,&nbsp;Jonas Niederle,&nbsp;Martin Pawelczyk,&nbsp;and&nbsp;Rebekka Burkholz</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Workshop on Compositional Learning: Safety, Interpretability, and Agents (CompLearn) @ ICML</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <!-- <a href="https://arxiv.org/pdf/2605.25929" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The effectiveness of multi-agent LLM deliberation depends not only on the agents’ individual predictions, but also on how they communicate and collaborate. We study this mechanism through the lens of Friedkin-Johnsen (FJ) opinion dynamics, a tractable model for analyzing stubbornness, influence, and opinion change in multi-agent systems that captures empirically observed deliberation patterns. We show that the FJ parameters are input-dependent, turning multi-agent deliberation into a mixture of experts. This perspective implies that multi-agent systems can outperform single agents and static ensembles when routing reflects agent competence. Since competence is latent in practice, we analyze how influence is established through observable proxies: agents’ self-assessed confidence, their perceived confidence, and initial alignment with other agents’ views.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">bause2026masaremoes</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Multi-Agent Systems are Mixtures of Experts: Who Becomes an Influencer?}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bause, Franka and Niederle, Jonas and Pawelczyk, Martin and Burkholz, Rebekka}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Compositional Learning: Safety, Interpretability, and Agents (CompLearn) @ ICML}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2605.25929}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+
+
+  <div class="row" style="margin-top: 30px;" id="bib-abedini2026donttruststubbornneighbors" authors="AbediniMavaliSchönherrPawelczykBurkholz">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/stubborn-neighbors.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="abedini2026donttruststubbornneighbors" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><a href="https://arxiv.org/abs/2603.15809"><b>Don’t Trust Stubborn Neighbors: A Security Framework for Agentic Networks</b></a></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Samira Abedini,&nbsp;Sina Mavali,&nbsp;Lea Schönherr,&nbsp;Martin Pawelczyk,&nbsp;and&nbsp;Rebekka Burkholz</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Workshop on Compositional Learning: Safety, Interpretability, and Agents (CompLearn) @ ICML</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <!-- <a href="https://arxiv.org/pdf/2603.15809" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+            <a href="https://github.com/Dormant-Neurons/MAS-Cascade" class="btn btn-sm z-depth-0" role="button">Code</a>
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large Language Model (LLM)-based Multi-Agent Systems (MASs) are increasingly deployed for agentic tasks, such as web automation, itinerary planning, and collaborative problem solving. Yet, their interactive nature introduces new security risks: malicious or compromised agents can exploit communication channels to propagate misinformation and manipulate collective outcomes. In this paper, we study how such manipulation can arise and spread by borrowing the Friedkin-Johnsen opinion formation model from social sciences to propose a general theoretical framework to study LLM-MAS. Remarkably, this model closely captures LLM-MAS behavior, as we verify in extensive experiments across different network topologies and attack and defense scenarios. Theoretically and empirically, we find that a single highly stubborn and persuasive agent can take over MAS dynamics, underscoring the systems’ high susceptibility to attacks by triggering a persuasion cascade that reshapes collective opinion. Our theoretical analysis reveals three mechanisms to increase system security: a) increasing the number of benign agents, b) increasing the innate stubbornness or peer-resistance of agents, or c) reducing trust in potential adversaries. Because scaling is computationally expensive and high stubbornness degrades the network’s ability to reach consensus, we propose a new mechanism to mitigate threats by a trust-adaptive defense that dynamically adjusts inter-agent trust to limit adversarial influence while maintaining cooperative performance. Extensive experiments confirm that this mechanism effectively defends against manipulation.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">abedini2026donttruststubbornneighbors</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Don't Trust Stubborn Neighbors: A Security Framework for Agentic Networks}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Abedini, Samira and Mavali, Sina and Schönherr, Lea and Pawelczyk, Martin and Burkholz, Rebekka}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Compositional Learning: Safety, Interpretability, and Agents (CompLearn) @ ICML}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2603.15809}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+
+
+  <div class="row" style="margin-top: 30px;" id="bib-rubio-madrigal2026linear" authors="Rubio-MadrigalBurkholz">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/linear-gcns.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="rubio-madrigal2026linear" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><a href="https://openreview.net/forum?id=cUJMrMzYVG"><b>Linear GCNs Need Better Bias, Not More Expressive Power</b></a></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Celia Rubio-Madrigal,&nbsp;and&nbsp;Rebekka Burkholz</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Workshop on Graph Foundation Models: A New Era for Graph Machine Learning (GFM) @ ICML</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <!-- <a href="https://openreview.net/pdf?id=cUJMrMzYVG" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Do modern GNNs succeed because of architectural expressive power or because of implicit bias? We show that simple linear graph convolutions with sum aggregation and MLP classifiers can match the generalization performance of state-of-the-art graph learning methods. Theoretically, sum aggregation after a linear feature transformation can preserve neighborhood multiset information. Empirically, however, this potential is realized only through distillation from more complex GNN teachers. When trained from scratch, linear GCNs often fail to generalize. This reveals a gap between what simple models can express and what standard training selects. Our findings suggest that progress in graph learning may depend less on increasing expressiveness and more on controlling implicit bias, trainability, and model selection. Our experimental design provides a framework to distinguish these concepts.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">rubio-madrigal2026linear</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Linear {GCN}s Need Better Bias, Not More Expressive Power}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Rubio-Madrigal, Celia and Burkholz, Rebekka}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Graph Foundation Models: A New Era for Graph Machine Learning (GFM) @ ICML}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=cUJMrMzYVG}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+
+
+  <div class="row" style="margin-top: 30px;" id="bib-jacobs2026horstcomposingoptimizergeometries" authors="JacobsJainBurkholz">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/horst.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="jacobs2026horstcomposingoptimizergeometries" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><a href="https://arxiv.org/abs/2605.21104"><b>HORST: Composing Optimizer Geometries for Sparse Transformer Training</b></a></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Tom Jacobs,&nbsp;Rohan Jain,&nbsp;and&nbsp;Rebekka Burkholz</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Workshop on High-dimensional Learning Dynamics (HiLD) @ ICML</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <!-- <a href="https://arxiv.org/pdf/2605.21104" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Sparsifying transformers remains a fundamental challenge, as standard optimizers fail to simultaneously encourage sparsity and maintain training stability. Effective adaptive optimizers exhibit an implicit L_∞ bias favoring stability, yet, sparsity requires an L_1 bias. To integrate sparsity, we propose a composition of optimizer steps, which we cast as non-commutative operators to analyze and combine their optimization geometry in a principled way. This yields HORST (Hyperbolic Operator for Robust Sparse Training), a modular optimizer that inherits stability from adaptive methods while inducing L_1 sparsity bias through a hyperbolic mirror map. Our experiments demonstrate its utility for sparse training of transformers on both vision and language tasks. HORST consistently and significantly outperforms AdamW baselines across all sparsity levels, with large gains at higher sparsity.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">jacobs2026horstcomposingoptimizergeometries</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{HORST: Composing Optimizer Geometries for Sparse Transformer Training}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Jacobs, Tom and Jain, Rohan and Burkholz, Rebekka}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on High-dimensional Learning Dynamics (HiLD) @ ICML}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2605.21104}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+
+
+  <div class="row" style="margin-top: 30px;" id="bib-pham2026continuous" authors="PhamJacobsNguyenBurkholzTran-Thanh">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/graphon-cs.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="pham2026continuous" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><a href="https://openreview.net/forum?id=nsSLDnJ2uU"><b>Continuous Sparsification via Minimizing Movement</b></a></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Hoang Pham,&nbsp;Tom Jacobs,&nbsp;Binh Nguyen,&nbsp;Rebekka Burkholz,&nbsp;and&nbsp;Long Tran-Thanh</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Workshop on High-dimensional Learning Dynamics (HiLD) @ ICML</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <!-- <a href="https://openreview.net/pdf?id=nsSLDnJ2uU" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Continuous sparsification is a popular approach for finding efficient sparse subnetworks, optimizing soft masks before applying a hard Top-K projection. However, existing methods typically regularize mask variables using flat Euclidean geometry, penalizing local rewirings and disruptive long-range relocations equally. To address this, we propose Continuous Sparsification via Minimizing Movement (CSMM), a geometry-aware framework that treats layer connectivity as a probability allocation on the simplex. By leveraging the minimizing-movement scheme, we regularize the temporal evolution of connectivity using flexible proximal penalty functions. This approach decouples task performance from structural evolution, allowing practitioners to impose specific geometric inductive biases on topology evolution. The experiment shows a promising result on CIFAR10 dataset under ResNet-20 architecture, offering a new approach on continuous sparsification.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">pham2026continuous</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Continuous Sparsification via Minimizing Movement}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Pham, Hoang and Jacobs, Tom and Nguyen, Binh and Burkholz, Rebekka and Tran-Thanh, Long}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on High-dimensional Learning Dynamics (HiLD) @ ICML}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=nsSLDnJ2uU}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+
+
+  <div class="row" style="margin-top: 30px;" id="bib-gadhikar2025optrot" authors="GadhikarGrazziHensman">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/optrot.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="gadhikar2025optrot" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><a href="https://openreview.net/forum?id=4uwRaBhjHY"><b>OptRot: Mitigating Weight Outliers via Data-Free Rotations for Post-Training Quantization</b></a></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Advait Gadhikar,&nbsp;Riccardo Grazzi,&nbsp;and&nbsp;James Hensman</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Workshop on Machine Learning for Systems (MLForSys) @ NeurIPS</em>, 2025
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <!-- <a href="https://openreview.net/pdf?id=4uwRaBhjHY" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We introduce OptRot, a data-free preprocessing method to learn fusible rotations for post-training quantization of language models. OptRot reduces weight outliers by finding rotations which minimize the element-wise fourth power of the rotated weights. We show how reducing weight outliers can provably improve weight quantization performance and how OptRot rotations can outperform both Hadamard rotations and rotations learned by the data-dependent method SpinQuant.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">gadhikar2025optrot</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{OptRot: Mitigating Weight Outliers via Data-Free Rotations for Post-Training Quantization}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Gadhikar, Advait and Grazzi, Riccardo and Hensman, James}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Machine Learning for Systems (MLForSys) @ NeurIPS}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=4uwRaBhjHY}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+
+
+  <div class="row" style="margin-top: 30px;" id="bib-gadhikar2025attention" authors="GadhikarMajumdarPoppSaranrittichaiRappSchott">
+        <div class="preview"><img class="preview z-depth-1 rounded" src="/images/publications/mod-routing.png" />
+            <!-- include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.img --></div>
+        <!-- Entry bib key -->
+        <div id="gadhikar2025attention" class="col-sm-10">
+        <!-- Title -->
+        
+          <div class="title"><a href="https://openreview.net/forum?id=1uDP4ld3eZ"><b>Attention Is All You Need For Mixture-of-Depths Routing</b></a></div>
+        
+        <!-- Author -->
+        <div class="author">
+        
+
+        Advait Gadhikar,&nbsp;Souptik Kumar Majumdar,&nbsp;Niclas Popp,&nbsp;Piyapat Saranrittichai,&nbsp;Martin Rapp,&nbsp;and&nbsp;Lukas Schott</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models (SCOPE) @ ICLR</em>, 2025
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+        <div class="links"><a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <!-- <a href="https://openreview.net/pdf?id=1uDP4ld3eZ" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+          </div>
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Advancements in deep learning are driven by training models with increasingly larger numbers of parameters, which in turn heightens the computational demands. To address this issue, Mixture-of-Depths (MoD) models have been proposed to dynamically focus computations on the most relevant parts of the inputs, thereby enabling the deployment of large-parameter models with high efficiency during inference and training. However, conventional MoD models employ additional network layers specifically for the routing which are difficult to train, and add complexity to the model. In this paper, we introduce a novel attention-based routing mechanism A-MoD that leverages the existing attention map of the preceding layer for routing decisions within the current layer. Compared to standard routing, A-MoD allows for more efficient training as it introduces no additional trainable parameters and can be easily adapted from pre-trained transformer models. Furthermore, it can increase the performance of the MoD model. For instance, we observe up to 2% higher accuracy on ImageNet compared to standard routing and isoFLOP ViT baselines.</p>
+          </div><!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">gadhikar2025attention</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Attention Is All You Need For Mixture-of-Depths Routing}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Gadhikar, Advait and Majumdar, Souptik Kumar and Popp, Niclas and Saranrittichai, Piyapat and Rapp, Martin and Schott, Lukas}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models (SCOPE) @ ICLR}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=1uDP4ld3eZ}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
