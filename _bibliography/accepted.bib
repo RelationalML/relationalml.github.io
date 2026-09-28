@@ -1,6 +1,17 @@
 ---
 ---
 @inproceedings{
+  rahul2026acdc,
+  title={AC/DC on a Budget -- Alternating Sparse Phases},
+  author={Rahul Nittala and Advait Gadhikar and Tom Jacobs and Rebekka Burkholz},
+  booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+  year={2026},
+  url={https://openreview.net/forum?id=rD5TBB47Zb}, 
+  pdf={https://openreview.net/pdf?id=rD5TBB47Zb},
+  img={ACDCSchematic.png}
+  abstract={State-of-the-art neural network sparsification relies on alternating dense and sparse training phases. While computationally expensive, dense phases are critical for performance. Our empirical analysis reveals the mechanics behind this gain: upon reintroduction, previously masked parameters receive disproportionately large gradients that drive essential mask rewiring and parameter sign-flipping. Building on these insights, we optimize the performance-to-FLOPs Pareto frontier through three innovations: (1) zero-initializing masked parameters during dense phases to promote relevant sign flips, (2) truncating dense phases based on early mask convergence, and (3) replacing the dense phase entirely with a sparse rewiring phase that updates only the active mask and a small, high-gradient fraction of out-of-mask weights. Evaluated on CIFAR100 and ImageNet, our variant ARC (Alternating Rewiring Compression) matches baseline AC/DC performance at a fraction of the computational cost, establishing a superior performance-to-FLOPs frontier also compared to standard sparse-to-sparse algorithms.},
+}
+@inproceedings{
   lodhi2026rosa,
   title={RoSA: Rotational Sparse Adaptation for Memory-Efficient Fine-Tuning},
   author={Azeem Lodhi and Chao Zhou and Rebekka Burkholz},
