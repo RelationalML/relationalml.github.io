@@ -17,8 +17,10 @@ This is the [website](https://relationalml.github.io) of our academic research g
 
 ### Deployment
 
-* Locally build the website: `jekyll build`
-* Push changes to the `source` branch of the repository (including the folder `_site`)
+* Visualize your changes: `jekyll serve`
+* Always build the website before commit: `jekyll build`
+* Push changes to the `source` branch (including the folder `_site`)
+* If `_site` has been pushed but the website has not updated, click on Run Workflow [in this page](https://github.com/RelationalML/relationalml.github.io/actions/workflows/static.yml).
 
 The website will be automatically *deployed* from that folder by a custom Github Action workflow (see [`.github/workflows/static.yml`](.github/workflows/static.yml)). However, it cannot be automatically *built* because it uses a custom plugin (Jekyll Scholar) that is not supported by Github.
 
