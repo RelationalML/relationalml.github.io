@@ -40,6 +40,6 @@ You can push changes to the `source` branch without building it, but the updates
 
 ## About this website
 
-This website is powered by [Jekyll](https://jekyllrb.com/) and uses some Bootstrap and Bootwatch, and it is mainly based on this [website](https://allanlab.org), plus this [one](https://alshedivat.github.io/al-folio/) for the bibliography [plugin](https://github.com/inukshuk/jekyll-scholar). Go to [this page](https://www.allanlab.org/aboutwebsite.html) to learn how to copy and modify this page for your purpose.
+This website was created and is primarily maintained by [celrm](https://github.com/celrm). It is powered by [Jekyll](https://jekyllrb.com/) and uses some Bootstrap and Bootwatch, and it is mainly based on this [website](https://allanlab.org), plus this [one](https://alshedivat.github.io/al-folio/) for the bibliography [plugin](https://github.com/inukshuk/jekyll-scholar). Go to [this page](https://www.allanlab.org/aboutwebsite.html) to learn how to copy and modify this page for your purpose.
 
 Copyright Relational ML Lab. Code released under the MIT License.
