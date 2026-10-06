@@ -138,6 +138,10 @@
     #   url_thesis: https://openreview.net/pdf?id=IFnzabrAbl
     #   date_thesis: TBD
     #   advisors: ["Advait", "Celia"]
+    - name: Muhammad Azeem Lodhi
+      thesis: "Sparse Rotational Block-Wise Optimization for Resource-Constrained LLM Fine-Tuning"
+      date_thesis: 2026
+      advisors: "Dr. Chao Zhou"
     - name: Sree Harsha Nelaturu
       thesis: "Enhancing the Performance of Random Sparse Masks for Image Classification via KD"
       date_thesis: 2025
