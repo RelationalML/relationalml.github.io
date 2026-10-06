@@ -14,9 +14,11 @@
 @inproceedings{
   lodhi2026rosa,
   title={RoSA: Rotational Sparse Adaptation for Memory-Efficient Fine-Tuning},
-  author={Azeem Lodhi and Chao Zhou and Rebekka Burkholz},
+  author={Muhammad Azeem Lodhi and Chao Zhou and Rebekka Burkholz},
   booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
   year={2026},
+  url={https://arxiv.org/abs/2610.06243},
+  pdf={https://arxiv.org/pdf/2610.06243},
   img={rosa.png},
   abstract={Parameter-efficient fine-tuning (PEFT) reduces the cost of adapting foundation models by focusing training on a small parameter subset. Complementary to this idea, we introduce RoSA (Rotational Sparse Adaptation), which narrows adaptation to a subset of layers at a time. RoSA freezes lower layers close to the input throughout training and rotates a trainable block over later layers, progressively increasing the number of frozen layers close to the input. This design reduces optimizer-state memory, shortens backpropagation, and even forward propagation if activations at the last frozen layer are cached. Because RoSA is orthogonal to the choice of trainable parameterization, it can be combined with PEFT methods or sparse optimizers within each active block. Experiments across multiple LLM architectures and tasks show that RoSA reduces peak memory while maintaining strong fine-tuning performance.},
 }
