@@ -45,6 +45,15 @@
       email: sayed.haj-zargarbashi@cispa.de
       url: https://de.linkedin.com/in/soroushzargar
       scholar: https://scholar.google.de/citations?user=XnPiy-YAAAAJ
+
+    - name: Dr. Cheeun Hong
+      last_name: Hong
+      photo: c01chho.jpg
+      start_date: Oct 2026
+      email: cheeun.hong@cispa.de
+      url: https://cheeunhong.github.io/
+      scholar: https://scholar.google.com/citations?user=HHjMKhIAAAAJ
+      description: "I work on efficient AI, developing techniques such as quantization, pruning, and adaptive inference to reduce the training and inference costs of large-scale models, including vision models, LLMs, and generative models. I completed my integrated M.S. and Ph.D. at Seoul National University under Prof. Kyoung Mu Lee, receiving the Distinguished Dissertation Award for my thesis. I also worked as a Research Scientist Intern at Meta SuperIntelligence Labs on efficient video generation."
     
 - role: PhD students
   members:
