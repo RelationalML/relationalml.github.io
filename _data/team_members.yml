@@ -11,15 +11,6 @@
 
 - role: PostDocs
   members:
-    - name: Dr. Gowtham Reddy Abbavaram
-      last_name: Reddy
-      photo: c01goab.jpg
-      start_date: Oct 2024
-      email: gowtham.abbavaram@cispa.de
-      url: https://gautam0707.github.io/
-      scholar: https://scholar.google.com/citations?user=MYxVMwcAAAAJ
-      description: "I work on research problems at the intersection of machine learning and causality, focusing on modeling, inference, and interpreting machine learning models from a causal perspective to enhance their robustness and trustworthiness. I received my Ph.D. at the Indian Institute of Technology Hyderabad, where I was advised by Prof. Vineeth N Balasubramanian. During my Ph.D., I was awarded the prestigious Prime Minister's Research Fellowship (PMRF)."
-      shared_with: "[Krikamol Muandet](https://www.krikamol.org/)"
 
     - name: Dr. Franka Bause
       last_name: Bause
@@ -130,12 +121,3 @@
       scholar: https://scholar.google.com/citations?user=FqD9Zg4AAAAJ
       start_date: Sep 2026
       email: clara.kuempel@cispa.de
-
-- role: Administrative support
-  full_width: true
-  members:
-    - name: Christina Risch
-      photo: c01chri.jpg
-      email: office-burkholz@cispa.de
-      start_date: May 2025
-      url: https://cispa.de/en/people/c01chri
