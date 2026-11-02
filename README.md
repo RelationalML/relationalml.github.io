@@ -17,8 +17,10 @@ This is the [website](https://relationalml.github.io) of our academic research g
 
 ### Deployment
 
-* Locally build the website: `jekyll build`
-* Push changes to the `source` branch of the repository (including the folder `_site`)
+* Visualize your changes: `jekyll serve`
+* Always build the website before commit: `jekyll build`
+* Push changes to the `source` branch (including the folder `_site`)
+* If `_site` has been pushed but the website has not updated, click on Run Workflow [in this page](https://github.com/RelationalML/relationalml.github.io/actions/workflows/static.yml).
 
 The website will be automatically *deployed* from that folder by a custom Github Action workflow (see [`.github/workflows/static.yml`](.github/workflows/static.yml)). However, it cannot be automatically *built* because it uses a custom plugin (Jekyll Scholar) that is not supported by Github.
 
@@ -38,6 +40,6 @@ You can push changes to the `source` branch without building it, but the updates
 
 ## About this website
 
-This website is powered by [Jekyll](https://jekyllrb.com/) and uses some Bootstrap and Bootwatch, and it is mainly based on this [website](https://allanlab.org), plus this [one](https://alshedivat.github.io/al-folio/) for the bibliography [plugin](https://github.com/inukshuk/jekyll-scholar). Go to [this page](https://www.allanlab.org/aboutwebsite.html) to learn how to copy and modify this page for your purpose.
+This website was created and is primarily maintained by [celrm](https://github.com/celrm). It is powered by [Jekyll](https://jekyllrb.com/) and uses some Bootstrap and Bootwatch, and it is mainly based on this [website](https://allanlab.org), plus this [one](https://alshedivat.github.io/al-folio/) for the bibliography [plugin](https://github.com/inukshuk/jekyll-scholar). Go to [this page](https://www.allanlab.org/aboutwebsite.html) to learn how to copy and modify this page for your purpose.
 
 Copyright Relational ML Lab. Code released under the MIT License.
