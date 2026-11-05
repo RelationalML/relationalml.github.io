@@ -29,6 +29,7 @@ Possible research topics include:
 * Deep learning (theory and applications)
 * Sparse learning and modelling (e.g. lottery tickets)
 * Overparameterization and learning dynamics
+* Multi-agent systems
 * Graph neural networks (GNNs)
 * Complex networks
 * Discrete probabilistic models
@@ -49,6 +50,9 @@ The starting dates of the positions are flexible. We are committed to providing 
 ### Past open positions
 This is a non-exhaustive list of past open positions in our group.
 
+* We currently have PhD and postdoc positions available for 2027.
+  * [PhD and Postdocs in Efficient Deep Learning and Multi-Agent Systems](https://www.linkedin.com/posts/rebekka-burkholz-68375311a_were-hiring-at-the-hasso-plattner-institute-activity-7520924480773378048-jZWz) at Hasso Plattner Institute (HPI).
+
 * We had PhD and postdoc positions available for 2026.
   * [PhD and Postdocs in Efficient Deep Learning](https://web.archive.org/web/20260306050303/https://career.cispa.de/jobs/group-relationalml-53) at CISPA Helmholtz Center for Information Security.
 
@@ -58,7 +62,3 @@ This is a non-exhaustive list of past open positions in our group.
   * [Joint postdoctoral position](https://www.krikamol.org/assets/pdf/cispa-joint-postdoc-2024.pdf) with [Krikamol Muandet](https://ri-lab.org/).
 
 * [PhD position in machine learning](https://euraxess.ec.europa.eu/jobs/871979) (2022).
-
-### Student positions at UdS
-
-We welcome Master and Bachelor students from Saarland University interested in completing their thesis with our group. We also offer paid internship (HiWi) positions at CISPA. Topics around machine learning theory and applications are available—see the [team](/team)'s interests, past theses, and recent [publications](/publications), and contact us by email to get in touch. Please include a CV and transcript of records.

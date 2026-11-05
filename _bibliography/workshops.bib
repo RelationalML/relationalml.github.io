@@ -1,5 +1,16 @@
 ---
 ---
+@inproceedings{
+  rubio-madrigal2026regularization,
+  title={Regularization Shapes the Limits of Deep GNNs},
+  author={Celia Rubio-Madrigal and Rebekka Burkholz},
+  booktitle={4th Workshop on Unifying Representations in Neural Models (UniReps)},
+  year={2026},
+  url={https://openreview.net/forum?id=ZLc24vshJ7},
+  pdf={https://openreview.net/pdf?id=ZLc24vshJ7},
+  img={regularization-gnns.png},
+  abstract={Depth degradation in graph neural networks (GNNs) can reflect optimization failure, poor generalization, or representation collapse. Distinguishing which mechanisms are active is necessary to determine how they should be addressed. We study this on Minesweeper, one of the few node-classification benchmarks requiring deep GNNs for high performance. We derive a simple mean-field iterative scheme that outperforms GNNs trained from scratch, establishes what is achievable, and highlights low-dimensional communication and recurrence across depth as useful inductive biases for generalization. Explicitly imposing these biases can improve deeper models, but can make training unstable and is motivated by task knowledge. Combining sufficient width with weight decay further allows an unrestricted GCN to match the gain at moderate depths, with weight decay associated with lower-rank message maps. Yet as depth increases, non-regularized models generalize poorly, while strongly regularized ones may fit poorly or train unstably. Improved performance can accompany either increases or decreases in hidden rank and Dirichlet energy, while last-layer measurements need not characterize the whole network. The limits of deep GNNs must instead be understood through the interaction of optimization, regularization, and solution selection.},
+}
 
 @inproceedings{
 bause2026masaremoes,
